@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>2IC Logistics Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="bar">
+    <h1>2IC Logistics Tracker</h1>
+
+    <div class="actions">
+      <button id="btnEdit" type="button">Edit: Off</button>
+      <button id="btnAddRow" type="button" disabled>Add Row</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="tableWrap">
+      <table aria-label="2IC Logistics Table">
+        <colgroup id="colgroup"></colgroup>
+        <thead id="thead"></thead>
+        <tbody id="tbody"></tbody>
+        <tfoot id="tfoot"></tfoot>
+      </table>
+    </div>
+
+    <section class="notes">
+      <h2>Other (section)</h2>
+      <textarea id="otherSection" rows="6" placeholder="Extra notes / special requests..."></textarea>
+    </section>
+  </main>
+
+  <script src="items.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

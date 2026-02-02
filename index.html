@@ -1,61 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Logistics Tracker</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <div class="wrap">
-        <div class="toprow">
-          <div>
-            <h1>4IB Logistics Tracker</h1>
-          </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Logistics Tools</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
 
-          <div class="row">
-            <button class="btn" id="exportAllBtn" title="Export casualties + people + logistics">Export All</button>
-            <button class="btn" id="exportLogBtn" title="Export logistics only (HQ list)">Export Logistics</button>
-            <button class="btn" id="exportCasBtn" title="Export casualties + people report only">Export Cas/Pers</button>
-            <button class="btn danger" id="resetBtn" title="Clear all saved data">
-              Reset
-            </button>
-            <button class="btn danger" id="resetAllBtn" title="Clear all locally saved data and item history">
-              Reset All
-            </button>
-          </div>
-        </div>
+  <main class="wrap">
 
-        <div class="row" style="margin-top: 12px">
-          <input
-            class="input grow"
-            id="newSectionName"
-            placeholder="New section name (e.g., 1 Section / 2 Section)"
-          />
-          <button class="btn accent" id="addSectionBtn">Add section</button>
-        </div>
-      </div>
+    <header class="hero">
+      <h1>Logistics Tools</h1>
+      <p>Equipment planners</p>
     </header>
 
-    <main>
-      <div class="wrap">
-        <div class="layout">
-          <div id="hqCol"></div>
-          <div class="stack" id="sectionsCol"></div>
-        </div>
+    <section class="grid">
 
-        <div class="foot">
-          <div>
-            Site created by <span class="kbd">C. Langdale</span> for the use within 4IB only.
-          </div>
-        </div>
-      </div>
-    </main>
+      <a href="/2IC/" class="card">
+        <h2>2IC Tracker</h2>
+        <p>
+          Full section logistics sheet<br>
+          Totals • Bands • CFAKs • Row management
+        </p>
+      </a>
 
-    <datalist id="commonItems"></datalist>
+      <a href="/SGT/" class="card">
+        <h2>SGT Tracker</h2>
+        <p>
+          Lightweight quick tracker<br>
+          Fast and minimal layout
+        </p>
+      </a>
 
-    <script src="items.js"></script>
-    <script src="app.js"></script>
-  </body>
+    </section>
+  </main>
+
+</body>
 </html>
