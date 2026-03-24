@@ -1,0 +1,302 @@
+[
+  {
+    "id": "rifleman-default",
+    "name": "Rifleman Default",
+    "role": "Rifleman",
+    "description": "Baseline section rifleman with a light daysack and standard medical/pyro load.",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L85A3",
+        "barrel": "UK3CB_BAF_BFA_L85",
+        "rail": "4IB_LLM_IR_Laser",
+        "optic": "RKSL_optic_LDS",
+        "magClass": "UK3CB_BAF_556_30Rnd",
+        "magAmmo": 30,
+        "altMagClass": "",
+        "altMagAmmo": "",
+        "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
+      },
+      "launcher": {},
+      "handgun": {},
+      "binoculars": { "weapon": "" },
+      "uniform": {
+        "className": "RW_MTP_YORKS",
+        "items": [
+          { "className": "UK3CB_BAF_G_Tactical_Clear", "count": 1 },
+          { "className": "ACE_Flashlight_MX991", "count": 1 },
+          { "className": "ACE_MapTools", "count": 1 },
+          { "className": "ACE_EarPlugs", "count": 2 },
+          { "className": "UK3CB_BAF_HMNVS", "count": 1 },
+          { "className": "ACRE_PRC343", "count": 1 }
+        ]
+      },
+      "vest": {
+        "className": "Virtus_D_3",
+        "items": [
+          { "className": "UK3CB_BAF_556_30Rnd", "count": 3, "ammo": 30 },
+          { "className": "UK3CB_BAF_556_30Rnd_T", "count": 3, "ammo": 30 },
+          { "className": "ACE_Canteen", "count": 1 },
+          { "className": "ACE_MRE_BeefStew", "count": 1 },
+          { "className": "ACE_Chemlight_HiBlue", "count": 2, "ammo": 1 },
+          { "className": "ACE_CableTie", "count": 2 }
+        ]
+      },
+      "backpack": {
+        "className": "mpx_daysack8",
+        "items": [
+          { "className": "HandGrenade", "count": 2, "ammo": 1 },
+          { "className": "UK3CB_BAF_SmokeShell", "count": 2, "ammo": 1 },
+          { "className": "UK3CB_BAF_SmokeShellYellow", "count": 1, "ammo": 1 },
+          { "className": "ACE_elasticBandage", "count": 5 },
+          { "className": "ACE_quikclot", "count": 5 },
+          { "className": "ACE_packingBandage", "count": 8 },
+          { "className": "ACE_tourniquet", "count": 2 },
+          { "className": "ACE_EntrenchingTool", "count": 1 }
+        ]
+      },
+      "headgear": "mpx_cobra_scrim",
+      "facewear": "",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "ACRE_PRC343",
+        "compass": "ItemCompass",
+        "watch": "ItemWatch",
+        "nvg": "UK3CB_BAF_HMNVS"
+      },
+      "extras": {
+        "insignia": "RW_YORKS_Pte",
+        "aceEarplugs": true
+      },
+      "totalCarryLimit": 500
+    }
+  },
+  {
+    "id": "grenadier-default",
+    "name": "Grenadier Default",
+    "role": "Grenadier",
+    "description": "UGL-equipped role with extra HE and smoke carried in the rig and pack.",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L85A3_UGL",
+        "barrel": "",
+        "rail": "4IB_LLM_IR_Laser_Tan",
+        "optic": "RKSL_optic_LDS",
+        "magClass": "UK3CB_BAF_556_30Rnd",
+        "magAmmo": 30,
+        "altMagClass": "UK3CB_BAF_1Rnd_HE_Grenade_Shell",
+        "altMagAmmo": 1,
+        "underbarrel": ""
+      },
+      "launcher": {},
+      "handgun": {},
+      "binoculars": { "weapon": "" },
+      "uniform": {
+        "className": "RW_MTP_YORKS",
+        "items": [
+          { "className": "ACE_MapTools", "count": 1 },
+          { "className": "ACRE_PRC343", "count": 1 },
+          { "className": "ACE_EarPlugs", "count": 2 }
+        ]
+      },
+      "vest": {
+        "className": "Virtus_D_6",
+        "items": [
+          { "className": "UK3CB_BAF_556_30Rnd", "count": 4, "ammo": 30 },
+          { "className": "UK3CB_BAF_556_30Rnd_T", "count": 2, "ammo": 30 },
+          { "className": "UK3CB_BAF_1Rnd_HE_Grenade_Shell", "count": 6, "ammo": 1 },
+          { "className": "UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell", "count": 2, "ammo": 1 },
+          { "className": "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell", "count": 2, "ammo": 1 },
+          { "className": "ACE_Canteen", "count": 1 }
+        ]
+      },
+      "backpack": {
+        "className": "mpx_daysack12",
+        "items": [
+          { "className": "UK3CB_BAF_1Rnd_HE_Grenade_Shell", "count": 8, "ammo": 1 },
+          { "className": "HandGrenade", "count": 2, "ammo": 1 },
+          { "className": "UK3CB_BAF_SmokeShell", "count": 2, "ammo": 1 },
+          { "className": "ACE_packingBandage", "count": 6 },
+          { "className": "ACE_quikclot", "count": 6 },
+          { "className": "ACE_tourniquet", "count": 2 }
+        ]
+      },
+      "headgear": "mpx_cobra_scrim",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "ACRE_PRC343",
+        "compass": "ItemCompass",
+        "watch": "ItemWatch",
+        "nvg": "UK3CB_BAF_HMNVS"
+      },
+      "extras": {
+        "insignia": "RW_YORKS_Pte",
+        "aceEarplugs": true
+      },
+      "totalCarryLimit": 500
+    }
+  },
+  {
+    "id": "pointman-default",
+    "name": "Pointman Default",
+    "role": "Pointman",
+    "description": "Lean front-of-stack loadout with extra flash/smoke and navigation kit.",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L85A3",
+        "barrel": "",
+        "rail": "4IB_LLM_IR_Laser_Tan",
+        "optic": "RKSL_optic_LDS",
+        "magClass": "UK3CB_BAF_556_30Rnd_T",
+        "magAmmo": 30,
+        "altMagClass": "",
+        "altMagAmmo": "",
+        "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
+      },
+      "launcher": {},
+      "handgun": {
+        "weapon": "UK3CB_BAF_L131A1",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "UK3CB_BAF_9_17Rnd",
+        "magAmmo": 17,
+        "altMagClass": "",
+        "altMagAmmo": "",
+        "underbarrel": ""
+      },
+      "binoculars": { "weapon": "ACE_Vector" },
+      "uniform": {
+        "className": "RW_MTP_YORKS",
+        "items": [
+          { "className": "ACE_MapTools", "count": 1 },
+          { "className": "ACE_microDAGR", "count": 1 },
+          { "className": "ACE_EarPlugs", "count": 2 },
+          { "className": "ACRE_PRC343", "count": 1 }
+        ]
+      },
+      "vest": {
+        "className": "Virtus_D_6",
+        "items": [
+          { "className": "UK3CB_BAF_556_30Rnd", "count": 3, "ammo": 30 },
+          { "className": "UK3CB_BAF_556_30Rnd_T", "count": 3, "ammo": 30 },
+          { "className": "HandGrenade", "count": 2, "ammo": 1 },
+          { "className": "UK3CB_BAF_SmokeShellRed", "count": 2, "ammo": 1 },
+          { "className": "UK3CB_BAF_SmokeShell", "count": 2, "ammo": 1 },
+          { "className": "ACE_IR_Strobe_Item", "count": 1 }
+        ]
+      },
+      "backpack": {
+        "className": "mpx_daysack8",
+        "items": [
+          { "className": "ACE_elasticBandage", "count": 6 },
+          { "className": "ACE_packingBandage", "count": 6 },
+          { "className": "ACE_quikclot", "count": 4 },
+          { "className": "ACE_tourniquet", "count": 2 },
+          { "className": "ACE_Chemlight_HiBlue", "count": 4, "ammo": 1 },
+          { "className": "ACE_Chemlight_HiYellow", "count": 2, "ammo": 1 }
+        ]
+      },
+      "headgear": "mpx_boonie2",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "ACRE_PRC343",
+        "compass": "ItemCompass",
+        "watch": "ItemWatch",
+        "nvg": "UK3CB_BAF_HMNVS"
+      },
+      "extras": {
+        "insignia": "RW_YORKS_Pte",
+        "aceEarplugs": true
+      },
+      "totalCarryLimit": 500
+    }
+  },
+  {
+    "id": "two-ic-default",
+    "name": "2IC Default",
+    "role": "2IC",
+    "description": "Heavier command-oriented role with long-range radio, navigation tools, and spare signals kit.",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L85A3",
+        "barrel": "",
+        "rail": "4IB_LLM_IR_Laser_Tan",
+        "optic": "RKSL_optic_LDS_PiP",
+        "magClass": "UK3CB_BAF_556_30Rnd",
+        "magAmmo": 30,
+        "altMagClass": "",
+        "altMagAmmo": "",
+        "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
+      },
+      "launcher": {
+        "weapon": "UK3CB_BAF_AT4_CS_AT_Launcher",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "UK3CB_BAF_AT4_CS_AT_Mag",
+        "magAmmo": 1,
+        "altMagClass": "",
+        "altMagAmmo": "",
+        "underbarrel": ""
+      },
+      "handgun": {},
+      "binoculars": { "weapon": "ACE_Vector" },
+      "uniform": {
+        "className": "RW_MTP_YORKS",
+        "items": [
+          { "className": "ACE_MapTools", "count": 1 },
+          { "className": "ACE_microDAGR", "count": 1 },
+          { "className": "ItemcTabHCam", "count": 1 },
+          { "className": "ACRE_PRC343", "count": 1 },
+          { "className": "ACE_EarPlugs", "count": 2 }
+        ]
+      },
+      "vest": {
+        "className": "Virtus_D_9",
+        "items": [
+          { "className": "UK3CB_BAF_556_30Rnd", "count": 4, "ammo": 30 },
+          { "className": "UK3CB_BAF_556_30Rnd_T", "count": 2, "ammo": 30 },
+          { "className": "HandGrenade", "count": 2, "ammo": 1 },
+          { "className": "UK3CB_BAF_SmokeShell", "count": 2, "ammo": 1 },
+          { "className": "UK3CB_BAF_SmokeShellYellow", "count": 1, "ammo": 1 },
+          { "className": "ACE_Canteen", "count": 1 },
+          { "className": "ACRE_PRC152", "count": 1 }
+        ]
+      },
+      "backpack": {
+        "className": "mpx_daysack12",
+        "items": [
+          { "className": "ACE_packingBandage", "count": 8 },
+          { "className": "ACE_elasticBandage", "count": 6 },
+          { "className": "ACE_quikclot", "count": 6 },
+          { "className": "ACE_tourniquet", "count": 3 },
+          { "className": "ACE_splint", "count": 2 },
+          { "className": "ACE_morphine", "count": 2 },
+          { "className": "ACE_epinephrine", "count": 2 },
+          { "className": "ACE_Chemlight_HiBlue", "count": 3, "ammo": 1 },
+          { "className": "ACE_Chemlight_HiYellow", "count": 2, "ammo": 1 }
+        ]
+      },
+      "headgear": "mpx_cobra_scrim",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "ACRE_PRC152",
+        "compass": "ItemCompass",
+        "watch": "ItemWatch",
+        "nvg": "UK3CB_BAF_HMNVS"
+      },
+      "extras": {
+        "insignia": "RW_YORKS_Pte",
+        "aceEarplugs": true
+      },
+      "totalCarryLimit": 500
+    }
+  }
+]

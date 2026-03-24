@@ -1,0 +1,1110 @@
+{
+    "UK3CB_BAF_L85A3":  {
+                            "displayName":  "L85A3",
+                            "type":  1,
+                            "muzzles":  [
+                                            "this",
+                                            "Safe"
+                                        ],
+                            "muzzleAttachments":  [
+                                                      "UK3CB_BAF_BFA_L85"
+                                                  ],
+                            "pointerAttachments":  [
+                                                       "4IB_LLM_IR_Laser"
+                                                   ],
+                            "opticAttachments":  [
+                                                     "UK3CB_BAF_SUSAT",
+                                                     "UK3CB_BAF_TA648_308",
+                                                     "UK3CB_BAF_Kite",
+                                                     "UK3CB_BAF_MaxiKite",
+                                                     "RKSL_optic_PMII_525",
+                                                     "RKSL_optic_PMII_525_des",
+                                                     "RKSL_optic_PMII_525_wdl",
+                                                     "RKSL_optic_PMII_312_sunshade",
+                                                     "RKSL_optic_LDS"
+                                                 ],
+                            "underbarrelAttachments":  [
+                                                           "UK3CB_underbarrel_acc_grippod_d",
+                                                           "UK3CB_underbarrel_acc_grippod_g",
+                                                           "UK3CB_underbarrel_acc_grippod_t"
+                                                       ],
+                            "primaryMagazines":  [
+                                                     "UK3CB_BAF_556_30Rnd",
+                                                     "UK3CB_BAF_556_30Rnd_Blank",
+                                                     "UK3CB_BAF_556_30Rnd_T"
+                                                 ],
+                            "secondaryMagazines":  [
+
+                                                   ]
+                        },
+    "UK3CB_BAF_L85A3_UGL":  {
+                                "displayName":  "L85A3 with L123A2 Ladder",
+                                "type":  1,
+                                "muzzles":  [
+                                                "this",
+                                                "UK3CB_BAF_L123A2"
+                                            ],
+                                "muzzleAttachments":  [
+                                                          "UK3CB_BAF_BFA_L85"
+                                                      ],
+                                "pointerAttachments":  [
+                                                           "4IB_LLM_IR_Laser"
+                                                       ],
+                                "opticAttachments":  [
+                                                         "UK3CB_BAF_SUSAT",
+                                                         "UK3CB_BAF_TA648_308",
+                                                         "UK3CB_BAF_Kite",
+                                                         "UK3CB_BAF_MaxiKite",
+                                                         "RKSL_optic_PMII_525",
+                                                         "RKSL_optic_PMII_525_des",
+                                                         "RKSL_optic_PMII_525_wdl",
+                                                         "RKSL_optic_PMII_312_sunshade",
+                                                         "RKSL_optic_LDS"
+                                                     ],
+                                "underbarrelAttachments":  [
+
+                                                           ],
+                                "primaryMagazines":  [
+                                                         "UK3CB_BAF_556_30Rnd",
+                                                         "UK3CB_BAF_556_30Rnd_Blank",
+                                                         "UK3CB_BAF_556_30Rnd_T"
+                                                     ],
+                                "secondaryMagazines":  [
+                                                           "UK3CB_BAF_1Rnd_HE_Grenade_Shell",
+                                                           "UK3CB_BAF_1Rnd_HEDP_Grenade_Shell",
+                                                           "UK3CB_BAF_UGL_FlareWhite_F",
+                                                           "UK3CB_BAF_UGL_FlareCIR_F",
+                                                           "UK3CB_BAF_1Rnd_Smoke_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell",
+                                                           "ACE_HuntIR_M203"
+                                                       ]
+                            },
+    "UK3CB_BAF_L85A2":  {
+                            "displayName":  "L85A2",
+                            "type":  1,
+                            "muzzles":  [
+                                            "this"
+                                        ],
+                            "muzzleAttachments":  [
+                                                      "UK3CB_BAF_BFA_L85"
+                                                  ],
+                            "pointerAttachments":  [
+
+                                                   ],
+                            "opticAttachments":  [
+                                                     "UK3CB_BAF_SUSAT",
+                                                     "UK3CB_BAF_TA648_308",
+                                                     "UK3CB_BAF_Kite",
+                                                     "UK3CB_BAF_MaxiKite",
+                                                     "RKSL_optic_PMII_525",
+                                                     "RKSL_optic_PMII_525_des",
+                                                     "RKSL_optic_PMII_525_wdl",
+                                                     "RKSL_optic_PMII_312_sunshade",
+                                                     "RKSL_optic_LDS"
+                                                 ],
+                            "underbarrelAttachments":  [
+
+                                                       ],
+                            "primaryMagazines":  [
+                                                     "UK3CB_BAF_556_30Rnd",
+                                                     "UK3CB_BAF_556_30Rnd_Blank",
+                                                     "UK3CB_BAF_556_30Rnd_T"
+                                                 ],
+                            "secondaryMagazines":  [
+
+                                                   ]
+                        },
+    "UK3CB_BAF_L85A2_UGL":  {
+                                "displayName":  "L85A2 with L123A2 Ladder",
+                                "type":  1,
+                                "muzzles":  [
+                                                "this",
+                                                "UK3CB_BAF_L123A2"
+                                            ],
+                                "muzzleAttachments":  [
+                                                          "UK3CB_BAF_BFA_L85"
+                                                      ],
+                                "pointerAttachments":  [
+                                                           "4IB_LLM_IR_Laser"
+                                                       ],
+                                "opticAttachments":  [
+                                                         "UK3CB_BAF_SUSAT",
+                                                         "UK3CB_BAF_TA648_308",
+                                                         "UK3CB_BAF_Kite",
+                                                         "UK3CB_BAF_MaxiKite",
+                                                         "RKSL_optic_PMII_525",
+                                                         "RKSL_optic_PMII_525_des",
+                                                         "RKSL_optic_PMII_525_wdl",
+                                                         "RKSL_optic_PMII_312_sunshade",
+                                                         "RKSL_optic_LDS"
+                                                     ],
+                                "underbarrelAttachments":  [
+
+                                                           ],
+                                "primaryMagazines":  [
+                                                         "UK3CB_BAF_556_30Rnd",
+                                                         "UK3CB_BAF_556_30Rnd_Blank",
+                                                         "UK3CB_BAF_556_30Rnd_T"
+                                                     ],
+                                "secondaryMagazines":  [
+                                                           "UK3CB_BAF_1Rnd_HE_Grenade_Shell",
+                                                           "UK3CB_BAF_1Rnd_HEDP_Grenade_Shell",
+                                                           "UK3CB_BAF_UGL_FlareWhite_F",
+                                                           "UK3CB_BAF_UGL_FlareCIR_F",
+                                                           "UK3CB_BAF_1Rnd_Smoke_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell",
+                                                           "UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell",
+                                                           "ACE_HuntIR_M203"
+                                                       ]
+                            },
+    "UK3CB_BAF_L85A2_RIS":  {
+                                "displayName":  "L85A2 RIS",
+                                "type":  1,
+                                "muzzles":  [
+                                                "this"
+                                            ],
+                                "muzzleAttachments":  [
+                                                          "UK3CB_BAF_BFA_L85"
+                                                      ],
+                                "pointerAttachments":  [
+                                                           "4IB_LLM_IR_Laser"
+                                                       ],
+                                "opticAttachments":  [
+                                                         "UK3CB_BAF_SUSAT",
+                                                         "UK3CB_BAF_TA648_308",
+                                                         "UK3CB_BAF_Kite",
+                                                         "UK3CB_BAF_MaxiKite",
+                                                         "RKSL_optic_PMII_525",
+                                                         "RKSL_optic_PMII_525_des",
+                                                         "RKSL_optic_PMII_525_wdl",
+                                                         "RKSL_optic_PMII_312_sunshade",
+                                                         "RKSL_optic_LDS"
+                                                     ],
+                                "underbarrelAttachments":  [
+                                                               "UK3CB_underbarrel_acc_grippod_d",
+                                                               "UK3CB_underbarrel_acc_grippod_g",
+                                                               "UK3CB_underbarrel_acc_grippod_t"
+                                                           ],
+                                "primaryMagazines":  [
+                                                         "UK3CB_BAF_556_30Rnd",
+                                                         "UK3CB_BAF_556_30Rnd_Blank",
+                                                         "UK3CB_BAF_556_30Rnd_T"
+                                                     ],
+                                "secondaryMagazines":  [
+
+                                                       ]
+                            },
+    "UK3CB_BAF_L129A1":  {
+                             "displayName":  "L129A1",
+                             "type":  1,
+                             "muzzles":  [
+                                             "this",
+                                             "Safe"
+                                         ],
+                             "muzzleAttachments":  [
+                                                       "UK3CB_BAF_BFA_L129",
+                                                       "UK3CB_BAF_Silencer_L115A3"
+                                                   ],
+                             "pointerAttachments":  [
+                                                        "4IB_LLM_IR_Laser"
+                                                    ],
+                             "opticAttachments":  [
+                                                      "UK3CB_BAF_SUSAT",
+                                                      "UK3CB_BAF_TA648_308",
+                                                      "UK3CB_BAF_Kite",
+                                                      "UK3CB_BAF_MaxiKite",
+                                                      "RKSL_optic_PMII_525",
+                                                      "RKSL_optic_PMII_525_des",
+                                                      "RKSL_optic_PMII_525_wdl",
+                                                      "RKSL_optic_PMII_312_sunshade",
+                                                      "RKSL_optic_LDS"
+                                                  ],
+                             "underbarrelAttachments":  [
+                                                            "UK3CB_underbarrel_acc_grippod_d",
+                                                            "UK3CB_underbarrel_acc_grippod_g",
+                                                            "UK3CB_underbarrel_acc_grippod_t",
+                                                            "UK3CB_underbarrel_acc_bipod",
+                                                            "UK3CB_underbarrel_acc_fgrip_bipod"
+                                                        ],
+                             "primaryMagazines":  [
+                                                      "UK3CB_BAF_762_L42A1_20Rnd",
+                                                      "UK3CB_BAF_762_L42A1_20Rnd_T"
+                                                  ],
+                             "secondaryMagazines":  [
+
+                                                    ]
+                         },
+    "UK3CB_BAF_L7A2":  {
+                           "displayName":  "L7A2 GPMG",
+                           "type":  1,
+                           "muzzles":  [
+                                           "this",
+                                           "Safe"
+                                       ],
+                           "muzzleAttachments":  [
+                                                     "UK3CB_BAF_BFA_L7"
+                                                 ],
+                           "pointerAttachments":  [
+
+                                                  ],
+                           "opticAttachments":  [
+
+                                                ],
+                           "underbarrelAttachments":  [
+
+                                                      ],
+                           "primaryMagazines":  [
+                                                    "UK3CB_BAF_762_100Rnd",
+                                                    "UK3CB_BAF_762_100Rnd_Blank",
+                                                    "UK3CB_BAF_762_100Rnd_T"
+                                                ],
+                           "secondaryMagazines":  [
+
+                                                  ]
+                       },
+    "UK3CB_BAF_L22A2":  {
+                            "displayName":  "L22A2",
+                            "type":  1,
+                            "muzzles":  [
+                                            "this"
+                                        ],
+                            "muzzleAttachments":  [
+                                                      "UK3CB_BAF_BFA_L85"
+                                                  ],
+                            "pointerAttachments":  [
+                                                       "4IB_LLM_IR_Laser"
+                                                   ],
+                            "opticAttachments":  [
+                                                     "UK3CB_BAF_SUSAT",
+                                                     "UK3CB_BAF_TA648_308",
+                                                     "UK3CB_BAF_Kite",
+                                                     "UK3CB_BAF_MaxiKite",
+                                                     "RKSL_optic_PMII_525",
+                                                     "RKSL_optic_PMII_525_des",
+                                                     "RKSL_optic_PMII_525_wdl",
+                                                     "RKSL_optic_PMII_312_sunshade",
+                                                     "RKSL_optic_LDS"
+                                                 ],
+                            "underbarrelAttachments":  [
+
+                                                       ],
+                            "primaryMagazines":  [
+                                                     "UK3CB_BAF_556_30Rnd",
+                                                     "UK3CB_BAF_556_30Rnd_Blank",
+                                                     "UK3CB_BAF_556_30Rnd_T"
+                                                 ],
+                            "secondaryMagazines":  [
+
+                                                   ]
+                        },
+    "FM_L115A3_NoSpray":  {
+                              "displayName":  "L115A3 No Spray",
+                              "type":  1,
+                              "muzzles":  [
+                                              "this"
+                                          ],
+                              "muzzleAttachments":  [
+                                                        "L115A3_Suppressor",
+                                                        "L115A3_BFA"
+                                                    ],
+                              "pointerAttachments":  [
+                                                         "Simrad_KN202"
+                                                     ],
+                              "opticAttachments":  [
+                                                       "RKSL_optic_PMII_525",
+                                                       "RKSL_optic_PMII_525_des",
+                                                       "RKSL_optic_PMII_525_wdl"
+                                                   ],
+                              "underbarrelAttachments":  [
+
+                                                         ],
+                              "primaryMagazines":  [
+                                                       "LNX_M_RUAG_252gr_Ball",
+                                                       "LNX_M_RUAG_260gr_AP",
+                                                       "FM_L115A3_Blank_Magazine"
+                                                   ],
+                              "secondaryMagazines":  [
+
+                                                     ]
+                          },
+    "FM_L115A3_Snow":  {
+                           "displayName":  "L115A3 Snow Spray",
+                           "type":  1,
+                           "muzzles":  [
+                                           "this"
+                                       ],
+                           "muzzleAttachments":  [
+                                                     "L115A3_Suppressor",
+                                                     "L115A3_BFA"
+                                                 ],
+                           "pointerAttachments":  [
+                                                      "Simrad_KN202"
+                                                  ],
+                           "opticAttachments":  [
+                                                    "RKSL_optic_PMII_525",
+                                                    "RKSL_optic_PMII_525_des",
+                                                    "RKSL_optic_PMII_525_wdl"
+                                                ],
+                           "underbarrelAttachments":  [
+
+                                                      ],
+                           "primaryMagazines":  [
+                                                    "LNX_M_RUAG_252gr_Ball",
+                                                    "LNX_M_RUAG_260gr_AP",
+                                                    "FM_L115A3_Blank_Magazine"
+                                                ],
+                           "secondaryMagazines":  [
+
+                                                  ]
+                       },
+    "FM_L115A3_Woodland":  {
+                               "displayName":  "L115A3 Woodland Spray",
+                               "type":  1,
+                               "muzzles":  [
+                                               "this"
+                                           ],
+                               "muzzleAttachments":  [
+                                                         "L115A3_Suppressor",
+                                                         "L115A3_BFA"
+                                                     ],
+                               "pointerAttachments":  [
+                                                          "Simrad_KN202"
+                                                      ],
+                               "opticAttachments":  [
+                                                        "RKSL_optic_PMII_525",
+                                                        "RKSL_optic_PMII_525_des",
+                                                        "RKSL_optic_PMII_525_wdl"
+                                                    ],
+                               "underbarrelAttachments":  [
+
+                                                          ],
+                               "primaryMagazines":  [
+                                                        "LNX_M_RUAG_252gr_Ball",
+                                                        "LNX_M_RUAG_260gr_AP",
+                                                        "FM_L115A3_Blank_Magazine"
+                                                    ],
+                               "secondaryMagazines":  [
+
+                                                      ]
+                           },
+    "FM_L115A3_Desert":  {
+                             "displayName":  "L115A3 Desert Spray",
+                             "type":  1,
+                             "muzzles":  [
+                                             "this"
+                                         ],
+                             "muzzleAttachments":  [
+                                                       "L115A3_Suppressor",
+                                                       "L115A3_BFA"
+                                                   ],
+                             "pointerAttachments":  [
+                                                        "Simrad_KN202"
+                                                    ],
+                             "opticAttachments":  [
+                                                      "RKSL_optic_PMII_525",
+                                                      "RKSL_optic_PMII_525_des",
+                                                      "RKSL_optic_PMII_525_wdl"
+                                                  ],
+                             "underbarrelAttachments":  [
+
+                                                        ],
+                             "primaryMagazines":  [
+                                                      "LNX_M_RUAG_252gr_Ball",
+                                                      "LNX_M_RUAG_260gr_AP",
+                                                      "FM_L115A3_Blank_Magazine"
+                                                  ],
+                             "secondaryMagazines":  [
+
+                                                    ]
+                         },
+    "ACE_VMH3":  {
+                     "displayName":  "VMH3",
+                     "type":  2,
+                     "muzzles":  [
+                                     "this"
+                                 ],
+                     "muzzleAttachments":  [
+
+                                           ],
+                     "pointerAttachments":  [
+
+                                            ],
+                     "opticAttachments":  [
+
+                                          ],
+                     "underbarrelAttachments":  [
+
+                                                ],
+                     "primaryMagazines":  [
+
+                                          ],
+                     "secondaryMagazines":  [
+
+                                            ]
+                 },
+    "UK3CB_BAF_L131A1":  {
+                             "displayName":  "L131A1",
+                             "type":  2,
+                             "muzzles":  [
+                                             "this"
+                                         ],
+                             "muzzleAttachments":  [
+
+                                                   ],
+                             "pointerAttachments":  [
+                                                        "UK3CB_BAF_Flashlight_L131A1"
+                                                    ],
+                             "opticAttachments":  [
+
+                                                  ],
+                             "underbarrelAttachments":  [
+
+                                                        ],
+                             "primaryMagazines":  [
+                                                      "UK3CB_BAF_9_17Rnd",
+                                                      "rhsusf_mag_17Rnd_9x19_JHP",
+                                                      "rhsusf_mag_17Rnd_9x19_FMJ"
+                                                  ],
+                             "secondaryMagazines":  [
+
+                                                    ]
+                         },
+    "rhsusf_weap_glock17g4":  {
+                                  "displayName":  "Glock 17",
+                                  "type":  2,
+                                  "muzzles":  [
+                                                  "this",
+                                                  "SAFE_PISTOL"
+                                              ],
+                                  "muzzleAttachments":  [
+
+                                                        ],
+                                  "pointerAttachments":  [
+                                                             "acc_flashlight_pistol"
+                                                         ],
+                                  "opticAttachments":  [
+
+                                                       ],
+                                  "underbarrelAttachments":  [
+
+                                                             ],
+                                  "primaryMagazines":  [
+                                                           "rhsusf_mag_17Rnd_9x19_JHP",
+                                                           "rhsusf_mag_17Rnd_9x19_FMJ",
+                                                           "UK3CB_BAF_9_17Rnd"
+                                                       ],
+                                  "secondaryMagazines":  [
+
+                                                         ]
+                              },
+    "RW_L2A1_ASM_Loaded":  {
+                               "displayName":  "L2A1 ASM (AS)",
+                               "type":  4,
+                               "muzzles":  [
+                                               "this"
+                                           ],
+                               "muzzleAttachments":  [
+
+                                                     ],
+                               "pointerAttachments":  [
+
+                                                      ],
+                               "opticAttachments":  [
+
+                                                    ],
+                               "underbarrelAttachments":  [
+
+                                                          ],
+                               "primaryMagazines":  [
+
+                                                    ],
+                               "secondaryMagazines":  [
+
+                                                      ]
+                           },
+    "RW_L2A1_HESH_Loaded":  {
+                                "displayName":  "L2A1 ASM (HESH)",
+                                "type":  4,
+                                "muzzles":  [
+                                                "this"
+                                            ],
+                                "muzzleAttachments":  [
+
+                                                      ],
+                                "pointerAttachments":  [
+
+                                                       ],
+                                "opticAttachments":  [
+
+                                                     ],
+                                "underbarrelAttachments":  [
+
+                                                           ],
+                                "primaryMagazines":  [
+
+                                                     ],
+                                "secondaryMagazines":  [
+
+                                                       ]
+                            },
+    "UK3CB_BAF_NLAW_Launcher":  {
+                                    "displayName":  "NLAW",
+                                    "type":  4,
+                                    "muzzles":  [
+                                                    "this"
+                                                ],
+                                    "muzzleAttachments":  [
+
+                                                          ],
+                                    "pointerAttachments":  [
+
+                                                           ],
+                                    "opticAttachments":  [
+
+                                                         ],
+                                    "underbarrelAttachments":  [
+
+                                                               ],
+                                    "primaryMagazines":  [
+
+                                                         ],
+                                    "secondaryMagazines":  [
+
+                                                           ]
+                                },
+    "UK3CB_BAF_Javelin_CLU":  {
+                                  "displayName":  "Javelin CLU",
+                                  "type":  4096,
+                                  "muzzles":  [
+                                                  "this"
+                                              ],
+                                  "muzzleAttachments":  [
+
+                                                        ],
+                                  "pointerAttachments":  [
+
+                                                         ],
+                                  "opticAttachments":  [
+
+                                                       ],
+                                  "underbarrelAttachments":  [
+
+                                                             ],
+                                  "primaryMagazines":  [
+
+                                                       ],
+                                  "secondaryMagazines":  [
+
+                                                         ]
+                              },
+    "UK3CB_BAF_Javelin_Slung_Tube":  {
+                                         "displayName":  "Javelin Tube",
+                                         "type":  4,
+                                         "muzzles":  [
+                                                         "this"
+                                                     ],
+                                         "muzzleAttachments":  [
+
+                                                               ],
+                                         "pointerAttachments":  [
+
+                                                                ],
+                                         "opticAttachments":  [
+
+                                                              ],
+                                         "underbarrelAttachments":  [
+
+                                                                    ],
+                                         "primaryMagazines":  [
+
+                                                              ],
+                                         "secondaryMagazines":  [
+
+                                                                ]
+                                     },
+    "Starstreak":  {
+                       "displayName":  "Starstreak HVM Launcher",
+                       "type":  4,
+                       "muzzles":  [
+                                       "this"
+                                   ],
+                       "muzzleAttachments":  [
+
+                                             ],
+                       "pointerAttachments":  [
+
+                                              ],
+                       "opticAttachments":  [
+
+                                            ],
+                       "underbarrelAttachments":  [
+
+                                                  ],
+                       "primaryMagazines":  [
+                                                "Starstreak_missile",
+                                                "Starstreak2_missile"
+                                            ],
+                       "secondaryMagazines":  [
+
+                                              ]
+                   },
+    "Starstreak2_LML_LaunchUnit":  {
+                                       "displayName":  "Starstreak II LML",
+                                       "type":  4,
+                                       "muzzles":  [
+                                                       "this"
+                                                   ],
+                                       "muzzleAttachments":  [
+
+                                                             ],
+                                       "pointerAttachments":  [
+
+                                                              ],
+                                       "opticAttachments":  [
+
+                                                            ],
+                                       "underbarrelAttachments":  [
+
+                                                                  ],
+                                       "primaryMagazines":  [
+
+                                                            ],
+                                       "secondaryMagazines":  [
+
+                                                              ]
+                                   },
+    "Starstreak_LML_LaunchUnit":  {
+                                      "displayName":  "Starstreak LML",
+                                      "type":  4,
+                                      "muzzles":  [
+                                                      "this"
+                                                  ],
+                                      "muzzleAttachments":  [
+
+                                                            ],
+                                      "pointerAttachments":  [
+
+                                                             ],
+                                      "opticAttachments":  [
+
+                                                           ],
+                                      "underbarrelAttachments":  [
+
+                                                                 ],
+                                      "primaryMagazines":  [
+
+                                                           ],
+                                      "secondaryMagazines":  [
+
+                                                             ]
+                                  },
+    "UK3CB_BAF_AT4_CS_AP_Launcher":  {
+                                         "displayName":  "ILAW HEDP Launcher",
+                                         "type":  4,
+                                         "muzzles":  [
+                                                         "this"
+                                                     ],
+                                         "muzzleAttachments":  [
+
+                                                               ],
+                                         "pointerAttachments":  [
+
+                                                                ],
+                                         "opticAttachments":  [
+
+                                                              ],
+                                         "underbarrelAttachments":  [
+
+                                                                    ],
+                                         "primaryMagazines":  [
+
+                                                              ],
+                                         "secondaryMagazines":  [
+
+                                                                ]
+                                     },
+    "UK3CB_BAF_L111A1":  {
+                             "displayName":  "L111A1 HMG Static Weapon [BAF]",
+                             "type":  4,
+                             "muzzles":  [
+                                             "this"
+                                         ],
+                             "muzzleAttachments":  [
+
+                                                   ],
+                             "pointerAttachments":  [
+
+                                                    ],
+                             "opticAttachments":  [
+
+                                                  ],
+                             "underbarrelAttachments":  [
+
+                                                        ],
+                             "primaryMagazines":  [
+
+                                                  ],
+                             "secondaryMagazines":  [
+
+                                                    ]
+                         },
+    "UK3CB_BAF_L134A1":  {
+                             "displayName":  "L134A1 GMG Static Weapon [BAF]",
+                             "type":  4,
+                             "muzzles":  [
+                                             "this"
+                                         ],
+                             "muzzleAttachments":  [
+
+                                                   ],
+                             "pointerAttachments":  [
+
+                                                    ],
+                             "opticAttachments":  [
+
+                                                  ],
+                             "underbarrelAttachments":  [
+
+                                                        ],
+                             "primaryMagazines":  [
+
+                                                  ],
+                             "secondaryMagazines":  [
+
+                                                    ]
+                         },
+    "UK3CB_BAF_L16":  {
+                          "displayName":  "L16 Mortar Static Weapon [BAF]",
+                          "type":  4,
+                          "muzzles":  [
+                                          "this"
+                                      ],
+                          "muzzleAttachments":  [
+
+                                                ],
+                          "pointerAttachments":  [
+
+                                                 ],
+                          "opticAttachments":  [
+
+                                               ],
+                          "underbarrelAttachments":  [
+
+                                                     ],
+                          "primaryMagazines":  [
+
+                                               ],
+                          "secondaryMagazines":  [
+
+                                                 ]
+                      },
+    "UK3CB_BAF_Tripod":  {
+                             "displayName":  "Tripod Static Weapon [BAF]",
+                             "type":  4,
+                             "muzzles":  [
+                                             "this"
+                                         ],
+                             "muzzleAttachments":  [
+
+                                                   ],
+                             "pointerAttachments":  [
+
+                                                    ],
+                             "opticAttachments":  [
+
+                                                  ],
+                             "underbarrelAttachments":  [
+
+                                                        ],
+                             "primaryMagazines":  [
+
+                                                  ],
+                             "secondaryMagazines":  [
+
+                                                    ]
+                         },
+    "UK3CB_BAF_L16_Tripod":  {
+                                 "displayName":  "Bipod Mortar L16 [BAF]",
+                                 "type":  4,
+                                 "muzzles":  [
+                                                 "this"
+                                             ],
+                                 "muzzleAttachments":  [
+
+                                                       ],
+                                 "pointerAttachments":  [
+
+                                                        ],
+                                 "opticAttachments":  [
+
+                                                      ],
+                                 "underbarrelAttachments":  [
+
+                                                            ],
+                                 "primaryMagazines":  [
+
+                                                      ],
+                                 "secondaryMagazines":  [
+
+                                                        ]
+                             },
+    "Binocular":  {
+                      "displayName":  "Binoculars",
+                      "type":  4096,
+                      "muzzles":  [
+                                      "this"
+                                  ],
+                      "muzzleAttachments":  [
+
+                                            ],
+                      "pointerAttachments":  [
+
+                                             ],
+                      "opticAttachments":  [
+
+                                           ],
+                      "underbarrelAttachments":  [
+
+                                                 ],
+                      "primaryMagazines":  [
+
+                                           ],
+                      "secondaryMagazines":  [
+
+                                             ]
+                  },
+    "ACE_Vector":  {
+                       "displayName":  "Vector 21 Nite",
+                       "type":  4096,
+                       "muzzles":  [
+                                       "this"
+                                   ],
+                       "muzzleAttachments":  [
+
+                                             ],
+                       "pointerAttachments":  [
+
+                                              ],
+                       "opticAttachments":  [
+
+                                            ],
+                       "underbarrelAttachments":  [
+
+                                                  ],
+                       "primaryMagazines":  [
+
+                                            ],
+                       "secondaryMagazines":  [
+
+                                              ]
+                   },
+    "RW_JTL_Sand":  {
+                        "displayName":  "Joint Target Locator (Sand)",
+                        "type":  4096,
+                        "muzzles":  [
+                                        "this"
+                                    ],
+                        "muzzleAttachments":  [
+
+                                              ],
+                        "pointerAttachments":  [
+
+                                               ],
+                        "opticAttachments":  [
+
+                                             ],
+                        "underbarrelAttachments":  [
+
+                                                   ],
+                        "primaryMagazines":  [
+                                                 "rw_jtl_batteries"
+                                             ],
+                        "secondaryMagazines":  [
+
+                                               ]
+                    },
+    "RW_JTL_Green":  {
+                         "displayName":  "Joint Target Locator (Green)",
+                         "type":  4096,
+                         "muzzles":  [
+                                         "this"
+                                     ],
+                         "muzzleAttachments":  [
+
+                                               ],
+                         "pointerAttachments":  [
+
+                                                ],
+                         "opticAttachments":  [
+
+                                              ],
+                         "underbarrelAttachments":  [
+
+                                                    ],
+                         "primaryMagazines":  [
+                                                  "rw_jtl_batteries"
+                                              ],
+                         "secondaryMagazines":  [
+
+                                                ]
+                     },
+    "AMOP_PLRF15C":  {
+                         "displayName":  "PLRF15C",
+                         "type":  4096,
+                         "muzzles":  [
+                                         "this"
+                                     ],
+                         "muzzleAttachments":  [
+
+                                               ],
+                         "pointerAttachments":  [
+
+                                                ],
+                         "opticAttachments":  [
+
+                                              ],
+                         "underbarrelAttachments":  [
+
+                                                    ],
+                         "primaryMagazines":  [
+
+                                              ],
+                         "secondaryMagazines":  [
+
+                                                ]
+                     },
+    "AMOP_PLRF25C":  {
+                         "displayName":  "PLRF25C",
+                         "type":  4096,
+                         "muzzles":  [
+                                         "this"
+                                     ],
+                         "muzzleAttachments":  [
+
+                                               ],
+                         "pointerAttachments":  [
+
+                                                ],
+                         "opticAttachments":  [
+
+                                              ],
+                         "underbarrelAttachments":  [
+
+                                                    ],
+                         "primaryMagazines":  [
+
+                                              ],
+                         "secondaryMagazines":  [
+
+                                                ]
+                     },
+    "UK3CB_BAF_Soflam_Laserdesignator":  {
+                                             "displayName":  "AN/PEQ-1 SOFLAM",
+                                             "type":  4096,
+                                             "muzzles":  [
+                                                             "this"
+                                                         ],
+                                             "muzzleAttachments":  [
+
+                                                                   ],
+                                             "pointerAttachments":  [
+
+                                                                    ],
+                                             "opticAttachments":  [
+
+                                                                  ],
+                                             "underbarrelAttachments":  [
+
+                                                                        ],
+                                             "primaryMagazines":  [
+                                                                      "Laserbatteries"
+                                                                  ],
+                                             "secondaryMagazines":  [
+
+                                                                    ]
+                                         },
+    "bunwell_axe":  {
+                        "displayName":  "Axe",
+                        "type":  4096,
+                        "muzzles":  [
+                                        "this"
+                                    ],
+                        "muzzleAttachments":  [
+
+                                              ],
+                        "pointerAttachments":  [
+
+                                               ],
+                        "opticAttachments":  [
+
+                                             ],
+                        "underbarrelAttachments":  [
+
+                                                   ],
+                        "primaryMagazines":  [
+
+                                             ],
+                        "secondaryMagazines":  [
+
+                                               ]
+                    },
+    "UK3CB_BAF_HMNVS":  {
+                            "displayName":  "Head-Mounted NV System [BAF]",
+                            "type":  4096,
+                            "muzzles":  [
+                                            "this"
+                                        ],
+                            "muzzleAttachments":  [
+
+                                                  ],
+                            "pointerAttachments":  [
+
+                                                   ],
+                            "opticAttachments":  [
+
+                                                 ],
+                            "underbarrelAttachments":  [
+
+                                                       ],
+                            "primaryMagazines":  [
+
+                                                 ],
+                            "secondaryMagazines":  [
+
+                                                   ]
+                        },
+    "4IB_ACE_NVG_Gen4_Black":  {
+                                   "displayName":  "[Pilot] Dual-tube NVG, Black",
+                                   "type":  4096,
+                                   "muzzles":  [
+                                                   "this"
+                                               ],
+                                   "muzzleAttachments":  [
+
+                                                         ],
+                                   "pointerAttachments":  [
+
+                                                          ],
+                                   "opticAttachments":  [
+
+                                                        ],
+                                   "underbarrelAttachments":  [
+
+                                                              ],
+                                   "primaryMagazines":  [
+
+                                                        ],
+                                   "secondaryMagazines":  [
+
+                                                          ]
+                               }
+}
