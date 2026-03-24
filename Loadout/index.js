@@ -31,7 +31,7 @@ const STORAGE_KEYS = {
 const LOADOUTS_COLLECTION = "loadouts";
 const DEFAULT_EARPLUGS = true;
 
-const MASS_PER_KG = 14.5;
+const MASS_PER_KG = 22.04;
 const KG_PER_MASS = 1 / MASS_PER_KG;
 const DEFAULT_CARRY_LIMIT = 35;
 

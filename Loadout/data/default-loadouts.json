@@ -12,7 +12,7 @@
         "rail": "4IB_LLM_IR_Laser",
         "optic": "RKSL_optic_LDS",
         "magClass": "UK3CB_BAF_556_30Rnd",
-        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "altMagClass": "UK3CB_BAF_1Rnd_HE_Grenade_Shell",
         "underbarrel": ""
       },
       "launcher": {
@@ -81,6 +81,14 @@
         "className": "BZD_Virtus_Rifleman_A1_NB",
         "items": [
           {
+            "className": "UK3CB_BAF_556_30Rnd_T",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_556_30Rnd",
+            "count": 4
+          },
+          {
             "className": "ACE_HuntIR_M203",
             "count": 4
           },
@@ -107,6 +115,14 @@
           {
             "className": "ACE_MRE_BeefStew",
             "count": 2
+          },
+          {
+            "className": "G_CBRN_M50_Hood",
+            "count": 1
+          },
+          {
+            "className": "ACE_EHP",
+            "count": 1
           }
         ]
       },
@@ -301,7 +317,7 @@
         "className": "G_CBRN_M50_Hood",
         "displayName": "M50 Promask w/ Hood",
         "matchReason": "alias-class",
-        "assignedTo": "facewear"
+        "assignedTo": "vest"
       },
       {
         "row": 53,
@@ -651,7 +667,7 @@
         "rail": "4IB_LLM_IR_Laser",
         "optic": "RKSL_optic_LDS",
         "magClass": "UK3CB_BAF_556_30Rnd",
-        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "altMagClass": "",
         "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
       },
       "launcher": {
@@ -724,6 +740,14 @@
         "className": "BZD_Virtus_Rifleman_A1_NB",
         "items": [
           {
+            "className": "UK3CB_BAF_556_30Rnd_T",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_556_30Rnd",
+            "count": 4
+          },
+          {
             "className": "ACE_Canteen",
             "count": 2
           },
@@ -742,6 +766,14 @@
           {
             "className": "ACE_MRE_BeefStew",
             "count": 2
+          },
+          {
+            "className": "G_CBRN_M50_Hood",
+            "count": 1
+          },
+          {
+            "className": "ACE_EHP",
+            "count": 1
           }
         ]
       },
@@ -946,7 +978,7 @@
         "className": "G_CBRN_M50_Hood",
         "displayName": "M50 Promask w/ Hood",
         "matchReason": "alias-class",
-        "assignedTo": "facewear"
+        "assignedTo": "vest"
       },
       {
         "row": 53,
@@ -1385,6 +1417,14 @@
           {
             "className": "ACE_MRE_BeefStew",
             "count": 2
+          },
+          {
+            "className": "G_CBRN_M50_Hood",
+            "count": 1
+          },
+          {
+            "className": "ACE_EHP",
+            "count": 1
           }
         ]
       },
@@ -1521,7 +1561,7 @@
         "className": "G_CBRN_M50_Hood",
         "displayName": "M50 Promask w/ Hood",
         "matchReason": "alias-class",
-        "assignedTo": "facewear"
+        "assignedTo": "vest"
       },
       {
         "row": 51,
@@ -2004,6 +2044,14 @@
           {
             "className": "ACE_MRE_BeefStew",
             "count": 2
+          },
+          {
+            "className": "G_CBRN_M50_Hood",
+            "count": 1
+          },
+          {
+            "className": "ACE_EHP",
+            "count": 1
           }
         ]
       },
@@ -2152,7 +2200,7 @@
         "className": "G_CBRN_M50_Hood",
         "displayName": "M50 Promask w/ Hood",
         "matchReason": "alias-class",
-        "assignedTo": "facewear"
+        "assignedTo": "vest"
       },
       {
         "row": 55,
@@ -2572,7 +2620,7 @@
         "rail": "4IB_LLM_IR_Laser",
         "optic": "RKSL_optic_LDS",
         "magClass": "UK3CB_BAF_556_30Rnd",
-        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "altMagClass": "",
         "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
       },
       "launcher": {
@@ -2625,6 +2673,14 @@
         "className": "BZD_Virtus_Rifleman_A1_NB",
         "items": [
           {
+            "className": "UK3CB_BAF_556_30Rnd_T",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_556_30Rnd",
+            "count": 4
+          },
+          {
             "className": "ACE_Canteen",
             "count": 2
           },
@@ -2643,6 +2699,18 @@
           {
             "className": "ACE_MRE_BeefStew",
             "count": 2
+          },
+          {
+            "className": "G_CBRN_M50_Hood",
+            "count": 1
+          },
+          {
+            "className": "ChemicalDetector_01_watch_F",
+            "count": 1
+          },
+          {
+            "className": "ACE_EHP",
+            "count": 1
           }
         ]
       },
@@ -2857,7 +2925,7 @@
         "className": "G_CBRN_M50_Hood",
         "displayName": "M50 Promask w/ Hood",
         "matchReason": "alias-class",
-        "assignedTo": "facewear"
+        "assignedTo": "vest"
       },
       {
         "row": 49,
@@ -3128,19 +3196,20 @@
         "displayName": "UBAC [RYorks]",
         "matchReason": "alias-class",
         "assignedTo": "uniform.className"
-      }
-    ],
-    "unplacedItems": [],
-    "unresolvedItems": [
+      },
       {
         "row": 44,
         "raw": "1x Chemical Detector",
         "item": "Chemical Detector",
         "quantity": 1,
-        "candidates": [],
-        "reason": "no-direct-match"
+        "className": "ChemicalDetector_01_watch_F",
+        "displayName": "Chemical Detector",
+        "matchReason": "user-mapped-class",
+        "assignedTo": "vest"
       }
     ],
+    "unplacedItems": [],
+    "unresolvedItems": [],
     "ambiguousItems": []
   },
   {
@@ -3156,7 +3225,7 @@
         "rail": "4IB_LLM_IR_Laser",
         "optic": "RKSL_optic_LDS",
         "magClass": "UK3CB_BAF_556_30Rnd",
-        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "altMagClass": "",
         "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
       },
       "launcher": {
@@ -3209,6 +3278,14 @@
         "className": "BZD_Virtus_Rifleman_A1_NB",
         "items": [
           {
+            "className": "UK3CB_BAF_556_30Rnd_T",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_556_30Rnd",
+            "count": 4
+          },
+          {
             "className": "UK3CB_BAF_762_100Rnd_T",
             "count": 1
           },
@@ -3231,6 +3308,14 @@
           {
             "className": "ACE_MRE_BeefStew",
             "count": 2
+          },
+          {
+            "className": "G_CBRN_M50_Hood",
+            "count": 1
+          },
+          {
+            "className": "ACE_EHP",
+            "count": 1
           }
         ]
       },
@@ -3423,7 +3508,7 @@
         "className": "G_CBRN_M50_Hood",
         "displayName": "M50 Promask w/ Hood",
         "matchReason": "alias-class",
-        "assignedTo": "facewear"
+        "assignedTo": "vest"
       },
       {
         "row": 45,
@@ -3693,7 +3778,7 @@
         "rail": "4IB_LLM_IR_Laser",
         "optic": "RKSL_optic_LDS",
         "magClass": "UK3CB_BAF_556_30Rnd",
-        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "altMagClass": "",
         "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
       },
       "launcher": {
@@ -3746,6 +3831,14 @@
         "className": "BZD_Virtus_Rifleman_A1_NB",
         "items": [
           {
+            "className": "UK3CB_BAF_556_30Rnd_T",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_556_30Rnd",
+            "count": 4
+          },
+          {
             "className": "ACE_Canteen",
             "count": 2
           },
@@ -3764,6 +3857,14 @@
           {
             "className": "ACE_MRE_BeefStew",
             "count": 2
+          },
+          {
+            "className": "G_CBRN_M50_Hood",
+            "count": 1
+          },
+          {
+            "className": "ACE_EHP",
+            "count": 1
           }
         ]
       },
@@ -3952,7 +4053,7 @@
         "className": "G_CBRN_M50_Hood",
         "displayName": "M50 Promask w/ Hood",
         "matchReason": "alias-class",
-        "assignedTo": "facewear"
+        "assignedTo": "vest"
       },
       {
         "row": 44,
@@ -4277,6 +4378,14 @@
           {
             "className": "ACE_MRE_BeefStew",
             "count": 2
+          },
+          {
+            "className": "G_CBRN_M50_Hood",
+            "count": 1
+          },
+          {
+            "className": "ACE_EHP",
+            "count": 1
           }
         ]
       },
@@ -4465,7 +4574,7 @@
         "className": "G_CBRN_M50_Hood",
         "displayName": "M50 Promask w/ Hood",
         "matchReason": "alias-class",
-        "assignedTo": "facewear"
+        "assignedTo": "vest"
       },
       {
         "row": 44,
@@ -4725,7 +4834,7 @@
         "rail": "4IB_LLM_IR_Laser",
         "optic": "RKSL_optic_LDS",
         "magClass": "UK3CB_BAF_556_30Rnd",
-        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "altMagClass": "UK3CB_BAF_1Rnd_HE_Grenade_Shell",
         "underbarrel": ""
       },
       "launcher": {
@@ -4778,6 +4887,14 @@
         "className": "BZD_Virtus_Rifleman_A1_NB",
         "items": [
           {
+            "className": "UK3CB_BAF_556_30Rnd_T",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_556_30Rnd",
+            "count": 4
+          },
+          {
             "className": "UK3CB_BAF_762_100Rnd_T",
             "count": 1
           },
@@ -4800,6 +4917,14 @@
           {
             "className": "ACE_MRE_BeefStew",
             "count": 2
+          },
+          {
+            "className": "G_CBRN_M50_Hood",
+            "count": 1
+          },
+          {
+            "className": "ACE_EHP",
+            "count": 1
           }
         ]
       },
@@ -4994,7 +5119,7 @@
         "className": "G_CBRN_M50_Hood",
         "displayName": "M50 Promask w/ Hood",
         "matchReason": "alias-class",
-        "assignedTo": "facewear"
+        "assignedTo": "vest"
       },
       {
         "row": 47,
@@ -5347,6 +5472,10 @@
         "className": "BZD_Virtus_Rifleman_A1_NB",
         "items": [
           {
+            "className": "UK3CB_BAF_762_100Rnd_T",
+            "count": 4
+          },
+          {
             "className": "ACE_Canteen",
             "count": 2
           },
@@ -5365,6 +5494,14 @@
           {
             "className": "ACE_MRE_BeefStew",
             "count": 2
+          },
+          {
+            "className": "G_CBRN_M50_Hood",
+            "count": 1
+          },
+          {
+            "className": "ACE_EHP",
+            "count": 1
           }
         ]
       },
@@ -5509,7 +5646,7 @@
         "className": "G_CBRN_M50_Hood",
         "displayName": "M50 Promask w/ Hood",
         "matchReason": "alias-class",
-        "assignedTo": "facewear"
+        "assignedTo": "vest"
       },
       {
         "row": 38,
@@ -5749,7 +5886,7 @@
         "rail": "4IB_LLM_IR_Laser",
         "optic": "RKSL_optic_LDS",
         "magClass": "UK3CB_BAF_556_30Rnd",
-        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "altMagClass": "",
         "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
       },
       "launcher": {
@@ -5802,6 +5939,14 @@
         "className": "BZD_Virtus_Rifleman_A1_NB",
         "items": [
           {
+            "className": "UK3CB_BAF_556_30Rnd_T",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_556_30Rnd",
+            "count": 4
+          },
+          {
             "className": "UK3CB_BAF_762_100Rnd_T",
             "count": 1
           },
@@ -5824,6 +5969,14 @@
           {
             "className": "ACE_MRE_BeefStew",
             "count": 2
+          },
+          {
+            "className": "G_CBRN_M50_Hood",
+            "count": 1
+          },
+          {
+            "className": "ACE_EHP",
+            "count": 1
           }
         ]
       },
@@ -6040,7 +6193,7 @@
         "className": "G_CBRN_M50_Hood",
         "displayName": "M50 Promask w/ Hood",
         "matchReason": "alias-class",
-        "assignedTo": "facewear"
+        "assignedTo": "vest"
       },
       {
         "row": 51,
