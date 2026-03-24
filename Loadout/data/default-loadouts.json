@@ -1,302 +1,6350 @@
 [
   {
-    "id": "rifleman-default",
-    "name": "Rifleman Default",
-    "role": "Rifleman",
-    "description": "Baseline section rifleman with a light daysack and standard medical/pyro load.",
-    "loadout": {
-      "primary": {
-        "weapon": "UK3CB_BAF_L85A3",
-        "barrel": "UK3CB_BAF_BFA_L85",
-        "rail": "4IB_LLM_IR_Laser",
-        "optic": "RKSL_optic_LDS",
-        "magClass": "UK3CB_BAF_556_30Rnd",
-        "magAmmo": 30,
-        "altMagClass": "",
-        "altMagAmmo": "",
-        "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
-      },
-      "launcher": {},
-      "handgun": {},
-      "binoculars": { "weapon": "" },
-      "uniform": {
-        "className": "RW_MTP_YORKS",
-        "items": [
-          { "className": "UK3CB_BAF_G_Tactical_Clear", "count": 1 },
-          { "className": "ACE_Flashlight_MX991", "count": 1 },
-          { "className": "ACE_MapTools", "count": 1 },
-          { "className": "ACE_EarPlugs", "count": 2 },
-          { "className": "UK3CB_BAF_HMNVS", "count": 1 },
-          { "className": "ACRE_PRC343", "count": 1 }
-        ]
-      },
-      "vest": {
-        "className": "Virtus_D_3",
-        "items": [
-          { "className": "UK3CB_BAF_556_30Rnd", "count": 3, "ammo": 30 },
-          { "className": "UK3CB_BAF_556_30Rnd_T", "count": 3, "ammo": 30 },
-          { "className": "ACE_Canteen", "count": 1 },
-          { "className": "ACE_MRE_BeefStew", "count": 1 },
-          { "className": "ACE_Chemlight_HiBlue", "count": 2, "ammo": 1 },
-          { "className": "ACE_CableTie", "count": 2 }
-        ]
-      },
-      "backpack": {
-        "className": "mpx_daysack8",
-        "items": [
-          { "className": "HandGrenade", "count": 2, "ammo": 1 },
-          { "className": "UK3CB_BAF_SmokeShell", "count": 2, "ammo": 1 },
-          { "className": "UK3CB_BAF_SmokeShellYellow", "count": 1, "ammo": 1 },
-          { "className": "ACE_elasticBandage", "count": 5 },
-          { "className": "ACE_quikclot", "count": 5 },
-          { "className": "ACE_packingBandage", "count": 8 },
-          { "className": "ACE_tourniquet", "count": 2 },
-          { "className": "ACE_EntrenchingTool", "count": 1 }
-        ]
-      },
-      "headgear": "mpx_cobra_scrim",
-      "facewear": "",
-      "assignedItems": {
-        "map": "ItemMap",
-        "gps": "ItemGPS",
-        "radio": "ACRE_PRC343",
-        "compass": "ItemCompass",
-        "watch": "ItemWatch",
-        "nvg": "UK3CB_BAF_HMNVS"
-      },
-      "extras": {
-        "insignia": "RW_YORKS_Pte",
-        "aceEarplugs": true
-      },
-      "totalCarryLimit": 500
-    }
-  },
-  {
-    "id": "grenadier-default",
-    "name": "Grenadier Default",
-    "role": "Grenadier",
-    "description": "UGL-equipped role with extra HE and smoke carried in the rig and pack.",
+    "id": "platoon-commander",
+    "name": "Platoon Commander",
+    "role": "Platoon Commander",
+    "description": "Mapped from legacy Infantry CEFO without guessing. Container placement left empty unless the CEFO explicitly identified the container item itself.",
+    "group": "Platoon HQ",
     "loadout": {
       "primary": {
         "weapon": "UK3CB_BAF_L85A3_UGL",
         "barrel": "",
-        "rail": "4IB_LLM_IR_Laser_Tan",
+        "rail": "4IB_LLM_IR_Laser",
         "optic": "RKSL_optic_LDS",
         "magClass": "UK3CB_BAF_556_30Rnd",
-        "magAmmo": 30,
-        "altMagClass": "UK3CB_BAF_1Rnd_HE_Grenade_Shell",
-        "altMagAmmo": 1,
+        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
         "underbarrel": ""
       },
-      "launcher": {},
-      "handgun": {},
-      "binoculars": { "weapon": "" },
-      "uniform": {
-        "className": "RW_MTP_YORKS",
-        "items": [
-          { "className": "ACE_MapTools", "count": 1 },
-          { "className": "ACRE_PRC343", "count": 1 },
-          { "className": "ACE_EarPlugs", "count": 2 }
-        ]
-      },
-      "vest": {
-        "className": "Virtus_D_6",
-        "items": [
-          { "className": "UK3CB_BAF_556_30Rnd", "count": 4, "ammo": 30 },
-          { "className": "UK3CB_BAF_556_30Rnd_T", "count": 2, "ammo": 30 },
-          { "className": "UK3CB_BAF_1Rnd_HE_Grenade_Shell", "count": 6, "ammo": 1 },
-          { "className": "UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell", "count": 2, "ammo": 1 },
-          { "className": "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell", "count": 2, "ammo": 1 },
-          { "className": "ACE_Canteen", "count": 1 }
-        ]
-      },
-      "backpack": {
-        "className": "mpx_daysack12",
-        "items": [
-          { "className": "UK3CB_BAF_1Rnd_HE_Grenade_Shell", "count": 8, "ammo": 1 },
-          { "className": "HandGrenade", "count": 2, "ammo": 1 },
-          { "className": "UK3CB_BAF_SmokeShell", "count": 2, "ammo": 1 },
-          { "className": "ACE_packingBandage", "count": 6 },
-          { "className": "ACE_quikclot", "count": 6 },
-          { "className": "ACE_tourniquet", "count": 2 }
-        ]
-      },
-      "headgear": "mpx_cobra_scrim",
-      "facewear": "UK3CB_BAF_G_Tactical_Clear",
-      "assignedItems": {
-        "map": "ItemMap",
-        "gps": "ItemGPS",
-        "radio": "ACRE_PRC343",
-        "compass": "ItemCompass",
-        "watch": "ItemWatch",
-        "nvg": "UK3CB_BAF_HMNVS"
-      },
-      "extras": {
-        "insignia": "RW_YORKS_Pte",
-        "aceEarplugs": true
-      },
-      "totalCarryLimit": 500
-    }
-  },
-  {
-    "id": "pointman-default",
-    "name": "Pointman Default",
-    "role": "Pointman",
-    "description": "Lean front-of-stack loadout with extra flash/smoke and navigation kit.",
-    "loadout": {
-      "primary": {
-        "weapon": "UK3CB_BAF_L85A3",
-        "barrel": "",
-        "rail": "4IB_LLM_IR_Laser_Tan",
-        "optic": "RKSL_optic_LDS",
-        "magClass": "UK3CB_BAF_556_30Rnd_T",
-        "magAmmo": 30,
-        "altMagClass": "",
-        "altMagAmmo": "",
-        "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
-      },
-      "launcher": {},
-      "handgun": {
-        "weapon": "UK3CB_BAF_L131A1",
+      "launcher": {
+        "weapon": "",
         "barrel": "",
         "rail": "",
         "optic": "",
-        "magClass": "UK3CB_BAF_9_17Rnd",
-        "magAmmo": 17,
+        "magClass": "",
         "altMagClass": "",
-        "altMagAmmo": "",
         "underbarrel": ""
       },
-      "binoculars": { "weapon": "ACE_Vector" },
+      "handgun": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "binoculars": {
+        "weapon": "ACE_Vector"
+      },
       "uniform": {
-        "className": "RW_MTP_YORKS",
+        "className": "BZD_PCS_R1_RYorks",
         "items": [
-          { "className": "ACE_MapTools", "count": 1 },
-          { "className": "ACE_microDAGR", "count": 1 },
-          { "className": "ACE_EarPlugs", "count": 2 },
-          { "className": "ACRE_PRC343", "count": 1 }
+          {
+            "className": "ACRE_PRC152",
+            "count": 2
+          },
+          {
+            "className": "ACRE_PRC343",
+            "count": 1
+          },
+          {
+            "className": "FISH_Cream_Kit_Europe",
+            "count": 1
+          },
+          {
+            "className": "ACE_MapTools",
+            "count": 1
+          },
+          {
+            "className": "ACE_Flashlight_MX991",
+            "count": 1
+          },
+          {
+            "className": "UK4IB_SlateCards",
+            "count": 1
+          },
+          {
+            "className": "ACE_microDAGR",
+            "count": 1
+          },
+          {
+            "className": "ItemcTabHCam",
+            "count": 1
+          },
+          {
+            "className": "ItemAndroid",
+            "count": 1
+          }
         ]
       },
       "vest": {
-        "className": "Virtus_D_6",
+        "className": "BZD_Virtus_Rifleman_A1_NB",
         "items": [
-          { "className": "UK3CB_BAF_556_30Rnd", "count": 3, "ammo": 30 },
-          { "className": "UK3CB_BAF_556_30Rnd_T", "count": 3, "ammo": 30 },
-          { "className": "HandGrenade", "count": 2, "ammo": 1 },
-          { "className": "UK3CB_BAF_SmokeShellRed", "count": 2, "ammo": 1 },
-          { "className": "UK3CB_BAF_SmokeShell", "count": 2, "ammo": 1 },
-          { "className": "ACE_IR_Strobe_Item", "count": 1 }
+          {
+            "className": "ACE_HuntIR_M203",
+            "count": 4
+          },
+          {
+            "className": "ACE_Canteen",
+            "count": 2
+          },
+          {
+            "className": "ACE_CableTie",
+            "count": 4
+          },
+          {
+            "className": "ACE_HuntIR_monitor",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
+          },
+          {
+            "className": "CBRN_gasmaskFilter",
+            "count": 1
+          },
+          {
+            "className": "ACE_MRE_BeefStew",
+            "count": 2
+          }
         ]
       },
       "backpack": {
-        "className": "mpx_daysack8",
+        "className": "BAF_BACK_1",
         "items": [
-          { "className": "ACE_elasticBandage", "count": 6 },
-          { "className": "ACE_packingBandage", "count": 6 },
-          { "className": "ACE_quikclot", "count": 4 },
-          { "className": "ACE_tourniquet", "count": 2 },
-          { "className": "ACE_Chemlight_HiBlue", "count": 4, "ammo": 1 },
-          { "className": "ACE_Chemlight_HiYellow", "count": 2, "ammo": 1 }
+          {
+            "className": "U_CBRN_MTP",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_Kite",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_1Rnd_Smoke_Grenade_shell",
+            "count": 2
+          },
+          {
+            "className": "HandGrenade",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellRed",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellBlue",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_Chemlight_HiBlue",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
+          },
+          {
+            "className": "ACE_elasticBandage",
+            "count": 5
+          },
+          {
+            "className": "ACE_quikclot",
+            "count": 5
+          },
+          {
+            "className": "ACE_packingBandage",
+            "count": 10
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_IR_Strobe_Item",
+            "count": 2
+          },
+          {
+            "className": "ACE_EntrenchingTool",
+            "count": 1
+          }
         ]
       },
-      "headgear": "mpx_boonie2",
+      "headgear": "Revision_Scrim",
       "facewear": "UK3CB_BAF_G_Tactical_Clear",
       "assignedItems": {
         "map": "ItemMap",
         "gps": "ItemGPS",
-        "radio": "ACRE_PRC343",
+        "radio": "",
         "compass": "ItemCompass",
-        "watch": "ItemWatch",
-        "nvg": "UK3CB_BAF_HMNVS"
+        "watch": "KAT_Katmin",
+        "nvg": ""
       },
       "extras": {
-        "insignia": "RW_YORKS_Pte",
+        "insignia": "",
         "aceEarplugs": true
+      }
+    },
+    "mappedItems": [
+      {
+        "row": 4,
+        "raw": "1x L85A3 w/ L123A2 Ladder",
+        "item": "L85A3 w/ L123A2 Ladder",
+        "quantity": 1,
+        "className": "UK3CB_BAF_L85A3_UGL",
+        "displayName": "L85A3 with L123A2 Ladder",
+        "matchReason": "alias-compat-display",
+        "assignedTo": "primary.weapon"
       },
-      "totalCarryLimit": 500
-    }
+      {
+        "row": 5,
+        "raw": "1x LDS",
+        "item": "LDS",
+        "quantity": 1,
+        "className": "RKSL_optic_LDS",
+        "displayName": "LDS",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.optic"
+      },
+      {
+        "row": 6,
+        "raw": "1x VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "item": "VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "quantity": 1,
+        "className": "4IB_LLM_IR_Laser",
+        "displayName": "VarioRay LLM Mk3 IR (Tan)",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.rail"
+      },
+      {
+        "row": 8,
+        "raw": "4x 5.56mm 30rnd Mag",
+        "item": "5.56mm 30rnd Mag",
+        "quantity": 4,
+        "className": "UK3CB_BAF_556_30Rnd",
+        "displayName": "5.56mm 30rnd Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.magClass"
+      },
+      {
+        "row": 9,
+        "raw": "2x 5.56mm 30rnd Tracer Mag",
+        "item": "5.56mm 30rnd Tracer Mag",
+        "quantity": 2,
+        "className": "UK3CB_BAF_556_30Rnd_T",
+        "displayName": "5.56mm 30rnd Tracer Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.altMagClass"
+      },
+      {
+        "row": 29,
+        "raw": "1x GPS",
+        "item": "GPS",
+        "quantity": 1,
+        "className": "ItemGPS",
+        "displayName": "GPS",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.gps"
+      },
+      {
+        "row": 33,
+        "raw": "1x Compass",
+        "item": "Compass",
+        "quantity": 1,
+        "className": "ItemCompass",
+        "displayName": "Compass",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.compass"
+      },
+      {
+        "row": 34,
+        "raw": "1x Map",
+        "item": "Map",
+        "quantity": 1,
+        "className": "ItemMap",
+        "displayName": "Map",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.map"
+      },
+      {
+        "row": 43,
+        "raw": "1x Vector-21 Nite",
+        "item": "Vector-21 Nite",
+        "quantity": 1,
+        "className": "ACE_Vector",
+        "displayName": "Vector 21 Nite",
+        "matchReason": "alias-display",
+        "assignedTo": "binoculars.weapon"
+      },
+      {
+        "row": 52,
+        "raw": "1x M50 Respirator",
+        "item": "M50 Respirator",
+        "quantity": 1,
+        "className": "G_CBRN_M50_Hood",
+        "displayName": "M50 Promask w/ Hood",
+        "matchReason": "alias-class",
+        "assignedTo": "facewear"
+      },
+      {
+        "row": 53,
+        "raw": "1x CBRN MTP Suit",
+        "item": "CBRN MTP Suit",
+        "quantity": 1,
+        "className": "U_CBRN_MTP",
+        "displayName": "CBRN Suit (MTP)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.className"
+      },
+      {
+        "row": 7,
+        "raw": "1x KITE",
+        "item": "KITE",
+        "quantity": 1,
+        "className": "UK3CB_BAF_Kite",
+        "displayName": "KITE",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 10,
+        "raw": "2x 40mm Red Smoke (L123)",
+        "item": "40mm Red Smoke (L123)",
+        "quantity": 2,
+        "className": "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell",
+        "displayName": "40mm Red Smoke (L123)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 11,
+        "raw": "2x 40mm White Smoke (L123)",
+        "item": "40mm White Smoke (L123)",
+        "quantity": 2,
+        "className": "UK3CB_BAF_1Rnd_Smoke_Grenade_shell",
+        "displayName": "40mm White Smoke (L123)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 12,
+        "raw": "4x HuntIR Round",
+        "item": "HuntIR Round",
+        "quantity": 4,
+        "className": "ACE_HuntIR_M203",
+        "displayName": "HuntIR Round",
+        "matchReason": "alias-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 13,
+        "raw": "2x M67 Fragmentation Grenade",
+        "item": "M67 Fragmentation Grenade",
+        "quantity": 2,
+        "className": "HandGrenade",
+        "displayName": "M67 Fragmentation Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 14,
+        "raw": "4x L50A1 White Smoke Grenade",
+        "item": "L50A1 White Smoke Grenade",
+        "quantity": 4,
+        "className": "UK3CB_BAF_SmokeShell",
+        "displayName": "L50A1 White Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 15,
+        "raw": "2x L70 Red Smoke Grenade",
+        "item": "L70 Red Smoke Grenade",
+        "quantity": 2,
+        "className": "UK3CB_BAF_SmokeShellRed",
+        "displayName": "L70 Red Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 16,
+        "raw": "2x L71 Blue Smoke Grenade",
+        "item": "L71 Blue Smoke Grenade",
+        "quantity": 2,
+        "className": "UK3CB_BAF_SmokeShellBlue",
+        "displayName": "L71 Blue Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 17,
+        "raw": "1x L100 Yellow Smoke Grenade",
+        "item": "L100 Yellow Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellYellow",
+        "displayName": "L100 Yellow Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 18,
+        "raw": "3x Chemlights (Hi Blue)",
+        "item": "Chemlights (Hi Blue)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiBlue",
+        "displayName": "Chemlight (Hi Blue)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 19,
+        "raw": "1x Chemlight (Hi Yellow)",
+        "item": "Chemlight (Hi Yellow)",
+        "quantity": 1,
+        "className": "ACE_Chemlight_HiYellow",
+        "displayName": "Chemlight (Hi Yellow)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 20,
+        "raw": "1x ATNAA Autoinjector",
+        "item": "ATNAA Autoinjector",
+        "quantity": 1,
+        "className": "ACE_ATNAA_AntidoteInjector",
+        "displayName": "ATNAA (Antidote injector)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 21,
+        "raw": "5x Bandage (Elastic)",
+        "item": "Bandage (Elastic)",
+        "quantity": 5,
+        "className": "ACE_elasticBandage",
+        "displayName": "Bandage (Elastic)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 22,
+        "raw": "5x Bandage (QuikClot)",
+        "item": "Bandage (QuikClot)",
+        "quantity": 5,
+        "className": "ACE_quikclot",
+        "displayName": "Bandage (QuikClot)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 23,
+        "raw": "10x Bandage (Packing)",
+        "item": "Bandage (Packing)",
+        "quantity": 10,
+        "className": "ACE_packingBandage",
+        "displayName": "Bandage (Packing)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 24,
+        "raw": "4x Tourniquets",
+        "item": "Tourniquets",
+        "quantity": 4,
+        "className": "ACE_tourniquet",
+        "displayName": "Tourniquet (CAT)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 25,
+        "raw": "2x Canteen",
+        "item": "Canteen",
+        "quantity": 2,
+        "className": "ACE_Canteen",
+        "displayName": "Canteen",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 27,
+        "raw": "2x AN/PRC-152",
+        "item": "AN/PRC-152",
+        "quantity": 2,
+        "className": "ACRE_PRC152",
+        "displayName": "AN/PRC-152",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 28,
+        "raw": "1x AN/PRC-343",
+        "item": "AN/PRC-343",
+        "quantity": 1,
+        "className": "ACRE_PRC343",
+        "displayName": "AN/PRC-343",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 31,
+        "raw": "1x Cam Cream Kit - Europe",
+        "item": "Cam Cream Kit - Europe",
+        "quantity": 1,
+        "className": "FISH_Cream_Kit_Europe",
+        "displayName": "Cam Cream Kit - Europe",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 32,
+        "raw": "4x Cable Tie",
+        "item": "Cable Tie",
+        "quantity": 4,
+        "className": "ACE_CableTie",
+        "displayName": "Cable Tie",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 35,
+        "raw": "1x Map Tools",
+        "item": "Map Tools",
+        "quantity": 1,
+        "className": "ACE_MapTools",
+        "displayName": "Map Tools",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 36,
+        "raw": "1x Fulton MX-991",
+        "item": "Fulton MX-991",
+        "quantity": 1,
+        "className": "ACE_Flashlight_MX991",
+        "displayName": "Fulton MX-991",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 37,
+        "raw": "2x IR Strobe",
+        "item": "IR Strobe",
+        "quantity": 2,
+        "className": "ACE_IR_Strobe_Item",
+        "displayName": "IR Strobe",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 38,
+        "raw": "1x Slate Card: Aide Memoire",
+        "item": "Slate Card: Aide Memoire",
+        "quantity": 1,
+        "className": "UK4IB_SlateCards",
+        "displayName": "Slate Cards (Aide Memoire)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 39,
+        "raw": "1x Entrenching Tool",
+        "item": "Entrenching Tool",
+        "quantity": 1,
+        "className": "ACE_EntrenchingTool",
+        "displayName": "Entrenching Tool",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 42,
+        "raw": "1x HuntIR Monitor",
+        "item": "HuntIR Monitor",
+        "quantity": 1,
+        "className": "ACE_HuntIR_monitor",
+        "displayName": "HuntIR Monitor",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 44,
+        "raw": "1x MicroDAGR GPS GPS",
+        "item": "MicroDAGR GPS GPS",
+        "quantity": 1,
+        "className": "ACE_microDAGR",
+        "displayName": "MicroDAGR GPS",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 45,
+        "raw": "1x Head-Mounted NV System [BAF]",
+        "item": "Head-Mounted NV System [BAF]",
+        "quantity": 1,
+        "className": "UK3CB_BAF_HMNVS",
+        "displayName": "Head-Mounted NV System [BAF]",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 46,
+        "raw": "1x Helmet Camera",
+        "item": "Helmet Camera",
+        "quantity": 1,
+        "className": "ItemcTabHCam",
+        "displayName": "Helmet Camera",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 48,
+        "raw": "1x Gas Mask Filters",
+        "item": "Gas Mask Filters",
+        "quantity": 1,
+        "className": "CBRN_gasmaskFilter",
+        "displayName": "Gas mask Filter",
+        "matchReason": "alias-class",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 54,
+        "raw": "1x RYORKS Uniform",
+        "item": "RYORKS Uniform",
+        "quantity": 1,
+        "className": "BZD_PCS_R1_RYorks",
+        "displayName": "UBAC [RYorks]",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.className"
+      }
+    ],
+    "unplacedItems": [],
+    "unresolvedItems": [],
+    "ambiguousItems": []
   },
   {
-    "id": "two-ic-default",
-    "name": "2IC Default",
-    "role": "2IC",
-    "description": "Heavier command-oriented role with long-range radio, navigation tools, and spare signals kit.",
+    "id": "platoon-sergeant",
+    "name": "Platoon Sergeant",
+    "role": "Platoon Sergeant",
+    "description": "Mapped from legacy Infantry CEFO without guessing. Container placement left empty unless the CEFO explicitly identified the container item itself.",
+    "group": "Platoon HQ",
     "loadout": {
       "primary": {
         "weapon": "UK3CB_BAF_L85A3",
         "barrel": "",
-        "rail": "4IB_LLM_IR_Laser_Tan",
-        "optic": "RKSL_optic_LDS_PiP",
+        "rail": "4IB_LLM_IR_Laser",
+        "optic": "RKSL_optic_LDS",
         "magClass": "UK3CB_BAF_556_30Rnd",
-        "magAmmo": 30,
-        "altMagClass": "",
-        "altMagAmmo": "",
+        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
         "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
       },
       "launcher": {
-        "weapon": "UK3CB_BAF_AT4_CS_AT_Launcher",
+        "weapon": "",
         "barrel": "",
         "rail": "",
         "optic": "",
-        "magClass": "UK3CB_BAF_AT4_CS_AT_Mag",
-        "magAmmo": 1,
+        "magClass": "",
         "altMagClass": "",
-        "altMagAmmo": "",
         "underbarrel": ""
       },
-      "handgun": {},
-      "binoculars": { "weapon": "ACE_Vector" },
+      "handgun": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "binoculars": {
+        "weapon": "ACE_Vector"
+      },
       "uniform": {
-        "className": "RW_MTP_YORKS",
+        "className": "BZD_PCS_R1_RYorks",
         "items": [
-          { "className": "ACE_MapTools", "count": 1 },
-          { "className": "ACE_microDAGR", "count": 1 },
-          { "className": "ItemcTabHCam", "count": 1 },
-          { "className": "ACRE_PRC343", "count": 1 },
-          { "className": "ACE_EarPlugs", "count": 2 }
+          {
+            "className": "ACRE_PRC152",
+            "count": 2
+          },
+          {
+            "className": "ACRE_PRC343",
+            "count": 1
+          },
+          {
+            "className": "FISH_Cream_Kit_Europe",
+            "count": 1
+          },
+          {
+            "className": "ACE_MapTools",
+            "count": 1
+          },
+          {
+            "className": "ACE_Flashlight_MX991",
+            "count": 1
+          },
+          {
+            "className": "UK4IB_SlateCards",
+            "count": 1
+          },
+          {
+            "className": "ACE_key_west",
+            "count": 1
+          },
+          {
+            "className": "ACE_microDAGR",
+            "count": 1
+          },
+          {
+            "className": "ItemcTabHCam",
+            "count": 1
+          },
+          {
+            "className": "ItemAndroid",
+            "count": 1
+          }
         ]
       },
       "vest": {
-        "className": "Virtus_D_9",
+        "className": "BZD_Virtus_Rifleman_A1_NB",
         "items": [
-          { "className": "UK3CB_BAF_556_30Rnd", "count": 4, "ammo": 30 },
-          { "className": "UK3CB_BAF_556_30Rnd_T", "count": 2, "ammo": 30 },
-          { "className": "HandGrenade", "count": 2, "ammo": 1 },
-          { "className": "UK3CB_BAF_SmokeShell", "count": 2, "ammo": 1 },
-          { "className": "UK3CB_BAF_SmokeShellYellow", "count": 1, "ammo": 1 },
-          { "className": "ACE_Canteen", "count": 1 },
-          { "className": "ACRE_PRC152", "count": 1 }
+          {
+            "className": "ACE_Canteen",
+            "count": 2
+          },
+          {
+            "className": "ACE_CableTie",
+            "count": 6
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
+          },
+          {
+            "className": "CBRN_gasmaskFilter",
+            "count": 1
+          },
+          {
+            "className": "ACE_MRE_BeefStew",
+            "count": 2
+          }
         ]
       },
       "backpack": {
-        "className": "mpx_daysack12",
+        "className": "BAF_BACK_1",
         "items": [
-          { "className": "ACE_packingBandage", "count": 8 },
-          { "className": "ACE_elasticBandage", "count": 6 },
-          { "className": "ACE_quikclot", "count": 6 },
-          { "className": "ACE_tourniquet", "count": 3 },
-          { "className": "ACE_splint", "count": 2 },
-          { "className": "ACE_morphine", "count": 2 },
-          { "className": "ACE_epinephrine", "count": 2 },
-          { "className": "ACE_Chemlight_HiBlue", "count": 3, "ammo": 1 },
-          { "className": "ACE_Chemlight_HiYellow", "count": 2, "ammo": 1 }
+          {
+            "className": "U_CBRN_MTP",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_Kite",
+            "count": 1
+          },
+          {
+            "className": "HandGrenade",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellRed",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellBlue",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellYellow",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellPurple",
+            "count": 2
+          },
+          {
+            "className": "ACE_Chemlight_HiBlue",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiRed",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiYellow",
+            "count": 3
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
+          },
+          {
+            "className": "ACE_elasticBandage",
+            "count": 5
+          },
+          {
+            "className": "ACE_quikclot",
+            "count": 5
+          },
+          {
+            "className": "ACE_packingBandage",
+            "count": 10
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_IR_Strobe_Item",
+            "count": 2
+          },
+          {
+            "className": "ACE_EntrenchingTool",
+            "count": 1
+          }
         ]
       },
-      "headgear": "mpx_cobra_scrim",
+      "headgear": "Revision_Scrim",
       "facewear": "UK3CB_BAF_G_Tactical_Clear",
       "assignedItems": {
         "map": "ItemMap",
         "gps": "ItemGPS",
-        "radio": "ACRE_PRC152",
+        "radio": "",
         "compass": "ItemCompass",
-        "watch": "ItemWatch",
-        "nvg": "UK3CB_BAF_HMNVS"
+        "watch": "KAT_Katmin",
+        "nvg": ""
       },
       "extras": {
-        "insignia": "RW_YORKS_Pte",
+        "insignia": "",
         "aceEarplugs": true
+      }
+    },
+    "mappedItems": [
+      {
+        "row": 4,
+        "raw": "1x L85A3",
+        "item": "L85A3",
+        "quantity": 1,
+        "className": "UK3CB_BAF_L85A3",
+        "displayName": "L85A3",
+        "matchReason": "alias-compat-display",
+        "assignedTo": "primary.weapon"
       },
-      "totalCarryLimit": 500
-    }
+      {
+        "row": 5,
+        "raw": "1x LDS",
+        "item": "LDS",
+        "quantity": 1,
+        "className": "RKSL_optic_LDS",
+        "displayName": "LDS",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.optic"
+      },
+      {
+        "row": 6,
+        "raw": "1x VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "item": "VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "quantity": 1,
+        "className": "4IB_LLM_IR_Laser",
+        "displayName": "VarioRay LLM Mk3 IR (Tan)",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.rail"
+      },
+      {
+        "row": 7,
+        "raw": "1x Grip-pod (Tan)",
+        "item": "Grip-pod (Tan)",
+        "quantity": 1,
+        "className": "UK3CB_underbarrel_acc_grippod_t",
+        "displayName": "Grip-pod (Tan)",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.underbarrel"
+      },
+      {
+        "row": 9,
+        "raw": "4x 5.56mm 30rnd Mag",
+        "item": "5.56mm 30rnd Mag",
+        "quantity": 4,
+        "className": "UK3CB_BAF_556_30Rnd",
+        "displayName": "5.56mm 30rnd Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.magClass"
+      },
+      {
+        "row": 10,
+        "raw": "2x 5.56mm 30rnd Tracer Mag",
+        "item": "5.56mm 30rnd Tracer Mag",
+        "quantity": 2,
+        "className": "UK3CB_BAF_556_30Rnd_T",
+        "displayName": "5.56mm 30rnd Tracer Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.altMagClass"
+      },
+      {
+        "row": 29,
+        "raw": "1x GPS",
+        "item": "GPS",
+        "quantity": 1,
+        "className": "ItemGPS",
+        "displayName": "GPS",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.gps"
+      },
+      {
+        "row": 33,
+        "raw": "1x Compass",
+        "item": "Compass",
+        "quantity": 1,
+        "className": "ItemCompass",
+        "displayName": "Compass",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.compass"
+      },
+      {
+        "row": 34,
+        "raw": "1x Map",
+        "item": "Map",
+        "quantity": 1,
+        "className": "ItemMap",
+        "displayName": "Map",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.map"
+      },
+      {
+        "row": 43,
+        "raw": "1x Vector-21 Nite",
+        "item": "Vector-21 Nite",
+        "quantity": 1,
+        "className": "ACE_Vector",
+        "displayName": "Vector 21 Nite",
+        "matchReason": "alias-display",
+        "assignedTo": "binoculars.weapon"
+      },
+      {
+        "row": 52,
+        "raw": "1x M50 Respirator",
+        "item": "M50 Respirator",
+        "quantity": 1,
+        "className": "G_CBRN_M50_Hood",
+        "displayName": "M50 Promask w/ Hood",
+        "matchReason": "alias-class",
+        "assignedTo": "facewear"
+      },
+      {
+        "row": 53,
+        "raw": "1x CBRN MTP Suit",
+        "item": "CBRN MTP Suit",
+        "quantity": 1,
+        "className": "U_CBRN_MTP",
+        "displayName": "CBRN Suit (MTP)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.className"
+      },
+      {
+        "row": 8,
+        "raw": "1x KITE",
+        "item": "KITE",
+        "quantity": 1,
+        "className": "UK3CB_BAF_Kite",
+        "displayName": "KITE",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 11,
+        "raw": "2x M67 Fragmentation Grenade",
+        "item": "M67 Fragmentation Grenade",
+        "quantity": 2,
+        "className": "HandGrenade",
+        "displayName": "M67 Fragmentation Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 12,
+        "raw": "4x L50A1 White Smoke Grenade",
+        "item": "L50A1 White Smoke Grenade",
+        "quantity": 4,
+        "className": "UK3CB_BAF_SmokeShell",
+        "displayName": "L50A1 White Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 13,
+        "raw": "2x L70 Red Smoke Grenade",
+        "item": "L70 Red Smoke Grenade",
+        "quantity": 2,
+        "className": "UK3CB_BAF_SmokeShellRed",
+        "displayName": "L70 Red Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 14,
+        "raw": "2x L71 Blue Smoke Grenade",
+        "item": "L71 Blue Smoke Grenade",
+        "quantity": 2,
+        "className": "UK3CB_BAF_SmokeShellBlue",
+        "displayName": "L71 Blue Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 15,
+        "raw": "1x L100 Yellow Smoke Grenade",
+        "item": "L100 Yellow Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellYellow",
+        "displayName": "L100 Yellow Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 16,
+        "raw": "2x L101 Purple Smoke Grenade",
+        "item": "L101 Purple Smoke Grenade",
+        "quantity": 2,
+        "className": "UK3CB_BAF_SmokeShellPurple",
+        "displayName": "L101 Purple Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 17,
+        "raw": "3x Chemlights (Hi Blue)",
+        "item": "Chemlights (Hi Blue)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiBlue",
+        "displayName": "Chemlight (Hi Blue)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 18,
+        "raw": "3x Chemlight (Hi Red)",
+        "item": "Chemlight (Hi Red)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiRed",
+        "displayName": "Chemlight (Hi Red)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 19,
+        "raw": "3x Chemlight (Hi Yellow)",
+        "item": "Chemlight (Hi Yellow)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiYellow",
+        "displayName": "Chemlight (Hi Yellow)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 20,
+        "raw": "1x ATNAA Autoinjector",
+        "item": "ATNAA Autoinjector",
+        "quantity": 1,
+        "className": "ACE_ATNAA_AntidoteInjector",
+        "displayName": "ATNAA (Antidote injector)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 21,
+        "raw": "5x Bandage (Elastic)",
+        "item": "Bandage (Elastic)",
+        "quantity": 5,
+        "className": "ACE_elasticBandage",
+        "displayName": "Bandage (Elastic)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 22,
+        "raw": "5x Bandage (QuikClot)",
+        "item": "Bandage (QuikClot)",
+        "quantity": 5,
+        "className": "ACE_quikclot",
+        "displayName": "Bandage (QuikClot)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 23,
+        "raw": "10x Bandage (Packing)",
+        "item": "Bandage (Packing)",
+        "quantity": 10,
+        "className": "ACE_packingBandage",
+        "displayName": "Bandage (Packing)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 24,
+        "raw": "4x Tourniquets",
+        "item": "Tourniquets",
+        "quantity": 4,
+        "className": "ACE_tourniquet",
+        "displayName": "Tourniquet (CAT)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 25,
+        "raw": "2x Canteen",
+        "item": "Canteen",
+        "quantity": 2,
+        "className": "ACE_Canteen",
+        "displayName": "Canteen",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 27,
+        "raw": "2x AN/PRC-152",
+        "item": "AN/PRC-152",
+        "quantity": 2,
+        "className": "ACRE_PRC152",
+        "displayName": "AN/PRC-152",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 28,
+        "raw": "1x AN/PRC-343",
+        "item": "AN/PRC-343",
+        "quantity": 1,
+        "className": "ACRE_PRC343",
+        "displayName": "AN/PRC-343",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 31,
+        "raw": "1x Cam Cream Kit - Europe",
+        "item": "Cam Cream Kit - Europe",
+        "quantity": 1,
+        "className": "FISH_Cream_Kit_Europe",
+        "displayName": "Cam Cream Kit - Europe",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 32,
+        "raw": "6x Cable Tie",
+        "item": "Cable Tie",
+        "quantity": 6,
+        "className": "ACE_CableTie",
+        "displayName": "Cable Tie",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 35,
+        "raw": "1x Map Tools",
+        "item": "Map Tools",
+        "quantity": 1,
+        "className": "ACE_MapTools",
+        "displayName": "Map Tools",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 36,
+        "raw": "1x Fulton MX-991",
+        "item": "Fulton MX-991",
+        "quantity": 1,
+        "className": "ACE_Flashlight_MX991",
+        "displayName": "Fulton MX-991",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 37,
+        "raw": "2x IR Strobe",
+        "item": "IR Strobe",
+        "quantity": 2,
+        "className": "ACE_IR_Strobe_Item",
+        "displayName": "IR Strobe",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 38,
+        "raw": "1x Slate Card: Aide Memoire",
+        "item": "Slate Card: Aide Memoire",
+        "quantity": 1,
+        "className": "UK4IB_SlateCards",
+        "displayName": "Slate Cards (Aide Memoire)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 39,
+        "raw": "1x Entrenching Tool",
+        "item": "Entrenching Tool",
+        "quantity": 1,
+        "className": "ACE_EntrenchingTool",
+        "displayName": "Entrenching Tool",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 40,
+        "raw": "1x Western Vehicle Key",
+        "item": "Western Vehicle Key",
+        "quantity": 1,
+        "className": "ACE_key_west",
+        "displayName": "Vehicle Key: West",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 44,
+        "raw": "1x MicroDAGR GPS GPS",
+        "item": "MicroDAGR GPS GPS",
+        "quantity": 1,
+        "className": "ACE_microDAGR",
+        "displayName": "MicroDAGR GPS",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 45,
+        "raw": "1x Head-Mounted NV System [BAF]",
+        "item": "Head-Mounted NV System [BAF]",
+        "quantity": 1,
+        "className": "UK3CB_BAF_HMNVS",
+        "displayName": "Head-Mounted NV System [BAF]",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 46,
+        "raw": "1x Helmet Camera",
+        "item": "Helmet Camera",
+        "quantity": 1,
+        "className": "ItemcTabHCam",
+        "displayName": "Helmet Camera",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 48,
+        "raw": "1x Gas Mask Filters",
+        "item": "Gas Mask Filters",
+        "quantity": 1,
+        "className": "CBRN_gasmaskFilter",
+        "displayName": "Gas mask Filter",
+        "matchReason": "alias-class",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 54,
+        "raw": "1x RYORKS Uniform",
+        "item": "RYORKS Uniform",
+        "quantity": 1,
+        "className": "BZD_PCS_R1_RYorks",
+        "displayName": "UBAC [RYorks]",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.className"
+      }
+    ],
+    "unplacedItems": [],
+    "unresolvedItems": [],
+    "ambiguousItems": []
+  },
+  {
+    "id": "ic",
+    "name": "IC",
+    "role": "IC",
+    "description": "Mapped from legacy Infantry CEFO without guessing. Container placement left empty unless the CEFO explicitly identified the container item itself.",
+    "group": "Infantry Section",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L85A3",
+        "barrel": "",
+        "rail": "4IB_LLM_IR_Laser",
+        "optic": "RKSL_optic_LDS",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
+      },
+      "launcher": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "handgun": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "binoculars": {
+        "weapon": "ACE_Vector"
+      },
+      "uniform": {
+        "className": "BZD_PCS_R1_RYorks",
+        "items": [
+          {
+            "className": "ACRE_PRC152",
+            "count": 2
+          },
+          {
+            "className": "ACRE_PRC343",
+            "count": 1
+          },
+          {
+            "className": "FISH_Cream_Kit_Europe",
+            "count": 1
+          },
+          {
+            "className": "ACE_MapTools",
+            "count": 1
+          },
+          {
+            "className": "ACE_Flashlight_MX991",
+            "count": 1
+          },
+          {
+            "className": "UK4IB_SlateCards",
+            "count": 1
+          },
+          {
+            "className": "ACE_key_west",
+            "count": 1
+          },
+          {
+            "className": "ItemAndroid",
+            "count": 1
+          },
+          {
+            "className": "ACE_microDAGR",
+            "count": 1
+          },
+          {
+            "className": "ItemcTabHCam",
+            "count": 1
+          }
+        ]
+      },
+      "vest": {
+        "className": "BZD_Virtus_Rifleman_A1_NB",
+        "items": [
+          {
+            "className": "UK3CB_BAF_556_30Rnd",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_556_30Rnd_T",
+            "count": 2
+          },
+          {
+            "className": "ACE_Canteen",
+            "count": 2
+          },
+          {
+            "className": "ACE_CableTie",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
+          },
+          {
+            "className": "CBRN_gasmaskFilter",
+            "count": 1
+          },
+          {
+            "className": "ACE_MRE_BeefStew",
+            "count": 2
+          }
+        ]
+      },
+      "backpack": {
+        "className": "BAF_BACK_1",
+        "items": [
+          {
+            "className": "U_CBRN_MTP",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_Kite",
+            "count": 1
+          },
+          {
+            "className": "HandGrenade",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellRed",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellBlue",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_Chemlight_HiBlue",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
+          },
+          {
+            "className": "ACE_elasticBandage",
+            "count": 5
+          },
+          {
+            "className": "ACE_quikclot",
+            "count": 5
+          },
+          {
+            "className": "ACE_packingBandage",
+            "count": 10
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_IR_Strobe_Item",
+            "count": 2
+          },
+          {
+            "className": "ACE_EntrenchingTool",
+            "count": 1
+          }
+        ]
+      },
+      "headgear": "Revision_Scrim",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "",
+        "compass": "ItemCompass",
+        "watch": "KAT_Katmin",
+        "nvg": ""
+      },
+      "extras": {
+        "insignia": "",
+        "aceEarplugs": true
+      }
+    },
+    "mappedItems": [
+      {
+        "row": 27,
+        "raw": "1x GPS",
+        "item": "GPS",
+        "quantity": 1,
+        "className": "ItemGPS",
+        "displayName": "GPS",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.gps"
+      },
+      {
+        "row": 31,
+        "raw": "1x Compass",
+        "item": "Compass",
+        "quantity": 1,
+        "className": "ItemCompass",
+        "displayName": "Compass",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.compass"
+      },
+      {
+        "row": 32,
+        "raw": "1x Map",
+        "item": "Map",
+        "quantity": 1,
+        "className": "ItemMap",
+        "displayName": "Map",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.map"
+      },
+      {
+        "row": 41,
+        "raw": "1x Vector-21 Nite",
+        "item": "Vector-21 Nite",
+        "quantity": 1,
+        "className": "ACE_Vector",
+        "displayName": "Vector 21 Nite",
+        "matchReason": "alias-display",
+        "assignedTo": "binoculars.weapon"
+      },
+      {
+        "row": 50,
+        "raw": "1x M50 Respirator",
+        "item": "M50 Respirator",
+        "quantity": 1,
+        "className": "G_CBRN_M50_Hood",
+        "displayName": "M50 Promask w/ Hood",
+        "matchReason": "alias-class",
+        "assignedTo": "facewear"
+      },
+      {
+        "row": 51,
+        "raw": "1x CBRN MTP Suit",
+        "item": "CBRN MTP Suit",
+        "quantity": 1,
+        "className": "U_CBRN_MTP",
+        "displayName": "CBRN Suit (MTP)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.className"
+      },
+      {
+        "row": 5,
+        "raw": "1x LDS",
+        "item": "LDS",
+        "quantity": 1,
+        "className": "RKSL_optic_LDS",
+        "displayName": "LDS",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.optic"
+      },
+      {
+        "row": 6,
+        "raw": "1x VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "item": "VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "quantity": 1,
+        "className": "4IB_LLM_IR_Laser",
+        "displayName": "VarioRay LLM Mk3 IR (Tan)",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.rail"
+      },
+      {
+        "row": 7,
+        "raw": "1x Grip-pod (Tan)",
+        "item": "Grip-pod (Tan)",
+        "quantity": 1,
+        "className": "UK3CB_underbarrel_acc_grippod_t",
+        "displayName": "Grip-pod (Tan)",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.underbarrel"
+      },
+      {
+        "row": 8,
+        "raw": "1x KITE",
+        "item": "KITE",
+        "quantity": 1,
+        "className": "UK3CB_BAF_Kite",
+        "displayName": "KITE",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 9,
+        "raw": "4x 5.56mm 30rnd Mag",
+        "item": "5.56mm 30rnd Mag",
+        "quantity": 4,
+        "className": "UK3CB_BAF_556_30Rnd",
+        "displayName": "5.56mm 30rnd Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 10,
+        "raw": "2x 5.56mm 30rnd Tracer Mag",
+        "item": "5.56mm 30rnd Tracer Mag",
+        "quantity": 2,
+        "className": "UK3CB_BAF_556_30Rnd_T",
+        "displayName": "5.56mm 30rnd Tracer Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 11,
+        "raw": "2x M67 Fragmentation Grenade",
+        "item": "M67 Fragmentation Grenade",
+        "quantity": 2,
+        "className": "HandGrenade",
+        "displayName": "M67 Fragmentation Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 12,
+        "raw": "4x L50A1 White Smoke Grenade",
+        "item": "L50A1 White Smoke Grenade",
+        "quantity": 4,
+        "className": "UK3CB_BAF_SmokeShell",
+        "displayName": "L50A1 White Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 13,
+        "raw": "1x L70 Red Smoke Grenade",
+        "item": "L70 Red Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellRed",
+        "displayName": "L70 Red Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 14,
+        "raw": "2x L71 Blue Smoke Grenade",
+        "item": "L71 Blue Smoke Grenade",
+        "quantity": 2,
+        "className": "UK3CB_BAF_SmokeShellBlue",
+        "displayName": "L71 Blue Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 15,
+        "raw": "1x L100 Yellow Smoke Grenade",
+        "item": "L100 Yellow Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellYellow",
+        "displayName": "L100 Yellow Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 16,
+        "raw": "3x Chemlights (Hi Blue)",
+        "item": "Chemlights (Hi Blue)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiBlue",
+        "displayName": "Chemlight (Hi Blue)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 17,
+        "raw": "1x Chemlight (Hi Yellow)",
+        "item": "Chemlight (Hi Yellow)",
+        "quantity": 1,
+        "className": "ACE_Chemlight_HiYellow",
+        "displayName": "Chemlight (Hi Yellow)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 18,
+        "raw": "1x ATNAA Autoinjector",
+        "item": "ATNAA Autoinjector",
+        "quantity": 1,
+        "className": "ACE_ATNAA_AntidoteInjector",
+        "displayName": "ATNAA (Antidote injector)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 19,
+        "raw": "5x Bandage (Elastic)",
+        "item": "Bandage (Elastic)",
+        "quantity": 5,
+        "className": "ACE_elasticBandage",
+        "displayName": "Bandage (Elastic)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 20,
+        "raw": "5x Bandage (QuikClot)",
+        "item": "Bandage (QuikClot)",
+        "quantity": 5,
+        "className": "ACE_quikclot",
+        "displayName": "Bandage (QuikClot)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 21,
+        "raw": "10x Bandage (Packing)",
+        "item": "Bandage (Packing)",
+        "quantity": 10,
+        "className": "ACE_packingBandage",
+        "displayName": "Bandage (Packing)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 22,
+        "raw": "4x Tourniquets",
+        "item": "Tourniquets",
+        "quantity": 4,
+        "className": "ACE_tourniquet",
+        "displayName": "Tourniquet (CAT)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 23,
+        "raw": "2x Canteen",
+        "item": "Canteen",
+        "quantity": 2,
+        "className": "ACE_Canteen",
+        "displayName": "Canteen",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 25,
+        "raw": "2x AN/PRC-152",
+        "item": "AN/PRC-152",
+        "quantity": 2,
+        "className": "ACRE_PRC152",
+        "displayName": "AN/PRC-152",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 26,
+        "raw": "1x AN/PRC-343",
+        "item": "AN/PRC-343",
+        "quantity": 1,
+        "className": "ACRE_PRC343",
+        "displayName": "AN/PRC-343",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 29,
+        "raw": "1x Cam Cream Kit - Europe",
+        "item": "Cam Cream Kit - Europe",
+        "quantity": 1,
+        "className": "FISH_Cream_Kit_Europe",
+        "displayName": "Cam Cream Kit - Europe",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 30,
+        "raw": "4x Cable Tie",
+        "item": "Cable Tie",
+        "quantity": 4,
+        "className": "ACE_CableTie",
+        "displayName": "Cable Tie",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 33,
+        "raw": "1x Map Tools",
+        "item": "Map Tools",
+        "quantity": 1,
+        "className": "ACE_MapTools",
+        "displayName": "Map Tools",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 34,
+        "raw": "1x Fulton MX-991",
+        "item": "Fulton MX-991",
+        "quantity": 1,
+        "className": "ACE_Flashlight_MX991",
+        "displayName": "Fulton MX-991",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 35,
+        "raw": "2x IR Strobe",
+        "item": "IR Strobe",
+        "quantity": 2,
+        "className": "ACE_IR_Strobe_Item",
+        "displayName": "IR Strobe",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 36,
+        "raw": "1x Slate Card: Aide Memoire",
+        "item": "Slate Card: Aide Memoire",
+        "quantity": 1,
+        "className": "UK4IB_SlateCards",
+        "displayName": "Slate Cards (Aide Memoire)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 37,
+        "raw": "1x Entrenching Tool",
+        "item": "Entrenching Tool",
+        "quantity": 1,
+        "className": "ACE_EntrenchingTool",
+        "displayName": "Entrenching Tool",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 38,
+        "raw": "1x Western Vehicle Key",
+        "item": "Western Vehicle Key",
+        "quantity": 1,
+        "className": "ACE_key_west",
+        "displayName": "Vehicle Key: West",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 40,
+        "raw": "1x S7 Android",
+        "item": "S7 Android",
+        "quantity": 1,
+        "className": "ItemAndroid",
+        "displayName": "S7 Android",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 42,
+        "raw": "1x MicroDAGR GPS GPS",
+        "item": "MicroDAGR GPS GPS",
+        "quantity": 1,
+        "className": "ACE_microDAGR",
+        "displayName": "MicroDAGR GPS",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 43,
+        "raw": "1x Head-Mounted NV System [BAF]",
+        "item": "Head-Mounted NV System [BAF]",
+        "quantity": 1,
+        "className": "UK3CB_BAF_HMNVS",
+        "displayName": "Head-Mounted NV System [BAF]",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 44,
+        "raw": "1x Helmet Camera",
+        "item": "Helmet Camera",
+        "quantity": 1,
+        "className": "ItemcTabHCam",
+        "displayName": "Helmet Camera",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 46,
+        "raw": "1x Gas Mask Filters",
+        "item": "Gas Mask Filters",
+        "quantity": 1,
+        "className": "CBRN_gasmaskFilter",
+        "displayName": "Gas mask Filter",
+        "matchReason": "alias-class",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 52,
+        "raw": "1x RYORKS Uniform",
+        "item": "RYORKS Uniform",
+        "quantity": 1,
+        "className": "BZD_PCS_R1_RYorks",
+        "displayName": "UBAC [RYorks]",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.className"
+      }
+    ],
+    "unplacedItems": [],
+    "unresolvedItems": [],
+    "ambiguousItems": []
+  },
+  {
+    "id": "2ic",
+    "name": "2IC",
+    "role": "2IC",
+    "description": "Mapped from legacy Infantry CEFO without guessing. Container placement left empty unless the CEFO explicitly identified the container item itself.",
+    "group": "Infantry Section",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L85A3",
+        "barrel": "",
+        "rail": "4IB_LLM_IR_Laser",
+        "optic": "RKSL_optic_LDS",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
+      },
+      "launcher": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "handgun": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "binoculars": {
+        "weapon": "ACE_Vector"
+      },
+      "uniform": {
+        "className": "BZD_PCS_R1_RYorks",
+        "items": [
+          {
+            "className": "ACRE_PRC152",
+            "count": 2
+          },
+          {
+            "className": "ACRE_PRC343",
+            "count": 1
+          },
+          {
+            "className": "FISH_Cream_Kit_Europe",
+            "count": 1
+          },
+          {
+            "className": "ACE_MapTools",
+            "count": 1
+          },
+          {
+            "className": "ACE_Flashlight_MX991",
+            "count": 1
+          },
+          {
+            "className": "UK4IB_SlateCards",
+            "count": 1
+          },
+          {
+            "className": "ACE_key_west",
+            "count": 1
+          },
+          {
+            "className": "ItemAndroid",
+            "count": 1
+          },
+          {
+            "className": "ACE_microDAGR",
+            "count": 1
+          },
+          {
+            "className": "ItemcTabHCam",
+            "count": 1
+          }
+        ]
+      },
+      "vest": {
+        "className": "BZD_Virtus_Rifleman_A1_NB",
+        "items": [
+          {
+            "className": "UK3CB_BAF_556_30Rnd",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_556_30Rnd_T",
+            "count": 2
+          },
+          {
+            "className": "ACE_Canteen",
+            "count": 2
+          },
+          {
+            "className": "ACE_CableTie",
+            "count": 4
+          },
+          {
+            "className": "ACE_Clacker",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
+          },
+          {
+            "className": "CBRN_gasmaskFilter",
+            "count": 1
+          },
+          {
+            "className": "ACE_MRE_BeefStew",
+            "count": 2
+          }
+        ]
+      },
+      "backpack": {
+        "className": "BAF_BACK_1",
+        "items": [
+          {
+            "className": "U_CBRN_MTP",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_Kite",
+            "count": 1
+          },
+          {
+            "className": "RW_AR_Bandolier_Item",
+            "count": 2
+          },
+          {
+            "className": "RW_Smoke_Bandolier_Item",
+            "count": 1
+          },
+          {
+            "className": "RW_Frag_Bandolier_Item",
+            "count": 1
+          },
+          {
+            "className": "HandGrenade",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellRed",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellBlue",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_Chemlight_HiBlue",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
+          },
+          {
+            "className": "ACE_elasticBandage",
+            "count": 5
+          },
+          {
+            "className": "ACE_quikclot",
+            "count": 5
+          },
+          {
+            "className": "ACE_packingBandage",
+            "count": 10
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_IR_Strobe_Item",
+            "count": 2
+          },
+          {
+            "className": "ACE_EntrenchingTool",
+            "count": 1
+          }
+        ]
+      },
+      "headgear": "Revision_Scrim",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "",
+        "compass": "ItemCompass",
+        "watch": "KAT_Katmin",
+        "nvg": ""
+      },
+      "extras": {
+        "insignia": "",
+        "aceEarplugs": true
+      }
+    },
+    "mappedItems": [
+      {
+        "row": 30,
+        "raw": "1x GPS",
+        "item": "GPS",
+        "quantity": 1,
+        "className": "ItemGPS",
+        "displayName": "GPS",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.gps"
+      },
+      {
+        "row": 34,
+        "raw": "1x Compass",
+        "item": "Compass",
+        "quantity": 1,
+        "className": "ItemCompass",
+        "displayName": "Compass",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.compass"
+      },
+      {
+        "row": 35,
+        "raw": "1x Map",
+        "item": "Map",
+        "quantity": 1,
+        "className": "ItemMap",
+        "displayName": "Map",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.map"
+      },
+      {
+        "row": 45,
+        "raw": "1x Vector-21 Nite",
+        "item": "Vector-21 Nite",
+        "quantity": 1,
+        "className": "ACE_Vector",
+        "displayName": "Vector 21 Nite",
+        "matchReason": "alias-display",
+        "assignedTo": "binoculars.weapon"
+      },
+      {
+        "row": 54,
+        "raw": "1x M50 Respirator",
+        "item": "M50 Respirator",
+        "quantity": 1,
+        "className": "G_CBRN_M50_Hood",
+        "displayName": "M50 Promask w/ Hood",
+        "matchReason": "alias-class",
+        "assignedTo": "facewear"
+      },
+      {
+        "row": 55,
+        "raw": "1x CBRN MTP Suit",
+        "item": "CBRN MTP Suit",
+        "quantity": 1,
+        "className": "U_CBRN_MTP",
+        "displayName": "CBRN Suit (MTP)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.className"
+      },
+      {
+        "row": 5,
+        "raw": "1x LDS",
+        "item": "LDS",
+        "quantity": 1,
+        "className": "RKSL_optic_LDS",
+        "displayName": "LDS",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.optic"
+      },
+      {
+        "row": 6,
+        "raw": "1x VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "item": "VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "quantity": 1,
+        "className": "4IB_LLM_IR_Laser",
+        "displayName": "VarioRay LLM Mk3 IR (Tan)",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.rail"
+      },
+      {
+        "row": 7,
+        "raw": "1x Grip-pod (Tan)",
+        "item": "Grip-pod (Tan)",
+        "quantity": 1,
+        "className": "UK3CB_underbarrel_acc_grippod_t",
+        "displayName": "Grip-pod (Tan)",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.underbarrel"
+      },
+      {
+        "row": 8,
+        "raw": "1x KITE",
+        "item": "KITE",
+        "quantity": 1,
+        "className": "UK3CB_BAF_Kite",
+        "displayName": "KITE",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 9,
+        "raw": "4x 5.56mm 30rnd Mag",
+        "item": "5.56mm 30rnd Mag",
+        "quantity": 4,
+        "className": "UK3CB_BAF_556_30Rnd",
+        "displayName": "5.56mm 30rnd Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 10,
+        "raw": "2x 5.56mm 30rnd Tracer Mag",
+        "item": "5.56mm 30rnd Tracer Mag",
+        "quantity": 2,
+        "className": "UK3CB_BAF_556_30Rnd_T",
+        "displayName": "5.56mm 30rnd Tracer Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 11,
+        "raw": "2x Bandolier (Rifle)",
+        "item": "Bandolier (Rifle)",
+        "quantity": 2,
+        "className": "RW_AR_Bandolier_Item",
+        "displayName": "Bandolier (Rifle)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 12,
+        "raw": "1x Bandolier (Smoke Grenade)",
+        "item": "Bandolier (Smoke Grenade)",
+        "quantity": 1,
+        "className": "RW_Smoke_Bandolier_Item",
+        "displayName": "Bandolier (Smoke Grenade)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 13,
+        "raw": "1x Bandolier (Frag Grenade)",
+        "item": "Bandolier (Frag Grenade)",
+        "quantity": 1,
+        "className": "RW_Frag_Bandolier_Item",
+        "displayName": "Bandolier (Frag Grenade)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 14,
+        "raw": "2x M67 Fragmentation Grenade",
+        "item": "M67 Fragmentation Grenade",
+        "quantity": 2,
+        "className": "HandGrenade",
+        "displayName": "M67 Fragmentation Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 15,
+        "raw": "4x L50A1 White Smoke Grenade",
+        "item": "L50A1 White Smoke Grenade",
+        "quantity": 4,
+        "className": "UK3CB_BAF_SmokeShell",
+        "displayName": "L50A1 White Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 16,
+        "raw": "1x L70 Red Smoke Grenade",
+        "item": "L70 Red Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellRed",
+        "displayName": "L70 Red Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 17,
+        "raw": "1x L71 Blue Smoke Grenade",
+        "item": "L71 Blue Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellBlue",
+        "displayName": "L71 Blue Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 18,
+        "raw": "1x L100 Yellow Smoke Grenade",
+        "item": "L100 Yellow Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellYellow",
+        "displayName": "L100 Yellow Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 19,
+        "raw": "3x Chemlights (Hi Blue)",
+        "item": "Chemlights (Hi Blue)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiBlue",
+        "displayName": "Chemlight (Hi Blue)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 20,
+        "raw": "1x Chemlight (Hi Yellow)",
+        "item": "Chemlight (Hi Yellow)",
+        "quantity": 1,
+        "className": "ACE_Chemlight_HiYellow",
+        "displayName": "Chemlight (Hi Yellow)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 21,
+        "raw": "1x ATNAA Autoinjector",
+        "item": "ATNAA Autoinjector",
+        "quantity": 1,
+        "className": "ACE_ATNAA_AntidoteInjector",
+        "displayName": "ATNAA (Antidote injector)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 22,
+        "raw": "5x Bandage (Elastic)",
+        "item": "Bandage (Elastic)",
+        "quantity": 5,
+        "className": "ACE_elasticBandage",
+        "displayName": "Bandage (Elastic)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 23,
+        "raw": "5x Bandage (QuikClot)",
+        "item": "Bandage (QuikClot)",
+        "quantity": 5,
+        "className": "ACE_quikclot",
+        "displayName": "Bandage (QuikClot)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 24,
+        "raw": "10x Bandage (Packing)",
+        "item": "Bandage (Packing)",
+        "quantity": 10,
+        "className": "ACE_packingBandage",
+        "displayName": "Bandage (Packing)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 25,
+        "raw": "4x Tourniquets",
+        "item": "Tourniquets",
+        "quantity": 4,
+        "className": "ACE_tourniquet",
+        "displayName": "Tourniquet (CAT)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 26,
+        "raw": "2x Canteen",
+        "item": "Canteen",
+        "quantity": 2,
+        "className": "ACE_Canteen",
+        "displayName": "Canteen",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 28,
+        "raw": "2x AN/PRC-152",
+        "item": "AN/PRC-152",
+        "quantity": 2,
+        "className": "ACRE_PRC152",
+        "displayName": "AN/PRC-152",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 29,
+        "raw": "1x AN/PRC-343",
+        "item": "AN/PRC-343",
+        "quantity": 1,
+        "className": "ACRE_PRC343",
+        "displayName": "AN/PRC-343",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 32,
+        "raw": "1x Cam Cream Kit - Europe",
+        "item": "Cam Cream Kit - Europe",
+        "quantity": 1,
+        "className": "FISH_Cream_Kit_Europe",
+        "displayName": "Cam Cream Kit - Europe",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 33,
+        "raw": "4x Cable Tie",
+        "item": "Cable Tie",
+        "quantity": 4,
+        "className": "ACE_CableTie",
+        "displayName": "Cable Tie",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 36,
+        "raw": "1x Map Tools",
+        "item": "Map Tools",
+        "quantity": 1,
+        "className": "ACE_MapTools",
+        "displayName": "Map Tools",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 37,
+        "raw": "1x Fulton MX-991",
+        "item": "Fulton MX-991",
+        "quantity": 1,
+        "className": "ACE_Flashlight_MX991",
+        "displayName": "Fulton MX-991",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 38,
+        "raw": "2x IR Strobe",
+        "item": "IR Strobe",
+        "quantity": 2,
+        "className": "ACE_IR_Strobe_Item",
+        "displayName": "IR Strobe",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 39,
+        "raw": "1x Slate Card: Aide Memoire",
+        "item": "Slate Card: Aide Memoire",
+        "quantity": 1,
+        "className": "UK4IB_SlateCards",
+        "displayName": "Slate Cards (Aide Memoire)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 40,
+        "raw": "1x Entrenching Tool",
+        "item": "Entrenching Tool",
+        "quantity": 1,
+        "className": "ACE_EntrenchingTool",
+        "displayName": "Entrenching Tool",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 41,
+        "raw": "1x Western Vehicle Key",
+        "item": "Western Vehicle Key",
+        "quantity": 1,
+        "className": "ACE_key_west",
+        "displayName": "Vehicle Key: West",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 43,
+        "raw": "1x M57 Firing Device",
+        "item": "M57 Firing Device",
+        "quantity": 1,
+        "className": "ACE_Clacker",
+        "displayName": "M57 Firing Device",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 44,
+        "raw": "1x S7 Android",
+        "item": "S7 Android",
+        "quantity": 1,
+        "className": "ItemAndroid",
+        "displayName": "S7 Android",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 46,
+        "raw": "1x MicroDAGR GPS GPS",
+        "item": "MicroDAGR GPS GPS",
+        "quantity": 1,
+        "className": "ACE_microDAGR",
+        "displayName": "MicroDAGR GPS",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 47,
+        "raw": "1x Head-Mounted NV System [BAF]",
+        "item": "Head-Mounted NV System [BAF]",
+        "quantity": 1,
+        "className": "UK3CB_BAF_HMNVS",
+        "displayName": "Head-Mounted NV System [BAF]",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 48,
+        "raw": "1x Helmet Camera",
+        "item": "Helmet Camera",
+        "quantity": 1,
+        "className": "ItemcTabHCam",
+        "displayName": "Helmet Camera",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 50,
+        "raw": "1x Gas Mask Filters",
+        "item": "Gas Mask Filters",
+        "quantity": 1,
+        "className": "CBRN_gasmaskFilter",
+        "displayName": "Gas mask Filter",
+        "matchReason": "alias-class",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 56,
+        "raw": "1x RYORKS Uniform",
+        "item": "RYORKS Uniform",
+        "quantity": 1,
+        "className": "BZD_PCS_R1_RYorks",
+        "displayName": "UBAC [RYorks]",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.className"
+      }
+    ],
+    "unplacedItems": [],
+    "unresolvedItems": [],
+    "ambiguousItems": []
+  },
+  {
+    "id": "pointman",
+    "name": "Pointman",
+    "role": "Pointman",
+    "description": "Mapped from legacy Infantry CEFO without guessing. Container placement left empty unless the CEFO explicitly identified the container item itself.",
+    "group": "Infantry Section",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L85A3",
+        "barrel": "",
+        "rail": "4IB_LLM_IR_Laser",
+        "optic": "RKSL_optic_LDS",
+        "magClass": "UK3CB_BAF_556_30Rnd",
+        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
+      },
+      "launcher": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "handgun": {
+        "weapon": "ACE_VMH3",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "binoculars": {
+        "weapon": ""
+      },
+      "uniform": {
+        "className": "BZD_PCS_R1_RYorks",
+        "items": [
+          {
+            "className": "ACRE_PRC343",
+            "count": 1
+          },
+          {
+            "className": "FISH_Cream_Kit_Europe",
+            "count": 1
+          },
+          {
+            "className": "ACE_MapTools",
+            "count": 1
+          },
+          {
+            "className": "ACE_Flashlight_MX991",
+            "count": 1
+          },
+          {
+            "className": "ItemcTabHCam",
+            "count": 1
+          }
+        ]
+      },
+      "vest": {
+        "className": "BZD_Virtus_Rifleman_A1_NB",
+        "items": [
+          {
+            "className": "ACE_Canteen",
+            "count": 2
+          },
+          {
+            "className": "ACE_CableTie",
+            "count": 4
+          },
+          {
+            "className": "CBRN_gasmaskFilter",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
+          },
+          {
+            "className": "ACE_MRE_BeefStew",
+            "count": 2
+          }
+        ]
+      },
+      "backpack": {
+        "className": "ACE_VMH3",
+        "items": [
+          {
+            "className": "U_CBRN_MTP",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_Kite",
+            "count": 1
+          },
+          {
+            "className": "HandGrenade",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_Chemlight_HiBlue",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
+          },
+          {
+            "className": "ACE_elasticBandage",
+            "count": 5
+          },
+          {
+            "className": "ACE_quikclot",
+            "count": 5
+          },
+          {
+            "className": "ACE_packingBandage",
+            "count": 10
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_IR_Strobe_Item",
+            "count": 2
+          },
+          {
+            "className": "ACE_EntrenchingTool",
+            "count": 1
+          },
+          {
+            "className": "ACE_wirecutter",
+            "count": 1
+          },
+          {
+            "className": "ACE_SpraypaintBlue",
+            "count": 1
+          },
+          {
+            "className": "ACE_SpraypaintGreen",
+            "count": 1
+          },
+          {
+            "className": "ACE_SpraypaintRed",
+            "count": 1
+          }
+        ]
+      },
+      "headgear": "Revision_Scrim",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "",
+        "compass": "ItemCompass",
+        "watch": "KAT_Katmin",
+        "nvg": ""
+      },
+      "extras": {
+        "insignia": "",
+        "aceEarplugs": true
+      }
+    },
+    "mappedItems": [
+      {
+        "row": 4,
+        "raw": "1x L85A3",
+        "item": "L85A3",
+        "quantity": 1,
+        "className": "UK3CB_BAF_L85A3",
+        "displayName": "L85A3",
+        "matchReason": "alias-compat-display",
+        "assignedTo": "primary.weapon"
+      },
+      {
+        "row": 5,
+        "raw": "1x LDS",
+        "item": "LDS",
+        "quantity": 1,
+        "className": "RKSL_optic_LDS",
+        "displayName": "LDS",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.optic"
+      },
+      {
+        "row": 6,
+        "raw": "1x VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "item": "VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "quantity": 1,
+        "className": "4IB_LLM_IR_Laser",
+        "displayName": "VarioRay LLM Mk3 IR (Tan)",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.rail"
+      },
+      {
+        "row": 7,
+        "raw": "1x Grip-pod (Tan)",
+        "item": "Grip-pod (Tan)",
+        "quantity": 1,
+        "className": "UK3CB_underbarrel_acc_grippod_t",
+        "displayName": "Grip-pod (Tan)",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.underbarrel"
+      },
+      {
+        "row": 9,
+        "raw": "4x 5.56mm 30rnd Mag",
+        "item": "5.56mm 30rnd Mag",
+        "quantity": 4,
+        "className": "UK3CB_BAF_556_30Rnd",
+        "displayName": "5.56mm 30rnd Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.magClass"
+      },
+      {
+        "row": 10,
+        "raw": "2x 5.56mm 30rnd Tracer Mag",
+        "item": "5.56mm 30rnd Tracer Mag",
+        "quantity": 2,
+        "className": "UK3CB_BAF_556_30Rnd_T",
+        "displayName": "5.56mm 30rnd Tracer Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.altMagClass"
+      },
+      {
+        "row": 24,
+        "raw": "1x GPS",
+        "item": "GPS",
+        "quantity": 1,
+        "className": "ItemGPS",
+        "displayName": "GPS",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.gps"
+      },
+      {
+        "row": 28,
+        "raw": "1x Compass",
+        "item": "Compass",
+        "quantity": 1,
+        "className": "ItemCompass",
+        "displayName": "Compass",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.compass"
+      },
+      {
+        "row": 29,
+        "raw": "1x Map",
+        "item": "Map",
+        "quantity": 1,
+        "className": "ItemMap",
+        "displayName": "Map",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.map"
+      },
+      {
+        "row": 35,
+        "raw": "1x VMH3",
+        "item": "VMH3",
+        "quantity": 1,
+        "className": "ACE_VMH3",
+        "displayName": "VMH3",
+        "matchReason": "alias-compat-display",
+        "assignedTo": "handgun.weapon"
+      },
+      {
+        "row": 40,
+        "raw": "1x Head-Mounted NV System [BAF]",
+        "item": "Head-Mounted NV System [BAF]",
+        "quantity": 1,
+        "className": "UK3CB_BAF_HMNVS",
+        "displayName": "Head-Mounted NV System [BAF]",
+        "matchReason": "exact-display",
+        "assignedTo": "binoculars.weapon"
+      },
+      {
+        "row": 48,
+        "raw": "1x M50 Respirator",
+        "item": "M50 Respirator",
+        "quantity": 1,
+        "className": "G_CBRN_M50_Hood",
+        "displayName": "M50 Promask w/ Hood",
+        "matchReason": "alias-class",
+        "assignedTo": "facewear"
+      },
+      {
+        "row": 49,
+        "raw": "1x CBRN MTP Suit",
+        "item": "CBRN MTP Suit",
+        "quantity": 1,
+        "className": "U_CBRN_MTP",
+        "displayName": "CBRN Suit (MTP)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.className"
+      },
+      {
+        "row": 8,
+        "raw": "1x KITE",
+        "item": "KITE",
+        "quantity": 1,
+        "className": "UK3CB_BAF_Kite",
+        "displayName": "KITE",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 11,
+        "raw": "2x M67 Fragmentation Grenade",
+        "item": "M67 Fragmentation Grenade",
+        "quantity": 2,
+        "className": "HandGrenade",
+        "displayName": "M67 Fragmentation Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 12,
+        "raw": "4x L50A1 White Smoke Grenade",
+        "item": "L50A1 White Smoke Grenade",
+        "quantity": 4,
+        "className": "UK3CB_BAF_SmokeShell",
+        "displayName": "L50A1 White Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 13,
+        "raw": "1x L100 Yellow Smoke Grenade",
+        "item": "L100 Yellow Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellYellow",
+        "displayName": "L100 Yellow Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 14,
+        "raw": "3x Chemlights (Hi Blue)",
+        "item": "Chemlights (Hi Blue)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiBlue",
+        "displayName": "Chemlight (Hi Blue)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 15,
+        "raw": "1x Chemlight (Hi Yellow)",
+        "item": "Chemlight (Hi Yellow)",
+        "quantity": 1,
+        "className": "ACE_Chemlight_HiYellow",
+        "displayName": "Chemlight (Hi Yellow)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 16,
+        "raw": "1x ATNAA Autoinjector",
+        "item": "ATNAA Autoinjector",
+        "quantity": 1,
+        "className": "ACE_ATNAA_AntidoteInjector",
+        "displayName": "ATNAA (Antidote injector)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 17,
+        "raw": "5x Bandage (Elastic)",
+        "item": "Bandage (Elastic)",
+        "quantity": 5,
+        "className": "ACE_elasticBandage",
+        "displayName": "Bandage (Elastic)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 18,
+        "raw": "5x Bandage (QuikClot)",
+        "item": "Bandage (QuikClot)",
+        "quantity": 5,
+        "className": "ACE_quikclot",
+        "displayName": "Bandage (QuikClot)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 19,
+        "raw": "10x Bandage (Packing)",
+        "item": "Bandage (Packing)",
+        "quantity": 10,
+        "className": "ACE_packingBandage",
+        "displayName": "Bandage (Packing)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 20,
+        "raw": "4x Tourniquets",
+        "item": "Tourniquets",
+        "quantity": 4,
+        "className": "ACE_tourniquet",
+        "displayName": "Tourniquet (CAT)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 21,
+        "raw": "2x Canteen",
+        "item": "Canteen",
+        "quantity": 2,
+        "className": "ACE_Canteen",
+        "displayName": "Canteen",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 23,
+        "raw": "1x AN/PRC-343",
+        "item": "AN/PRC-343",
+        "quantity": 1,
+        "className": "ACRE_PRC343",
+        "displayName": "AN/PRC-343",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 26,
+        "raw": "1x Cam Cream Kit - Europe",
+        "item": "Cam Cream Kit - Europe",
+        "quantity": 1,
+        "className": "FISH_Cream_Kit_Europe",
+        "displayName": "Cam Cream Kit - Europe",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 27,
+        "raw": "4x Cable Tie",
+        "item": "Cable Tie",
+        "quantity": 4,
+        "className": "ACE_CableTie",
+        "displayName": "Cable Tie",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 30,
+        "raw": "1x Map Tools",
+        "item": "Map Tools",
+        "quantity": 1,
+        "className": "ACE_MapTools",
+        "displayName": "Map Tools",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 31,
+        "raw": "1x Fulton MX-991",
+        "item": "Fulton MX-991",
+        "quantity": 1,
+        "className": "ACE_Flashlight_MX991",
+        "displayName": "Fulton MX-991",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 32,
+        "raw": "2x IR Strobe",
+        "item": "IR Strobe",
+        "quantity": 2,
+        "className": "ACE_IR_Strobe_Item",
+        "displayName": "IR Strobe",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 33,
+        "raw": "1x Entrenching Tool",
+        "item": "Entrenching Tool",
+        "quantity": 1,
+        "className": "ACE_EntrenchingTool",
+        "displayName": "Entrenching Tool",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 34,
+        "raw": "1x Wirecutter",
+        "item": "Wirecutter",
+        "quantity": 1,
+        "className": "ACE_wirecutter",
+        "displayName": "Wirecutter",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 36,
+        "raw": "1x Spray Paint (Blue)",
+        "item": "Spray Paint (Blue)",
+        "quantity": 1,
+        "className": "ACE_SpraypaintBlue",
+        "displayName": "Spray Paint (Blue)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 37,
+        "raw": "1x Spray Paint (Green)",
+        "item": "Spray Paint (Green)",
+        "quantity": 1,
+        "className": "ACE_SpraypaintGreen",
+        "displayName": "Spray Paint (Green)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 38,
+        "raw": "1x Spray Paint (Red)",
+        "item": "Spray Paint (Red)",
+        "quantity": 1,
+        "className": "ACE_SpraypaintRed",
+        "displayName": "Spray Paint (Red)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 41,
+        "raw": "1x Helmet Camera",
+        "item": "Helmet Camera",
+        "quantity": 1,
+        "className": "ItemcTabHCam",
+        "displayName": "Helmet Camera",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 43,
+        "raw": "1x Gas Mask Filters",
+        "item": "Gas Mask Filters",
+        "quantity": 1,
+        "className": "CBRN_gasmaskFilter",
+        "displayName": "Gas mask Filter",
+        "matchReason": "alias-class",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 50,
+        "raw": "1x RYORKS Uniform",
+        "item": "RYORKS Uniform",
+        "quantity": 1,
+        "className": "BZD_PCS_R1_RYorks",
+        "displayName": "UBAC [RYorks]",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.className"
+      }
+    ],
+    "unplacedItems": [],
+    "unresolvedItems": [
+      {
+        "row": 44,
+        "raw": "1x Chemical Detector",
+        "item": "Chemical Detector",
+        "quantity": 1,
+        "candidates": [],
+        "reason": "no-direct-match"
+      }
+    ],
+    "ambiguousItems": []
+  },
+  {
+    "id": "rifleman",
+    "name": "Rifleman",
+    "role": "Rifleman",
+    "description": "Mapped from legacy Infantry CEFO without guessing. Container placement left empty unless the CEFO explicitly identified the container item itself.",
+    "group": "Infantry Section",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L85A3",
+        "barrel": "",
+        "rail": "4IB_LLM_IR_Laser",
+        "optic": "RKSL_optic_LDS",
+        "magClass": "UK3CB_BAF_556_30Rnd",
+        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
+      },
+      "launcher": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "handgun": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "binoculars": {
+        "weapon": ""
+      },
+      "uniform": {
+        "className": "BZD_PCS_R1_RYorks",
+        "items": [
+          {
+            "className": "ACRE_PRC343",
+            "count": 1
+          },
+          {
+            "className": "FISH_Cream_Kit_Europe",
+            "count": 1
+          },
+          {
+            "className": "ACE_MapTools",
+            "count": 1
+          },
+          {
+            "className": "ACE_Flashlight_MX991",
+            "count": 1
+          },
+          {
+            "className": "ItemcTabHCam",
+            "count": 1
+          }
+        ]
+      },
+      "vest": {
+        "className": "BZD_Virtus_Rifleman_A1_NB",
+        "items": [
+          {
+            "className": "UK3CB_BAF_762_100Rnd_T",
+            "count": 1
+          },
+          {
+            "className": "ACE_Canteen",
+            "count": 2
+          },
+          {
+            "className": "ACE_CableTie",
+            "count": 4
+          },
+          {
+            "className": "CBRN_gasmaskFilter",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
+          },
+          {
+            "className": "ACE_MRE_BeefStew",
+            "count": 2
+          }
+        ]
+      },
+      "backpack": {
+        "className": "BAF_BACK_1",
+        "items": [
+          {
+            "className": "U_CBRN_MTP",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_Kite",
+            "count": 1
+          },
+          {
+            "className": "RW_AR_Bandolier_Item",
+            "count": 1
+          },
+          {
+            "className": "HandGrenade",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_Chemlight_HiBlue",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
+          },
+          {
+            "className": "ACE_elasticBandage",
+            "count": 5
+          },
+          {
+            "className": "ACE_quikclot",
+            "count": 5
+          },
+          {
+            "className": "ACE_packingBandage",
+            "count": 10
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_IR_Strobe_Item",
+            "count": 2
+          },
+          {
+            "className": "ACE_EntrenchingTool",
+            "count": 1
+          }
+        ]
+      },
+      "headgear": "Revision_Scrim",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "",
+        "compass": "ItemCompass",
+        "watch": "KAT_Katmin",
+        "nvg": ""
+      },
+      "extras": {
+        "insignia": "",
+        "aceEarplugs": true
+      }
+    },
+    "mappedItems": [
+      {
+        "row": 4,
+        "raw": "1x L85A3",
+        "item": "L85A3",
+        "quantity": 1,
+        "className": "UK3CB_BAF_L85A3",
+        "displayName": "L85A3",
+        "matchReason": "alias-compat-display",
+        "assignedTo": "primary.weapon"
+      },
+      {
+        "row": 5,
+        "raw": "1x LDS",
+        "item": "LDS",
+        "quantity": 1,
+        "className": "RKSL_optic_LDS",
+        "displayName": "LDS",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.optic"
+      },
+      {
+        "row": 6,
+        "raw": "1x VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "item": "VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "quantity": 1,
+        "className": "4IB_LLM_IR_Laser",
+        "displayName": "VarioRay LLM Mk3 IR (Tan)",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.rail"
+      },
+      {
+        "row": 7,
+        "raw": "1x Grip-pod (Tan)",
+        "item": "Grip-pod (Tan)",
+        "quantity": 1,
+        "className": "UK3CB_underbarrel_acc_grippod_t",
+        "displayName": "Grip-pod (Tan)",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.underbarrel"
+      },
+      {
+        "row": 9,
+        "raw": "4x 5.56mm 30rnd Mag",
+        "item": "5.56mm 30rnd Mag",
+        "quantity": 4,
+        "className": "UK3CB_BAF_556_30Rnd",
+        "displayName": "5.56mm 30rnd Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.magClass"
+      },
+      {
+        "row": 10,
+        "raw": "2x 5.56mm 30rnd Tracer Mag",
+        "item": "5.56mm 30rnd Tracer Mag",
+        "quantity": 2,
+        "className": "UK3CB_BAF_556_30Rnd_T",
+        "displayName": "5.56mm 30rnd Tracer Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.altMagClass"
+      },
+      {
+        "row": 26,
+        "raw": "1x GPS",
+        "item": "GPS",
+        "quantity": 1,
+        "className": "ItemGPS",
+        "displayName": "GPS",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.gps"
+      },
+      {
+        "row": 30,
+        "raw": "1x Compass",
+        "item": "Compass",
+        "quantity": 1,
+        "className": "ItemCompass",
+        "displayName": "Compass",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.compass"
+      },
+      {
+        "row": 31,
+        "raw": "1x Map",
+        "item": "Map",
+        "quantity": 1,
+        "className": "ItemMap",
+        "displayName": "Map",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.map"
+      },
+      {
+        "row": 37,
+        "raw": "1x Head-Mounted NV System [BAF]",
+        "item": "Head-Mounted NV System [BAF]",
+        "quantity": 1,
+        "className": "UK3CB_BAF_HMNVS",
+        "displayName": "Head-Mounted NV System [BAF]",
+        "matchReason": "exact-display",
+        "assignedTo": "binoculars.weapon"
+      },
+      {
+        "row": 44,
+        "raw": "1x M50 Respirator",
+        "item": "M50 Respirator",
+        "quantity": 1,
+        "className": "G_CBRN_M50_Hood",
+        "displayName": "M50 Promask w/ Hood",
+        "matchReason": "alias-class",
+        "assignedTo": "facewear"
+      },
+      {
+        "row": 45,
+        "raw": "1x CBRN MTP Suit",
+        "item": "CBRN MTP Suit",
+        "quantity": 1,
+        "className": "U_CBRN_MTP",
+        "displayName": "CBRN Suit (MTP)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.className"
+      },
+      {
+        "row": 8,
+        "raw": "1x KITE",
+        "item": "KITE",
+        "quantity": 1,
+        "className": "UK3CB_BAF_Kite",
+        "displayName": "KITE",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 11,
+        "raw": "1x 7.62mm 100rnd Tracer Belt",
+        "item": "7.62mm 100rnd Tracer Belt",
+        "quantity": 1,
+        "className": "UK3CB_BAF_762_100Rnd_T",
+        "displayName": "7.62mm 100rnd Tracer Belt",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 12,
+        "raw": "1x Bandolier (Rifle)",
+        "item": "Bandolier (Rifle)",
+        "quantity": 1,
+        "className": "RW_AR_Bandolier_Item",
+        "displayName": "Bandolier (Rifle)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 13,
+        "raw": "2x M67 Fragmentation Grenade",
+        "item": "M67 Fragmentation Grenade",
+        "quantity": 2,
+        "className": "HandGrenade",
+        "displayName": "M67 Fragmentation Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 14,
+        "raw": "4x L50A1 White Smoke Grenade",
+        "item": "L50A1 White Smoke Grenade",
+        "quantity": 4,
+        "className": "UK3CB_BAF_SmokeShell",
+        "displayName": "L50A1 White Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 15,
+        "raw": "1x L100 Yellow Smoke Grenade",
+        "item": "L100 Yellow Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellYellow",
+        "displayName": "L100 Yellow Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 16,
+        "raw": "3x Chemlights (Hi Blue)",
+        "item": "Chemlights (Hi Blue)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiBlue",
+        "displayName": "Chemlight (Hi Blue)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 17,
+        "raw": "1x Chemlight (Hi Yellow)",
+        "item": "Chemlight (Hi Yellow)",
+        "quantity": 1,
+        "className": "ACE_Chemlight_HiYellow",
+        "displayName": "Chemlight (Hi Yellow)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 18,
+        "raw": "1x ATNAA Autoinjector",
+        "item": "ATNAA Autoinjector",
+        "quantity": 1,
+        "className": "ACE_ATNAA_AntidoteInjector",
+        "displayName": "ATNAA (Antidote injector)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 19,
+        "raw": "5x Bandage (Elastic)",
+        "item": "Bandage (Elastic)",
+        "quantity": 5,
+        "className": "ACE_elasticBandage",
+        "displayName": "Bandage (Elastic)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 20,
+        "raw": "5x Bandage (QuikClot)",
+        "item": "Bandage (QuikClot)",
+        "quantity": 5,
+        "className": "ACE_quikclot",
+        "displayName": "Bandage (QuikClot)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 21,
+        "raw": "10x Bandage (Packing)",
+        "item": "Bandage (Packing)",
+        "quantity": 10,
+        "className": "ACE_packingBandage",
+        "displayName": "Bandage (Packing)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 22,
+        "raw": "4x Tourniquets",
+        "item": "Tourniquets",
+        "quantity": 4,
+        "className": "ACE_tourniquet",
+        "displayName": "Tourniquet (CAT)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 23,
+        "raw": "2x Canteen",
+        "item": "Canteen",
+        "quantity": 2,
+        "className": "ACE_Canteen",
+        "displayName": "Canteen",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 25,
+        "raw": "1x AN/PRC-343",
+        "item": "AN/PRC-343",
+        "quantity": 1,
+        "className": "ACRE_PRC343",
+        "displayName": "AN/PRC-343",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 28,
+        "raw": "1x Cam Cream Kit - Europe",
+        "item": "Cam Cream Kit - Europe",
+        "quantity": 1,
+        "className": "FISH_Cream_Kit_Europe",
+        "displayName": "Cam Cream Kit - Europe",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 29,
+        "raw": "4x Cable Tie",
+        "item": "Cable Tie",
+        "quantity": 4,
+        "className": "ACE_CableTie",
+        "displayName": "Cable Tie",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 32,
+        "raw": "1x Map Tools",
+        "item": "Map Tools",
+        "quantity": 1,
+        "className": "ACE_MapTools",
+        "displayName": "Map Tools",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 33,
+        "raw": "1x Fulton MX-991",
+        "item": "Fulton MX-991",
+        "quantity": 1,
+        "className": "ACE_Flashlight_MX991",
+        "displayName": "Fulton MX-991",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 34,
+        "raw": "2x IR Strobe",
+        "item": "IR Strobe",
+        "quantity": 2,
+        "className": "ACE_IR_Strobe_Item",
+        "displayName": "IR Strobe",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 35,
+        "raw": "1x Entrenching Tool",
+        "item": "Entrenching Tool",
+        "quantity": 1,
+        "className": "ACE_EntrenchingTool",
+        "displayName": "Entrenching Tool",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 38,
+        "raw": "1x Helmet Camera",
+        "item": "Helmet Camera",
+        "quantity": 1,
+        "className": "ItemcTabHCam",
+        "displayName": "Helmet Camera",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 40,
+        "raw": "1x Gas Mask Filters",
+        "item": "Gas Mask Filters",
+        "quantity": 1,
+        "className": "CBRN_gasmaskFilter",
+        "displayName": "Gas mask Filter",
+        "matchReason": "alias-class",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 46,
+        "raw": "1x RYORKS Uniform",
+        "item": "RYORKS Uniform",
+        "quantity": 1,
+        "className": "BZD_PCS_R1_RYorks",
+        "displayName": "UBAC [RYorks]",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.className"
+      }
+    ],
+    "unplacedItems": [],
+    "unresolvedItems": [],
+    "ambiguousItems": []
+  },
+  {
+    "id": "rifleman-at",
+    "name": "Rifleman (AT)",
+    "role": "Rifleman (AT)",
+    "description": "Mapped from legacy Infantry CEFO without guessing. Container placement left empty unless the CEFO explicitly identified the container item itself.",
+    "group": "Infantry Section",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L85A3",
+        "barrel": "",
+        "rail": "4IB_LLM_IR_Laser",
+        "optic": "RKSL_optic_LDS",
+        "magClass": "UK3CB_BAF_556_30Rnd",
+        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
+      },
+      "launcher": {
+        "weapon": "UK3CB_BAF_NLAW_Launcher",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "handgun": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "binoculars": {
+        "weapon": ""
+      },
+      "uniform": {
+        "className": "BZD_PCS_R1_RYorks",
+        "items": [
+          {
+            "className": "ACRE_PRC343",
+            "count": 1
+          },
+          {
+            "className": "FISH_Cream_Kit_Europe",
+            "count": 1
+          },
+          {
+            "className": "ACE_MapTools",
+            "count": 1
+          },
+          {
+            "className": "ACE_Flashlight_MX991",
+            "count": 1
+          },
+          {
+            "className": "ItemcTabHCam",
+            "count": 1
+          }
+        ]
+      },
+      "vest": {
+        "className": "BZD_Virtus_Rifleman_A1_NB",
+        "items": [
+          {
+            "className": "ACE_Canteen",
+            "count": 2
+          },
+          {
+            "className": "ACE_CableTie",
+            "count": 4
+          },
+          {
+            "className": "CBRN_gasmaskFilter",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
+          },
+          {
+            "className": "ACE_MRE_BeefStew",
+            "count": 2
+          }
+        ]
+      },
+      "backpack": {
+        "className": "UK3CB_BAF_B_Kitbag_MTP",
+        "items": [
+          {
+            "className": "U_CBRN_MTP",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_Kite",
+            "count": 1
+          },
+          {
+            "className": "HandGrenade",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_Chemlight_HiBlue",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
+          },
+          {
+            "className": "ACE_elasticBandage",
+            "count": 5
+          },
+          {
+            "className": "ACE_quikclot",
+            "count": 5
+          },
+          {
+            "className": "ACE_packingBandage",
+            "count": 10
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_IR_Strobe_Item",
+            "count": 2
+          },
+          {
+            "className": "ACE_EntrenchingTool",
+            "count": 1
+          }
+        ]
+      },
+      "headgear": "Revision_Scrim",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "",
+        "compass": "ItemCompass",
+        "watch": "KAT_Katmin",
+        "nvg": ""
+      },
+      "extras": {
+        "insignia": "",
+        "aceEarplugs": true
+      }
+    },
+    "mappedItems": [
+      {
+        "row": 4,
+        "raw": "1x L85A3",
+        "item": "L85A3",
+        "quantity": 1,
+        "className": "UK3CB_BAF_L85A3",
+        "displayName": "L85A3",
+        "matchReason": "alias-compat-display",
+        "assignedTo": "primary.weapon"
+      },
+      {
+        "row": 6,
+        "raw": "1x LDS",
+        "item": "LDS",
+        "quantity": 1,
+        "className": "RKSL_optic_LDS",
+        "displayName": "LDS",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.optic"
+      },
+      {
+        "row": 7,
+        "raw": "1x VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "item": "VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "quantity": 1,
+        "className": "4IB_LLM_IR_Laser",
+        "displayName": "VarioRay LLM Mk3 IR (Tan)",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.rail"
+      },
+      {
+        "row": 8,
+        "raw": "1x Grip-pod (Tan)",
+        "item": "Grip-pod (Tan)",
+        "quantity": 1,
+        "className": "UK3CB_underbarrel_acc_grippod_t",
+        "displayName": "Grip-pod (Tan)",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.underbarrel"
+      },
+      {
+        "row": 10,
+        "raw": "4x 5.56mm 30rnd Mag",
+        "item": "5.56mm 30rnd Mag",
+        "quantity": 4,
+        "className": "UK3CB_BAF_556_30Rnd",
+        "displayName": "5.56mm 30rnd Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.magClass"
+      },
+      {
+        "row": 11,
+        "raw": "2x 5.56mm 30rnd Tracer Mag",
+        "item": "5.56mm 30rnd Tracer Mag",
+        "quantity": 2,
+        "className": "UK3CB_BAF_556_30Rnd_T",
+        "displayName": "5.56mm 30rnd Tracer Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.altMagClass"
+      },
+      {
+        "row": 25,
+        "raw": "1x GPS",
+        "item": "GPS",
+        "quantity": 1,
+        "className": "ItemGPS",
+        "displayName": "GPS",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.gps"
+      },
+      {
+        "row": 29,
+        "raw": "1x Compass",
+        "item": "Compass",
+        "quantity": 1,
+        "className": "ItemCompass",
+        "displayName": "Compass",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.compass"
+      },
+      {
+        "row": 30,
+        "raw": "1x Map",
+        "item": "Map",
+        "quantity": 1,
+        "className": "ItemMap",
+        "displayName": "Map",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.map"
+      },
+      {
+        "row": 36,
+        "raw": "1x Head-Mounted NV System [BAF]",
+        "item": "Head-Mounted NV System [BAF]",
+        "quantity": 1,
+        "className": "UK3CB_BAF_HMNVS",
+        "displayName": "Head-Mounted NV System [BAF]",
+        "matchReason": "exact-display",
+        "assignedTo": "binoculars.weapon"
+      },
+      {
+        "row": 43,
+        "raw": "1x M50 Respirator",
+        "item": "M50 Respirator",
+        "quantity": 1,
+        "className": "G_CBRN_M50_Hood",
+        "displayName": "M50 Promask w/ Hood",
+        "matchReason": "alias-class",
+        "assignedTo": "facewear"
+      },
+      {
+        "row": 44,
+        "raw": "1x CBRN MTP Suit",
+        "item": "CBRN MTP Suit",
+        "quantity": 1,
+        "className": "U_CBRN_MTP",
+        "displayName": "CBRN Suit (MTP)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.className"
+      },
+      {
+        "row": 9,
+        "raw": "1x KITE",
+        "item": "KITE",
+        "quantity": 1,
+        "className": "UK3CB_BAF_Kite",
+        "displayName": "KITE",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 12,
+        "raw": "2x M67 Fragmentation Grenade",
+        "item": "M67 Fragmentation Grenade",
+        "quantity": 2,
+        "className": "HandGrenade",
+        "displayName": "M67 Fragmentation Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 13,
+        "raw": "4x L50A1 White Smoke Grenade",
+        "item": "L50A1 White Smoke Grenade",
+        "quantity": 4,
+        "className": "UK3CB_BAF_SmokeShell",
+        "displayName": "L50A1 White Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 14,
+        "raw": "1x L100 Yellow Smoke Grenade",
+        "item": "L100 Yellow Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellYellow",
+        "displayName": "L100 Yellow Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 15,
+        "raw": "3x Chemlights (Hi Blue)",
+        "item": "Chemlights (Hi Blue)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiBlue",
+        "displayName": "Chemlight (Hi Blue)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 16,
+        "raw": "1x Chemlight (Hi Yellow)",
+        "item": "Chemlight (Hi Yellow)",
+        "quantity": 1,
+        "className": "ACE_Chemlight_HiYellow",
+        "displayName": "Chemlight (Hi Yellow)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 17,
+        "raw": "1x ATNAA Autoinjector",
+        "item": "ATNAA Autoinjector",
+        "quantity": 1,
+        "className": "ACE_ATNAA_AntidoteInjector",
+        "displayName": "ATNAA (Antidote injector)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 18,
+        "raw": "5x Bandage (Elastic)",
+        "item": "Bandage (Elastic)",
+        "quantity": 5,
+        "className": "ACE_elasticBandage",
+        "displayName": "Bandage (Elastic)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 19,
+        "raw": "5x Bandage (QuikClot)",
+        "item": "Bandage (QuikClot)",
+        "quantity": 5,
+        "className": "ACE_quikclot",
+        "displayName": "Bandage (QuikClot)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 20,
+        "raw": "10x Bandage (Packing)",
+        "item": "Bandage (Packing)",
+        "quantity": 10,
+        "className": "ACE_packingBandage",
+        "displayName": "Bandage (Packing)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 21,
+        "raw": "4x Tourniquets",
+        "item": "Tourniquets",
+        "quantity": 4,
+        "className": "ACE_tourniquet",
+        "displayName": "Tourniquet (CAT)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 22,
+        "raw": "2x Canteen",
+        "item": "Canteen",
+        "quantity": 2,
+        "className": "ACE_Canteen",
+        "displayName": "Canteen",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 24,
+        "raw": "1x AN/PRC-343",
+        "item": "AN/PRC-343",
+        "quantity": 1,
+        "className": "ACRE_PRC343",
+        "displayName": "AN/PRC-343",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 27,
+        "raw": "1x Cam Cream Kit - Europe",
+        "item": "Cam Cream Kit - Europe",
+        "quantity": 1,
+        "className": "FISH_Cream_Kit_Europe",
+        "displayName": "Cam Cream Kit - Europe",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 28,
+        "raw": "4x Cable Tie",
+        "item": "Cable Tie",
+        "quantity": 4,
+        "className": "ACE_CableTie",
+        "displayName": "Cable Tie",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 31,
+        "raw": "1x Map Tools",
+        "item": "Map Tools",
+        "quantity": 1,
+        "className": "ACE_MapTools",
+        "displayName": "Map Tools",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 32,
+        "raw": "1x Fulton MX-991",
+        "item": "Fulton MX-991",
+        "quantity": 1,
+        "className": "ACE_Flashlight_MX991",
+        "displayName": "Fulton MX-991",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 33,
+        "raw": "2x IR Strobe",
+        "item": "IR Strobe",
+        "quantity": 2,
+        "className": "ACE_IR_Strobe_Item",
+        "displayName": "IR Strobe",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 34,
+        "raw": "1x Entrenching Tool",
+        "item": "Entrenching Tool",
+        "quantity": 1,
+        "className": "ACE_EntrenchingTool",
+        "displayName": "Entrenching Tool",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 37,
+        "raw": "1x Helmet Camera",
+        "item": "Helmet Camera",
+        "quantity": 1,
+        "className": "ItemcTabHCam",
+        "displayName": "Helmet Camera",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 39,
+        "raw": "1x Gas Mask Filters",
+        "item": "Gas Mask Filters",
+        "quantity": 1,
+        "className": "CBRN_gasmaskFilter",
+        "displayName": "Gas mask Filter",
+        "matchReason": "alias-class",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 45,
+        "raw": "1x RYORKS Uniform",
+        "item": "RYORKS Uniform",
+        "quantity": 1,
+        "className": "BZD_PCS_R1_RYorks",
+        "displayName": "UBAC [RYorks]",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.className"
+      }
+    ],
+    "unplacedItems": [],
+    "unresolvedItems": [],
+    "ambiguousItems": []
+  },
+  {
+    "id": "sharpshooter",
+    "name": "Sharpshooter",
+    "role": "Sharpshooter",
+    "description": "Mapped from legacy Infantry CEFO without guessing. Container placement left empty unless the CEFO explicitly identified the container item itself.",
+    "group": "Infantry Section",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L129A1",
+        "barrel": "",
+        "rail": "4IB_LLM_IR_Laser",
+        "optic": "UK3CB_BAF_TA648_308",
+        "magClass": "UK3CB_BAF_762_L42A1_20Rnd",
+        "altMagClass": "UK3CB_BAF_762_L42A1_20Rnd_T",
+        "underbarrel": "UK3CB_underbarrel_acc_fgrip_bipod"
+      },
+      "launcher": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "handgun": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "binoculars": {
+        "weapon": ""
+      },
+      "uniform": {
+        "className": "BZD_PCS_R1_RYorks",
+        "items": [
+          {
+            "className": "ACRE_PRC343",
+            "count": 1
+          },
+          {
+            "className": "FISH_Cream_Kit_Europe",
+            "count": 1
+          },
+          {
+            "className": "ACE_MapTools",
+            "count": 1
+          },
+          {
+            "className": "ACE_Flashlight_MX991",
+            "count": 1
+          },
+          {
+            "className": "ItemcTabHCam",
+            "count": 1
+          }
+        ]
+      },
+      "vest": {
+        "className": "BZD_Virtus_Rifleman_A1_NB",
+        "items": [
+          {
+            "className": "UK3CB_BAF_762_100Rnd_T",
+            "count": 1
+          },
+          {
+            "className": "ACE_Canteen",
+            "count": 2
+          },
+          {
+            "className": "ACE_CableTie",
+            "count": 4
+          },
+          {
+            "className": "CBRN_gasmaskFilter",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
+          },
+          {
+            "className": "ACE_MRE_BeefStew",
+            "count": 2
+          }
+        ]
+      },
+      "backpack": {
+        "className": "BAF_BACK_1",
+        "items": [
+          {
+            "className": "U_CBRN_MTP",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_MaxiKite",
+            "count": 1
+          },
+          {
+            "className": "HandGrenade",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_Chemlight_HiBlue",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
+          },
+          {
+            "className": "ACE_elasticBandage",
+            "count": 5
+          },
+          {
+            "className": "ACE_quikclot",
+            "count": 5
+          },
+          {
+            "className": "ACE_packingBandage",
+            "count": 10
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_IR_Strobe_Item",
+            "count": 2
+          },
+          {
+            "className": "ACE_EntrenchingTool",
+            "count": 1
+          }
+        ]
+      },
+      "headgear": "Revision_Scrim",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "",
+        "compass": "ItemCompass",
+        "watch": "KAT_Katmin",
+        "nvg": ""
+      },
+      "extras": {
+        "insignia": "",
+        "aceEarplugs": true
+      }
+    },
+    "mappedItems": [
+      {
+        "row": 4,
+        "raw": "1x L129A1",
+        "item": "L129A1",
+        "quantity": 1,
+        "className": "UK3CB_BAF_L129A1",
+        "displayName": "L129A1",
+        "matchReason": "alias-compat-display",
+        "assignedTo": "primary.weapon"
+      },
+      {
+        "row": 5,
+        "raw": "1x Trijicon ACOG TA648 RMR-308",
+        "item": "Trijicon ACOG TA648 RMR-308",
+        "quantity": 1,
+        "className": "UK3CB_BAF_TA648_308",
+        "displayName": "Trijicon ACOG TA648RMR-308",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.optic"
+      },
+      {
+        "row": 6,
+        "raw": "1x VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "item": "VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "quantity": 1,
+        "className": "4IB_LLM_IR_Laser",
+        "displayName": "VarioRay LLM Mk3 IR (Tan)",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.rail"
+      },
+      {
+        "row": 7,
+        "raw": "1x Folding- grip & Harris Bipod",
+        "item": "Folding- grip & Harris Bipod",
+        "quantity": 1,
+        "className": "UK3CB_underbarrel_acc_fgrip_bipod",
+        "displayName": "Folding-grip and Harris Bipod",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.underbarrel"
+      },
+      {
+        "row": 9,
+        "raw": "2x 7.62mm 20rnd Mag",
+        "item": "7.62mm 20rnd Mag",
+        "quantity": 2,
+        "className": "UK3CB_BAF_762_L42A1_20Rnd",
+        "displayName": "7.62mm 20rnd Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.magClass"
+      },
+      {
+        "row": 10,
+        "raw": "2x 7.62mm 20rnd Tracer Mag",
+        "item": "7.62mm 20rnd Tracer Mag",
+        "quantity": 2,
+        "className": "UK3CB_BAF_762_L42A1_20Rnd_T",
+        "displayName": "7.62mm 20rnd Tracer Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.altMagClass"
+      },
+      {
+        "row": 25,
+        "raw": "1x GPS",
+        "item": "GPS",
+        "quantity": 1,
+        "className": "ItemGPS",
+        "displayName": "GPS",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.gps"
+      },
+      {
+        "row": 29,
+        "raw": "1x Compass",
+        "item": "Compass",
+        "quantity": 1,
+        "className": "ItemCompass",
+        "displayName": "Compass",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.compass"
+      },
+      {
+        "row": 30,
+        "raw": "1x Map",
+        "item": "Map",
+        "quantity": 1,
+        "className": "ItemMap",
+        "displayName": "Map",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.map"
+      },
+      {
+        "row": 36,
+        "raw": "1x Head-Mounted NV System [BAF]",
+        "item": "Head-Mounted NV System [BAF]",
+        "quantity": 1,
+        "className": "UK3CB_BAF_HMNVS",
+        "displayName": "Head-Mounted NV System [BAF]",
+        "matchReason": "exact-display",
+        "assignedTo": "binoculars.weapon"
+      },
+      {
+        "row": 43,
+        "raw": "1x M50 Respirator",
+        "item": "M50 Respirator",
+        "quantity": 1,
+        "className": "G_CBRN_M50_Hood",
+        "displayName": "M50 Promask w/ Hood",
+        "matchReason": "alias-class",
+        "assignedTo": "facewear"
+      },
+      {
+        "row": 44,
+        "raw": "1x CBRN MTP Suit",
+        "item": "CBRN MTP Suit",
+        "quantity": 1,
+        "className": "U_CBRN_MTP",
+        "displayName": "CBRN Suit (MTP)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.className"
+      },
+      {
+        "row": 8,
+        "raw": "1x KITE (MAXIKITE)",
+        "item": "KITE (MAXIKITE)",
+        "quantity": 1,
+        "className": "UK3CB_BAF_MaxiKite",
+        "displayName": "KITE (MAXIKITE)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 11,
+        "raw": "1x 7.62mm 100rnd Tracer Belt",
+        "item": "7.62mm 100rnd Tracer Belt",
+        "quantity": 1,
+        "className": "UK3CB_BAF_762_100Rnd_T",
+        "displayName": "7.62mm 100rnd Tracer Belt",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 12,
+        "raw": "2x M67 Fragmentation Grenade",
+        "item": "M67 Fragmentation Grenade",
+        "quantity": 2,
+        "className": "HandGrenade",
+        "displayName": "M67 Fragmentation Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 13,
+        "raw": "4x L50A1 White Smoke Grenade",
+        "item": "L50A1 White Smoke Grenade",
+        "quantity": 4,
+        "className": "UK3CB_BAF_SmokeShell",
+        "displayName": "L50A1 White Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 14,
+        "raw": "1x L100 Yellow Smoke Grenade",
+        "item": "L100 Yellow Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellYellow",
+        "displayName": "L100 Yellow Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 15,
+        "raw": "3x Chemlights (Hi Blue)",
+        "item": "Chemlights (Hi Blue)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiBlue",
+        "displayName": "Chemlight (Hi Blue)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 16,
+        "raw": "1x Chemlight (Hi Yellow)",
+        "item": "Chemlight (Hi Yellow)",
+        "quantity": 1,
+        "className": "ACE_Chemlight_HiYellow",
+        "displayName": "Chemlight (Hi Yellow)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 17,
+        "raw": "1x ATNAA Autoinjector",
+        "item": "ATNAA Autoinjector",
+        "quantity": 1,
+        "className": "ACE_ATNAA_AntidoteInjector",
+        "displayName": "ATNAA (Antidote injector)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 18,
+        "raw": "5x Bandage (Elastic)",
+        "item": "Bandage (Elastic)",
+        "quantity": 5,
+        "className": "ACE_elasticBandage",
+        "displayName": "Bandage (Elastic)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 19,
+        "raw": "5x Bandage (QuikClot)",
+        "item": "Bandage (QuikClot)",
+        "quantity": 5,
+        "className": "ACE_quikclot",
+        "displayName": "Bandage (QuikClot)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 20,
+        "raw": "10x Bandage (Packing)",
+        "item": "Bandage (Packing)",
+        "quantity": 10,
+        "className": "ACE_packingBandage",
+        "displayName": "Bandage (Packing)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 21,
+        "raw": "4x Tourniquets",
+        "item": "Tourniquets",
+        "quantity": 4,
+        "className": "ACE_tourniquet",
+        "displayName": "Tourniquet (CAT)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 22,
+        "raw": "2x Canteen",
+        "item": "Canteen",
+        "quantity": 2,
+        "className": "ACE_Canteen",
+        "displayName": "Canteen",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 24,
+        "raw": "1x AN/PRC-343",
+        "item": "AN/PRC-343",
+        "quantity": 1,
+        "className": "ACRE_PRC343",
+        "displayName": "AN/PRC-343",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 27,
+        "raw": "1x Cam Cream Kit - Europe",
+        "item": "Cam Cream Kit - Europe",
+        "quantity": 1,
+        "className": "FISH_Cream_Kit_Europe",
+        "displayName": "Cam Cream Kit - Europe",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 28,
+        "raw": "4x Cable Tie",
+        "item": "Cable Tie",
+        "quantity": 4,
+        "className": "ACE_CableTie",
+        "displayName": "Cable Tie",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 31,
+        "raw": "1x Map Tools",
+        "item": "Map Tools",
+        "quantity": 1,
+        "className": "ACE_MapTools",
+        "displayName": "Map Tools",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 32,
+        "raw": "1x Fulton MX-991",
+        "item": "Fulton MX-991",
+        "quantity": 1,
+        "className": "ACE_Flashlight_MX991",
+        "displayName": "Fulton MX-991",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 33,
+        "raw": "2x IR Strobe",
+        "item": "IR Strobe",
+        "quantity": 2,
+        "className": "ACE_IR_Strobe_Item",
+        "displayName": "IR Strobe",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 34,
+        "raw": "1x Entrenching Tool",
+        "item": "Entrenching Tool",
+        "quantity": 1,
+        "className": "ACE_EntrenchingTool",
+        "displayName": "Entrenching Tool",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 37,
+        "raw": "1x Helmet Camera",
+        "item": "Helmet Camera",
+        "quantity": 1,
+        "className": "ItemcTabHCam",
+        "displayName": "Helmet Camera",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 39,
+        "raw": "1x Gas Mask Filters",
+        "item": "Gas Mask Filters",
+        "quantity": 1,
+        "className": "CBRN_gasmaskFilter",
+        "displayName": "Gas mask Filter",
+        "matchReason": "alias-class",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 45,
+        "raw": "1x RYORKS Uniform",
+        "item": "RYORKS Uniform",
+        "quantity": 1,
+        "className": "BZD_PCS_R1_RYorks",
+        "displayName": "UBAC [RYorks]",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.className"
+      }
+    ],
+    "unplacedItems": [],
+    "unresolvedItems": [],
+    "ambiguousItems": []
+  },
+  {
+    "id": "grenadier",
+    "name": "Grenadier",
+    "role": "Grenadier",
+    "description": "Mapped from legacy Infantry CEFO without guessing. Container placement left empty unless the CEFO explicitly identified the container item itself.",
+    "group": "Infantry Section",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L85A3_UGL",
+        "barrel": "",
+        "rail": "4IB_LLM_IR_Laser",
+        "optic": "RKSL_optic_LDS",
+        "magClass": "UK3CB_BAF_556_30Rnd",
+        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "underbarrel": ""
+      },
+      "launcher": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "handgun": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "binoculars": {
+        "weapon": ""
+      },
+      "uniform": {
+        "className": "BZD_PCS_R1_RYorks",
+        "items": [
+          {
+            "className": "ACRE_PRC343",
+            "count": 1
+          },
+          {
+            "className": "FISH_Cream_Kit_Europe",
+            "count": 1
+          },
+          {
+            "className": "ACE_MapTools",
+            "count": 1
+          },
+          {
+            "className": "ACE_Flashlight_MX991",
+            "count": 1
+          },
+          {
+            "className": "ItemcTabHCam",
+            "count": 1
+          }
+        ]
+      },
+      "vest": {
+        "className": "BZD_Virtus_Rifleman_A1_NB",
+        "items": [
+          {
+            "className": "UK3CB_BAF_762_100Rnd_T",
+            "count": 1
+          },
+          {
+            "className": "ACE_Canteen",
+            "count": 2
+          },
+          {
+            "className": "ACE_CableTie",
+            "count": 4
+          },
+          {
+            "className": "CBRN_gasmaskFilter",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
+          },
+          {
+            "className": "ACE_MRE_BeefStew",
+            "count": 2
+          }
+        ]
+      },
+      "backpack": {
+        "className": "BAF_BACK_1",
+        "items": [
+          {
+            "className": "U_CBRN_MTP",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_Kite",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_1Rnd_HEDP_Grenade_Shell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_1Rnd_Smoke_Grenade_shell",
+            "count": 2
+          },
+          {
+            "className": "RW_UGL_Bandolier_Item",
+            "count": 1
+          },
+          {
+            "className": "HandGrenade",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_Chemlight_HiBlue",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
+          },
+          {
+            "className": "ACE_elasticBandage",
+            "count": 5
+          },
+          {
+            "className": "ACE_quikclot",
+            "count": 5
+          },
+          {
+            "className": "ACE_packingBandage",
+            "count": 10
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_IR_Strobe_Item",
+            "count": 2
+          },
+          {
+            "className": "ACE_EntrenchingTool",
+            "count": 1
+          }
+        ]
+      },
+      "headgear": "Revision_Scrim",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "",
+        "compass": "ItemCompass",
+        "watch": "KAT_Katmin",
+        "nvg": ""
+      },
+      "extras": {
+        "insignia": "",
+        "aceEarplugs": true
+      }
+    },
+    "mappedItems": [
+      {
+        "row": 4,
+        "raw": "1x L85A3 w/ L123A2 Ladder",
+        "item": "L85A3 w/ L123A2 Ladder",
+        "quantity": 1,
+        "className": "UK3CB_BAF_L85A3_UGL",
+        "displayName": "L85A3 with L123A2 Ladder",
+        "matchReason": "alias-compat-display",
+        "assignedTo": "primary.weapon"
+      },
+      {
+        "row": 5,
+        "raw": "1x LDS",
+        "item": "LDS",
+        "quantity": 1,
+        "className": "RKSL_optic_LDS",
+        "displayName": "LDS",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.optic"
+      },
+      {
+        "row": 6,
+        "raw": "1x VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "item": "VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "quantity": 1,
+        "className": "4IB_LLM_IR_Laser",
+        "displayName": "VarioRay LLM Mk3 IR (Tan)",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.rail"
+      },
+      {
+        "row": 8,
+        "raw": "4x 5.56mm 30rnd Mag",
+        "item": "5.56mm 30rnd Mag",
+        "quantity": 4,
+        "className": "UK3CB_BAF_556_30Rnd",
+        "displayName": "5.56mm 30rnd Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.magClass"
+      },
+      {
+        "row": 9,
+        "raw": "2x 5.56mm 30rnd Tracer Mag",
+        "item": "5.56mm 30rnd Tracer Mag",
+        "quantity": 2,
+        "className": "UK3CB_BAF_556_30Rnd_T",
+        "displayName": "5.56mm 30rnd Tracer Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.altMagClass"
+      },
+      {
+        "row": 28,
+        "raw": "1x GPS",
+        "item": "GPS",
+        "quantity": 1,
+        "className": "ItemGPS",
+        "displayName": "GPS",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.gps"
+      },
+      {
+        "row": 32,
+        "raw": "1x Compass",
+        "item": "Compass",
+        "quantity": 1,
+        "className": "ItemCompass",
+        "displayName": "Compass",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.compass"
+      },
+      {
+        "row": 33,
+        "raw": "1x Map",
+        "item": "Map",
+        "quantity": 1,
+        "className": "ItemMap",
+        "displayName": "Map",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.map"
+      },
+      {
+        "row": 39,
+        "raw": "1x Head-Mounted NV System [BAF]",
+        "item": "Head-Mounted NV System [BAF]",
+        "quantity": 1,
+        "className": "UK3CB_BAF_HMNVS",
+        "displayName": "Head-Mounted NV System [BAF]",
+        "matchReason": "exact-display",
+        "assignedTo": "binoculars.weapon"
+      },
+      {
+        "row": 46,
+        "raw": "1x M50 Respirator",
+        "item": "M50 Respirator",
+        "quantity": 1,
+        "className": "G_CBRN_M50_Hood",
+        "displayName": "M50 Promask w/ Hood",
+        "matchReason": "alias-class",
+        "assignedTo": "facewear"
+      },
+      {
+        "row": 47,
+        "raw": "1x CBRN MTP Suit",
+        "item": "CBRN MTP Suit",
+        "quantity": 1,
+        "className": "U_CBRN_MTP",
+        "displayName": "CBRN Suit (MTP)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.className"
+      },
+      {
+        "row": 7,
+        "raw": "1x KITE",
+        "item": "KITE",
+        "quantity": 1,
+        "className": "UK3CB_BAF_Kite",
+        "displayName": "KITE",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 10,
+        "raw": "1x 7.62mm 100rnd Tracer Belt",
+        "item": "7.62mm 100rnd Tracer Belt",
+        "quantity": 1,
+        "className": "UK3CB_BAF_762_100Rnd_T",
+        "displayName": "7.62mm 100rnd Tracer Belt",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 11,
+        "raw": "4x 40mm HEDP Grenade Round (L123)",
+        "item": "40mm HEDP Grenade Round (L123)",
+        "quantity": 4,
+        "className": "UK3CB_BAF_1Rnd_HEDP_Grenade_Shell",
+        "displayName": "40mm HEDP Grenade Round (L123)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 12,
+        "raw": "1x 40mm Red Smoke (L123)",
+        "item": "40mm Red Smoke (L123)",
+        "quantity": 1,
+        "className": "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell",
+        "displayName": "40mm Red Smoke (L123)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 13,
+        "raw": "2x 40mm White Smoke (L123)",
+        "item": "40mm White Smoke (L123)",
+        "quantity": 2,
+        "className": "UK3CB_BAF_1Rnd_Smoke_Grenade_shell",
+        "displayName": "40mm White Smoke (L123)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 14,
+        "raw": "1x Bandolier (40mm HE)",
+        "item": "Bandolier (40mm HE)",
+        "quantity": 1,
+        "className": "RW_UGL_Bandolier_Item",
+        "displayName": "Bandolier (40mm HE)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 15,
+        "raw": "2x M67 Fragmentation Grenade",
+        "item": "M67 Fragmentation Grenade",
+        "quantity": 2,
+        "className": "HandGrenade",
+        "displayName": "M67 Fragmentation Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 16,
+        "raw": "4x L50A1 White Smoke Grenade",
+        "item": "L50A1 White Smoke Grenade",
+        "quantity": 4,
+        "className": "UK3CB_BAF_SmokeShell",
+        "displayName": "L50A1 White Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 17,
+        "raw": "1x L100 Yellow Smoke Grenade",
+        "item": "L100 Yellow Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellYellow",
+        "displayName": "L100 Yellow Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 18,
+        "raw": "3x Chemlights (Hi Blue)",
+        "item": "Chemlights (Hi Blue)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiBlue",
+        "displayName": "Chemlight (Hi Blue)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 19,
+        "raw": "1x Chemlight (Hi Yellow)",
+        "item": "Chemlight (Hi Yellow)",
+        "quantity": 1,
+        "className": "ACE_Chemlight_HiYellow",
+        "displayName": "Chemlight (Hi Yellow)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 20,
+        "raw": "1x ATNAA Autoinjector",
+        "item": "ATNAA Autoinjector",
+        "quantity": 1,
+        "className": "ACE_ATNAA_AntidoteInjector",
+        "displayName": "ATNAA (Antidote injector)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 21,
+        "raw": "5x Bandage (Elastic)",
+        "item": "Bandage (Elastic)",
+        "quantity": 5,
+        "className": "ACE_elasticBandage",
+        "displayName": "Bandage (Elastic)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 22,
+        "raw": "5x Bandage (QuikClot)",
+        "item": "Bandage (QuikClot)",
+        "quantity": 5,
+        "className": "ACE_quikclot",
+        "displayName": "Bandage (QuikClot)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 23,
+        "raw": "10x Bandage (Packing)",
+        "item": "Bandage (Packing)",
+        "quantity": 10,
+        "className": "ACE_packingBandage",
+        "displayName": "Bandage (Packing)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 24,
+        "raw": "4x Tourniquets",
+        "item": "Tourniquets",
+        "quantity": 4,
+        "className": "ACE_tourniquet",
+        "displayName": "Tourniquet (CAT)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 25,
+        "raw": "2x Canteen",
+        "item": "Canteen",
+        "quantity": 2,
+        "className": "ACE_Canteen",
+        "displayName": "Canteen",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 27,
+        "raw": "1x AN/PRC-343",
+        "item": "AN/PRC-343",
+        "quantity": 1,
+        "className": "ACRE_PRC343",
+        "displayName": "AN/PRC-343",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 30,
+        "raw": "1x Cam Cream Kit - Europe",
+        "item": "Cam Cream Kit - Europe",
+        "quantity": 1,
+        "className": "FISH_Cream_Kit_Europe",
+        "displayName": "Cam Cream Kit - Europe",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 31,
+        "raw": "4x Cable Tie",
+        "item": "Cable Tie",
+        "quantity": 4,
+        "className": "ACE_CableTie",
+        "displayName": "Cable Tie",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 34,
+        "raw": "1x Map Tools",
+        "item": "Map Tools",
+        "quantity": 1,
+        "className": "ACE_MapTools",
+        "displayName": "Map Tools",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 35,
+        "raw": "1x Fulton MX-991",
+        "item": "Fulton MX-991",
+        "quantity": 1,
+        "className": "ACE_Flashlight_MX991",
+        "displayName": "Fulton MX-991",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 36,
+        "raw": "2x IR Strobe",
+        "item": "IR Strobe",
+        "quantity": 2,
+        "className": "ACE_IR_Strobe_Item",
+        "displayName": "IR Strobe",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 37,
+        "raw": "1x Entrenching Tool",
+        "item": "Entrenching Tool",
+        "quantity": 1,
+        "className": "ACE_EntrenchingTool",
+        "displayName": "Entrenching Tool",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 40,
+        "raw": "1x Helmet Camera",
+        "item": "Helmet Camera",
+        "quantity": 1,
+        "className": "ItemcTabHCam",
+        "displayName": "Helmet Camera",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 42,
+        "raw": "1x Gas Mask Filters",
+        "item": "Gas Mask Filters",
+        "quantity": 1,
+        "className": "CBRN_gasmaskFilter",
+        "displayName": "Gas mask Filter",
+        "matchReason": "alias-class",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 48,
+        "raw": "1x RYORKS Uniform",
+        "item": "RYORKS Uniform",
+        "quantity": 1,
+        "className": "BZD_PCS_R1_RYorks",
+        "displayName": "UBAC [RYorks]",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.className"
+      }
+    ],
+    "unplacedItems": [],
+    "unresolvedItems": [],
+    "ambiguousItems": []
+  },
+  {
+    "id": "gunner",
+    "name": "Gunner",
+    "role": "Gunner",
+    "description": "Mapped from legacy Infantry CEFO without guessing. Container placement left empty unless the CEFO explicitly identified the container item itself.",
+    "group": "Infantry Section",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L7A2",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "UK3CB_BAF_762_100Rnd_T",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "launcher": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "handgun": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "binoculars": {
+        "weapon": ""
+      },
+      "uniform": {
+        "className": "BZD_PCS_R1_RYorks",
+        "items": [
+          {
+            "className": "ACRE_PRC343",
+            "count": 1
+          },
+          {
+            "className": "FISH_Cream_Kit_Europe",
+            "count": 1
+          },
+          {
+            "className": "ACE_MapTools",
+            "count": 1
+          },
+          {
+            "className": "ACE_Flashlight_MX991",
+            "count": 1
+          },
+          {
+            "className": "ItemcTabHCam",
+            "count": 1
+          }
+        ]
+      },
+      "vest": {
+        "className": "BZD_Virtus_Rifleman_A1_NB",
+        "items": [
+          {
+            "className": "ACE_Canteen",
+            "count": 2
+          },
+          {
+            "className": "ACE_CableTie",
+            "count": 4
+          },
+          {
+            "className": "CBRN_gasmaskFilter",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
+          },
+          {
+            "className": "ACE_MRE_BeefStew",
+            "count": 2
+          }
+        ]
+      },
+      "backpack": {
+        "className": "UK3CB_BAF_B_Kitbag_MTP",
+        "items": [
+          {
+            "className": "U_CBRN_MTP",
+            "count": 1
+          },
+          {
+            "className": "HandGrenade",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_Chemlight_HiBlue",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
+          },
+          {
+            "className": "ACE_elasticBandage",
+            "count": 5
+          },
+          {
+            "className": "ACE_quikclot",
+            "count": 5
+          },
+          {
+            "className": "ACE_packingBandage",
+            "count": 10
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_IR_Strobe_Item",
+            "count": 2
+          },
+          {
+            "className": "ACE_EntrenchingTool",
+            "count": 1
+          }
+        ]
+      },
+      "headgear": "Revision_Scrim",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "",
+        "compass": "ItemCompass",
+        "watch": "KAT_Katmin",
+        "nvg": ""
+      },
+      "extras": {
+        "insignia": "",
+        "aceEarplugs": true
+      }
+    },
+    "mappedItems": [
+      {
+        "row": 4,
+        "raw": "1x L7A2 GPMG",
+        "item": "L7A2 GPMG",
+        "quantity": 1,
+        "className": "UK3CB_BAF_L7A2",
+        "displayName": "L7A2 GPMG",
+        "matchReason": "alias-compat-display",
+        "assignedTo": "primary.weapon"
+      },
+      {
+        "row": 5,
+        "raw": "4x 7.62mm 100rnd Tracer Belt",
+        "item": "7.62mm 100rnd Tracer Belt",
+        "quantity": 4,
+        "className": "UK3CB_BAF_762_100Rnd_T",
+        "displayName": "7.62mm 100rnd Tracer Belt",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.magClass"
+      },
+      {
+        "row": 19,
+        "raw": "1x GPS",
+        "item": "GPS",
+        "quantity": 1,
+        "className": "ItemGPS",
+        "displayName": "GPS",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.gps"
+      },
+      {
+        "row": 23,
+        "raw": "1x Compass",
+        "item": "Compass",
+        "quantity": 1,
+        "className": "ItemCompass",
+        "displayName": "Compass",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.compass"
+      },
+      {
+        "row": 24,
+        "raw": "1x Map",
+        "item": "Map",
+        "quantity": 1,
+        "className": "ItemMap",
+        "displayName": "Map",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.map"
+      },
+      {
+        "row": 30,
+        "raw": "1x Head-Mounted NV System [BAF]",
+        "item": "Head-Mounted NV System [BAF]",
+        "quantity": 1,
+        "className": "UK3CB_BAF_HMNVS",
+        "displayName": "Head-Mounted NV System [BAF]",
+        "matchReason": "exact-display",
+        "assignedTo": "binoculars.weapon"
+      },
+      {
+        "row": 37,
+        "raw": "1x M50 Respirator",
+        "item": "M50 Respirator",
+        "quantity": 1,
+        "className": "G_CBRN_M50_Hood",
+        "displayName": "M50 Promask w/ Hood",
+        "matchReason": "alias-class",
+        "assignedTo": "facewear"
+      },
+      {
+        "row": 38,
+        "raw": "1x CBRN MTP Suit",
+        "item": "CBRN MTP Suit",
+        "quantity": 1,
+        "className": "U_CBRN_MTP",
+        "displayName": "CBRN Suit (MTP)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.className"
+      },
+      {
+        "row": 6,
+        "raw": "2x M67 Fragmentation Grenade",
+        "item": "M67 Fragmentation Grenade",
+        "quantity": 2,
+        "className": "HandGrenade",
+        "displayName": "M67 Fragmentation Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 7,
+        "raw": "4x L50A1 White Smoke Grenade",
+        "item": "L50A1 White Smoke Grenade",
+        "quantity": 4,
+        "className": "UK3CB_BAF_SmokeShell",
+        "displayName": "L50A1 White Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 8,
+        "raw": "1x L100 Yellow Smoke Grenade",
+        "item": "L100 Yellow Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellYellow",
+        "displayName": "L100 Yellow Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 9,
+        "raw": "3x Chemlights (Hi Blue)",
+        "item": "Chemlights (Hi Blue)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiBlue",
+        "displayName": "Chemlight (Hi Blue)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 10,
+        "raw": "1x Chemlight (Hi Yellow)",
+        "item": "Chemlight (Hi Yellow)",
+        "quantity": 1,
+        "className": "ACE_Chemlight_HiYellow",
+        "displayName": "Chemlight (Hi Yellow)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 11,
+        "raw": "1x ATNAA Autoinjector",
+        "item": "ATNAA Autoinjector",
+        "quantity": 1,
+        "className": "ACE_ATNAA_AntidoteInjector",
+        "displayName": "ATNAA (Antidote injector)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 12,
+        "raw": "5x Bandage (Elastic)",
+        "item": "Bandage (Elastic)",
+        "quantity": 5,
+        "className": "ACE_elasticBandage",
+        "displayName": "Bandage (Elastic)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 13,
+        "raw": "5x Bandage (QuikClot)",
+        "item": "Bandage (QuikClot)",
+        "quantity": 5,
+        "className": "ACE_quikclot",
+        "displayName": "Bandage (QuikClot)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 14,
+        "raw": "10x Bandage (Packing)",
+        "item": "Bandage (Packing)",
+        "quantity": 10,
+        "className": "ACE_packingBandage",
+        "displayName": "Bandage (Packing)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 15,
+        "raw": "4x Tourniquets",
+        "item": "Tourniquets",
+        "quantity": 4,
+        "className": "ACE_tourniquet",
+        "displayName": "Tourniquet (CAT)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 16,
+        "raw": "2x Canteen",
+        "item": "Canteen",
+        "quantity": 2,
+        "className": "ACE_Canteen",
+        "displayName": "Canteen",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 18,
+        "raw": "1x AN/PRC-343",
+        "item": "AN/PRC-343",
+        "quantity": 1,
+        "className": "ACRE_PRC343",
+        "displayName": "AN/PRC-343",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 21,
+        "raw": "1x Cam Cream Kit - Europe",
+        "item": "Cam Cream Kit - Europe",
+        "quantity": 1,
+        "className": "FISH_Cream_Kit_Europe",
+        "displayName": "Cam Cream Kit - Europe",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 22,
+        "raw": "4x Cable Tie",
+        "item": "Cable Tie",
+        "quantity": 4,
+        "className": "ACE_CableTie",
+        "displayName": "Cable Tie",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 25,
+        "raw": "1x Map Tools",
+        "item": "Map Tools",
+        "quantity": 1,
+        "className": "ACE_MapTools",
+        "displayName": "Map Tools",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 26,
+        "raw": "1x Fulton MX-991",
+        "item": "Fulton MX-991",
+        "quantity": 1,
+        "className": "ACE_Flashlight_MX991",
+        "displayName": "Fulton MX-991",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 27,
+        "raw": "2x IR Strobe",
+        "item": "IR Strobe",
+        "quantity": 2,
+        "className": "ACE_IR_Strobe_Item",
+        "displayName": "IR Strobe",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 28,
+        "raw": "1x Entrenching Tool",
+        "item": "Entrenching Tool",
+        "quantity": 1,
+        "className": "ACE_EntrenchingTool",
+        "displayName": "Entrenching Tool",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 31,
+        "raw": "1x Helmet Camera",
+        "item": "Helmet Camera",
+        "quantity": 1,
+        "className": "ItemcTabHCam",
+        "displayName": "Helmet Camera",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 33,
+        "raw": "1x Gas Mask Filters",
+        "item": "Gas Mask Filters",
+        "quantity": 1,
+        "className": "CBRN_gasmaskFilter",
+        "displayName": "Gas mask Filter",
+        "matchReason": "alias-class",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 39,
+        "raw": "1x RYORKS Uniform",
+        "item": "RYORKS Uniform",
+        "quantity": 1,
+        "className": "BZD_PCS_R1_RYorks",
+        "displayName": "UBAC [RYorks]",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.className"
+      }
+    ],
+    "unplacedItems": [],
+    "unresolvedItems": [],
+    "ambiguousItems": []
+  },
+  {
+    "id": "team-medic",
+    "name": "Team Medic",
+    "role": "Team Medic",
+    "description": "Mapped from legacy Infantry CEFO without guessing. Container placement left empty unless the CEFO explicitly identified the container item itself.",
+    "group": "Infantry Section",
+    "loadout": {
+      "primary": {
+        "weapon": "UK3CB_BAF_L85A3",
+        "barrel": "",
+        "rail": "4IB_LLM_IR_Laser",
+        "optic": "RKSL_optic_LDS",
+        "magClass": "UK3CB_BAF_556_30Rnd",
+        "altMagClass": "UK3CB_BAF_556_30Rnd_T",
+        "underbarrel": "UK3CB_underbarrel_acc_grippod_t"
+      },
+      "launcher": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "handgun": {
+        "weapon": "",
+        "barrel": "",
+        "rail": "",
+        "optic": "",
+        "magClass": "",
+        "altMagClass": "",
+        "underbarrel": ""
+      },
+      "binoculars": {
+        "weapon": ""
+      },
+      "uniform": {
+        "className": "BZD_PCS_R1_RYorks",
+        "items": [
+          {
+            "className": "ACRE_PRC343",
+            "count": 1
+          },
+          {
+            "className": "FISH_Cream_Kit_Europe",
+            "count": 1
+          },
+          {
+            "className": "ACE_MapTools",
+            "count": 1
+          },
+          {
+            "className": "ACE_Flashlight_MX991",
+            "count": 1
+          },
+          {
+            "className": "ItemcTabHCam",
+            "count": 1
+          }
+        ]
+      },
+      "vest": {
+        "className": "BZD_Virtus_Rifleman_A1_NB",
+        "items": [
+          {
+            "className": "UK3CB_BAF_762_100Rnd_T",
+            "count": 1
+          },
+          {
+            "className": "ACE_Canteen",
+            "count": 2
+          },
+          {
+            "className": "ACE_CableTie",
+            "count": 4
+          },
+          {
+            "className": "CBRN_gasmaskFilter",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
+          },
+          {
+            "className": "ACE_MRE_BeefStew",
+            "count": 2
+          }
+        ]
+      },
+      "backpack": {
+        "className": "BAF_BACK_2",
+        "items": [
+          {
+            "className": "U_CBRN_MTP",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_Kite",
+            "count": 1
+          },
+          {
+            "className": "RW_AR_Bandolier_Item",
+            "count": 1
+          },
+          {
+            "className": "HandGrenade",
+            "count": 2
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShell",
+            "count": 4
+          },
+          {
+            "className": "UK3CB_BAF_SmokeShellYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_Chemlight_HiBlue",
+            "count": 3
+          },
+          {
+            "className": "ACE_Chemlight_HiYellow",
+            "count": 1
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
+          },
+          {
+            "className": "ACE_elasticBandage",
+            "count": 15
+          },
+          {
+            "className": "ACE_quikclot",
+            "count": 15
+          },
+          {
+            "className": "ACE_packingBandage",
+            "count": 30
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 6
+          },
+          {
+            "className": "RW_CFAK_Item",
+            "count": 2
+          },
+          {
+            "className": "kat_chestSeal",
+            "count": 3
+          },
+          {
+            "className": "kat_guedel",
+            "count": 10
+          },
+          {
+            "className": "kat_ncdKit",
+            "count": 3
+          },
+          {
+            "className": "ACE_splint",
+            "count": 3
+          },
+          {
+            "className": "ACE_IR_Strobe_Item",
+            "count": 2
+          },
+          {
+            "className": "ACE_EntrenchingTool",
+            "count": 1
+          },
+          {
+            "className": "kat_Painkiller",
+            "count": 3
+          }
+        ]
+      },
+      "headgear": "Revision_Scrim",
+      "facewear": "UK3CB_BAF_G_Tactical_Clear",
+      "assignedItems": {
+        "map": "ItemMap",
+        "gps": "ItemGPS",
+        "radio": "",
+        "compass": "ItemCompass",
+        "watch": "KAT_Katmin",
+        "nvg": ""
+      },
+      "extras": {
+        "insignia": "",
+        "aceEarplugs": true
+      }
+    },
+    "mappedItems": [
+      {
+        "row": 4,
+        "raw": "1x L85A3",
+        "item": "L85A3",
+        "quantity": 1,
+        "className": "UK3CB_BAF_L85A3",
+        "displayName": "L85A3",
+        "matchReason": "alias-compat-display",
+        "assignedTo": "primary.weapon"
+      },
+      {
+        "row": 5,
+        "raw": "1x LDS",
+        "item": "LDS",
+        "quantity": 1,
+        "className": "RKSL_optic_LDS",
+        "displayName": "LDS",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.optic"
+      },
+      {
+        "row": 6,
+        "raw": "1x VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "item": "VarioRay VarioRay LLM Mk3 IR (Tan) (Tan)",
+        "quantity": 1,
+        "className": "4IB_LLM_IR_Laser",
+        "displayName": "VarioRay LLM Mk3 IR (Tan)",
+        "matchReason": "alias-display",
+        "assignedTo": "primary.rail"
+      },
+      {
+        "row": 7,
+        "raw": "1x Grip-pod (Tan)",
+        "item": "Grip-pod (Tan)",
+        "quantity": 1,
+        "className": "UK3CB_underbarrel_acc_grippod_t",
+        "displayName": "Grip-pod (Tan)",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.underbarrel"
+      },
+      {
+        "row": 9,
+        "raw": "4x 5.56mm 30rnd Mag",
+        "item": "5.56mm 30rnd Mag",
+        "quantity": 4,
+        "className": "UK3CB_BAF_556_30Rnd",
+        "displayName": "5.56mm 30rnd Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.magClass"
+      },
+      {
+        "row": 10,
+        "raw": "2x 5.56mm 30rnd Tracer Mag",
+        "item": "5.56mm 30rnd Tracer Mag",
+        "quantity": 2,
+        "className": "UK3CB_BAF_556_30Rnd_T",
+        "displayName": "5.56mm 30rnd Tracer Mag",
+        "matchReason": "exact-display",
+        "assignedTo": "primary.altMagClass"
+      },
+      {
+        "row": 32,
+        "raw": "1x GPS",
+        "item": "GPS",
+        "quantity": 1,
+        "className": "ItemGPS",
+        "displayName": "GPS",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.gps"
+      },
+      {
+        "row": 36,
+        "raw": "1x Compass",
+        "item": "Compass",
+        "quantity": 1,
+        "className": "ItemCompass",
+        "displayName": "Compass",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.compass"
+      },
+      {
+        "row": 37,
+        "raw": "1x Map",
+        "item": "Map",
+        "quantity": 1,
+        "className": "ItemMap",
+        "displayName": "Map",
+        "matchReason": "exact-display",
+        "assignedTo": "assignedItems.map"
+      },
+      {
+        "row": 43,
+        "raw": "1x Head-Mounted NV System [BAF]",
+        "item": "Head-Mounted NV System [BAF]",
+        "quantity": 1,
+        "className": "UK3CB_BAF_HMNVS",
+        "displayName": "Head-Mounted NV System [BAF]",
+        "matchReason": "exact-display",
+        "assignedTo": "binoculars.weapon"
+      },
+      {
+        "row": 50,
+        "raw": "1x M50 Respirator",
+        "item": "M50 Respirator",
+        "quantity": 1,
+        "className": "G_CBRN_M50_Hood",
+        "displayName": "M50 Promask w/ Hood",
+        "matchReason": "alias-class",
+        "assignedTo": "facewear"
+      },
+      {
+        "row": 51,
+        "raw": "1x CBRN MTP Suit",
+        "item": "CBRN MTP Suit",
+        "quantity": 1,
+        "className": "U_CBRN_MTP",
+        "displayName": "CBRN Suit (MTP)",
+        "matchReason": "alias-display",
+        "assignedTo": "uniform.className"
+      },
+      {
+        "row": 8,
+        "raw": "1x KITE",
+        "item": "KITE",
+        "quantity": 1,
+        "className": "UK3CB_BAF_Kite",
+        "displayName": "KITE",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 11,
+        "raw": "1x 7.62mm 100rnd Tracer Belt",
+        "item": "7.62mm 100rnd Tracer Belt",
+        "quantity": 1,
+        "className": "UK3CB_BAF_762_100Rnd_T",
+        "displayName": "7.62mm 100rnd Tracer Belt",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 12,
+        "raw": "1x Bandolier (Rifle)",
+        "item": "Bandolier (Rifle)",
+        "quantity": 1,
+        "className": "RW_AR_Bandolier_Item",
+        "displayName": "Bandolier (Rifle)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 13,
+        "raw": "2x M67 Fragmentation Grenade",
+        "item": "M67 Fragmentation Grenade",
+        "quantity": 2,
+        "className": "HandGrenade",
+        "displayName": "M67 Fragmentation Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 14,
+        "raw": "4x L50A1 White Smoke Grenade",
+        "item": "L50A1 White Smoke Grenade",
+        "quantity": 4,
+        "className": "UK3CB_BAF_SmokeShell",
+        "displayName": "L50A1 White Smoke Grenade",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 15,
+        "raw": "1x L100 Yellow Smoke Grenade",
+        "item": "L100 Yellow Smoke Grenade",
+        "quantity": 1,
+        "className": "UK3CB_BAF_SmokeShellYellow",
+        "displayName": "L100 Yellow Smoke Grenade",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 16,
+        "raw": "3x Chemlights (Hi Blue)",
+        "item": "Chemlights (Hi Blue)",
+        "quantity": 3,
+        "className": "ACE_Chemlight_HiBlue",
+        "displayName": "Chemlight (Hi Blue)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 17,
+        "raw": "1x Chemlight (Hi Yellow)",
+        "item": "Chemlight (Hi Yellow)",
+        "quantity": 1,
+        "className": "ACE_Chemlight_HiYellow",
+        "displayName": "Chemlight (Hi Yellow)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 18,
+        "raw": "1x ATNAA Autoinjector",
+        "item": "ATNAA Autoinjector",
+        "quantity": 1,
+        "className": "ACE_ATNAA_AntidoteInjector",
+        "displayName": "ATNAA (Antidote injector)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 19,
+        "raw": "15x Bandage (Elastic)",
+        "item": "Bandage (Elastic)",
+        "quantity": 15,
+        "className": "ACE_elasticBandage",
+        "displayName": "Bandage (Elastic)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 20,
+        "raw": "15x Bandage (QuikClot)",
+        "item": "Bandage (QuikClot)",
+        "quantity": 15,
+        "className": "ACE_quikclot",
+        "displayName": "Bandage (QuikClot)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 21,
+        "raw": "30x Bandage (Packing)",
+        "item": "Bandage (Packing)",
+        "quantity": 30,
+        "className": "ACE_packingBandage",
+        "displayName": "Bandage (Packing)",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 22,
+        "raw": "6x Tourniquets",
+        "item": "Tourniquets",
+        "quantity": 6,
+        "className": "ACE_tourniquet",
+        "displayName": "Tourniquet (CAT)",
+        "matchReason": "alias-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 23,
+        "raw": "2x Compact First Aid Kit",
+        "item": "Compact First Aid Kit",
+        "quantity": 2,
+        "className": "RW_CFAK_Item",
+        "displayName": "Compact First Aid Kit (CFAK)",
+        "matchReason": "alias-class",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 24,
+        "raw": "3x Chest Seal",
+        "item": "Chest Seal",
+        "quantity": 3,
+        "className": "kat_chestSeal",
+        "displayName": "Chest Seal",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 25,
+        "raw": "10x Guedel Tube",
+        "item": "Guedel Tube",
+        "quantity": 10,
+        "className": "kat_guedel",
+        "displayName": "Guedel Tube",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 26,
+        "raw": "3x NCD Kit",
+        "item": "NCD Kit",
+        "quantity": 3,
+        "className": "kat_ncdKit",
+        "displayName": "NCD Kit",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 28,
+        "raw": "3x Splint",
+        "item": "Splint",
+        "quantity": 3,
+        "className": "ACE_splint",
+        "displayName": "Splint",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 29,
+        "raw": "2x Canteen",
+        "item": "Canteen",
+        "quantity": 2,
+        "className": "ACE_Canteen",
+        "displayName": "Canteen",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 31,
+        "raw": "1x AN/PRC-343",
+        "item": "AN/PRC-343",
+        "quantity": 1,
+        "className": "ACRE_PRC343",
+        "displayName": "AN/PRC-343",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 34,
+        "raw": "1x Cam Cream Kit - Europe",
+        "item": "Cam Cream Kit - Europe",
+        "quantity": 1,
+        "className": "FISH_Cream_Kit_Europe",
+        "displayName": "Cam Cream Kit - Europe",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 35,
+        "raw": "4x Cable Tie",
+        "item": "Cable Tie",
+        "quantity": 4,
+        "className": "ACE_CableTie",
+        "displayName": "Cable Tie",
+        "matchReason": "exact-display",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 38,
+        "raw": "1x Map Tools",
+        "item": "Map Tools",
+        "quantity": 1,
+        "className": "ACE_MapTools",
+        "displayName": "Map Tools",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 39,
+        "raw": "1x Fulton MX-991",
+        "item": "Fulton MX-991",
+        "quantity": 1,
+        "className": "ACE_Flashlight_MX991",
+        "displayName": "Fulton MX-991",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 40,
+        "raw": "2x IR Strobe",
+        "item": "IR Strobe",
+        "quantity": 2,
+        "className": "ACE_IR_Strobe_Item",
+        "displayName": "IR Strobe",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 41,
+        "raw": "1x Entrenching Tool",
+        "item": "Entrenching Tool",
+        "quantity": 1,
+        "className": "ACE_EntrenchingTool",
+        "displayName": "Entrenching Tool",
+        "matchReason": "exact-display",
+        "assignedTo": "backpack.items"
+      },
+      {
+        "row": 44,
+        "raw": "1x Helmet Camera",
+        "item": "Helmet Camera",
+        "quantity": 1,
+        "className": "ItemcTabHCam",
+        "displayName": "Helmet Camera",
+        "matchReason": "exact-display",
+        "assignedTo": "uniform.items"
+      },
+      {
+        "row": 46,
+        "raw": "1x Gas Mask Filters",
+        "item": "Gas Mask Filters",
+        "quantity": 1,
+        "className": "CBRN_gasmaskFilter",
+        "displayName": "Gas mask Filter",
+        "matchReason": "alias-class",
+        "assignedTo": "vest.items"
+      },
+      {
+        "row": 52,
+        "raw": "1x RYORKS Uniform",
+        "item": "RYORKS Uniform",
+        "quantity": 1,
+        "className": "BZD_PCS_R1_RYorks",
+        "displayName": "UBAC [RYorks]",
+        "matchReason": "alias-class",
+        "assignedTo": "uniform.className"
+      }
+    ],
+    "unplacedItems": [],
+    "unresolvedItems": [],
+    "ambiguousItems": []
   }
 ]
