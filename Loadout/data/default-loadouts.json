@@ -82,6 +82,10 @@
           {
             "className": "ACE_ATNAA_AntidoteInjector",
             "count": 1
+          },
+          {
+            "className": "ACE_EarPlugs",
+            "count": 1
           }
         ]
       },
@@ -131,7 +135,7 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_1",
+        "className": "Bergen_MTP",
         "items": [
           {
             "className": "UK3CB_BAF_Kite",
@@ -737,6 +741,10 @@
           {
             "className": "ACE_ATNAA_AntidoteInjector",
             "count": 1
+          },
+          {
+            "className": "ACE_EarPlugs",
+            "count": 1
           }
         ]
       },
@@ -778,7 +786,7 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_1",
+        "className": "Bergen_MTP",
         "items": [
           {
             "className": "UK3CB_BAF_Kite",
@@ -1384,6 +1392,10 @@
           {
             "className": "ACE_ATNAA_AntidoteInjector",
             "count": 1
+          },
+          {
+            "className": "ACE_EarPlugs",
+            "count": 1
           }
         ]
       },
@@ -1425,7 +1437,7 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_1",
+        "className": "Bergen_MTP",
         "items": [
           {
             "className": "UK3CB_BAF_Kite",
@@ -2003,6 +2015,10 @@
           {
             "className": "ACE_ATNAA_AntidoteInjector",
             "count": 1
+          },
+          {
+            "className": "ACE_EarPlugs",
+            "count": 1
           }
         ]
       },
@@ -2048,7 +2064,7 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_1",
+        "className": "Bergen_MTP",
         "items": [
           {
             "className": "UK3CB_BAF_Kite",
@@ -2658,6 +2674,10 @@
           {
             "className": "ACE_ATNAA_AntidoteInjector",
             "count": 1
+          },
+          {
+            "className": "ACE_EarPlugs",
+            "count": 1
           }
         ]
       },
@@ -2703,7 +2723,7 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_1",
+        "className": "Bergen_MTP",
         "items": [
           {
             "className": "UK3CB_BAF_Kite",
@@ -3259,6 +3279,10 @@
           {
             "className": "ACE_ATNAA_AntidoteInjector",
             "count": 1
+          },
+          {
+            "className": "ACE_EarPlugs",
+            "count": 1
           }
         ]
       },
@@ -3304,7 +3328,7 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_1",
+        "className": "Bergen_MTP",
         "items": [
           {
             "className": "UK3CB_BAF_Kite",
@@ -3808,6 +3832,10 @@
           {
             "className": "ACE_ATNAA_AntidoteInjector",
             "count": 1
+          },
+          {
+            "className": "ACE_EarPlugs",
+            "count": 1
           }
         ]
       },
@@ -3849,7 +3877,7 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_1",
+        "className": "Bergen_MTP",
         "items": [
           {
             "className": "UK3CB_BAF_Kite",
@@ -4329,6 +4357,10 @@
           {
             "className": "ACE_ATNAA_AntidoteInjector",
             "count": 1
+          },
+          {
+            "className": "ACE_EarPlugs",
+            "count": 1
           }
         ]
       },
@@ -4366,7 +4398,7 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_1",
+        "className": "Bergen_MTP",
         "items": [
           {
             "className": "UK3CB_BAF_MaxiKite",
@@ -4856,6 +4888,10 @@
           {
             "className": "ACE_ATNAA_AntidoteInjector",
             "count": 1
+          },
+          {
+            "className": "ACE_EarPlugs",
+            "count": 1
           }
         ]
       },
@@ -4901,7 +4937,7 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_1",
+        "className": "Bergen_MTP",
         "items": [
           {
             "className": "UK3CB_BAF_Kite",
@@ -5437,6 +5473,10 @@
           {
             "className": "ACE_ATNAA_AntidoteInjector",
             "count": 1
+          },
+          {
+            "className": "ACE_EarPlugs",
+            "count": 1
           }
         ]
       },
@@ -5474,7 +5514,7 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_1",
+        "className": "Bergen_MTP",
         "items": [
           {
             "className": "HandGrenade",
@@ -5900,6 +5940,10 @@
           {
             "className": "ACE_ATNAA_AntidoteInjector",
             "count": 1
+          },
+          {
+            "className": "ACE_EarPlugs",
+            "count": 1
           }
         ]
       },
@@ -5945,7 +5989,7 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_1",
+        "className": "Bergen_MTP_Panel",
         "items": [
           {
             "className": "UK3CB_BAF_Kite",
