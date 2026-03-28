@@ -74,6 +74,14 @@
           {
             "className": "ItemAndroid",
             "count": 1
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
           }
         ]
       },
@@ -102,10 +110,6 @@
           },
           {
             "className": "ACE_HuntIR_monitor",
-            "count": 1
-          },
-          {
-            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           },
           {
@@ -170,10 +174,6 @@
             "count": 1
           },
           {
-            "className": "ACE_ATNAA_AntidoteInjector",
-            "count": 1
-          },
-          {
             "className": "ACE_elasticBandage",
             "count": 5
           },
@@ -186,15 +186,15 @@
             "count": 10
           },
           {
-            "className": "ACE_tourniquet",
-            "count": 4
-          },
-          {
             "className": "ACE_IR_Strobe_Item",
             "count": 2
           },
           {
             "className": "ACE_EntrenchingTool",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           }
         ]
@@ -729,6 +729,14 @@
           {
             "className": "ItemAndroid",
             "count": 1
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
           }
         ]
       },
@@ -750,10 +758,6 @@
           {
             "className": "ACE_CableTie",
             "count": 6
-          },
-          {
-            "className": "UK3CB_BAF_HMNVS",
-            "count": 1
           },
           {
             "className": "CBRN_gasmaskFilter",
@@ -817,10 +821,6 @@
             "count": 3
           },
           {
-            "className": "ACE_ATNAA_AntidoteInjector",
-            "count": 1
-          },
-          {
             "className": "ACE_elasticBandage",
             "count": 5
           },
@@ -833,15 +833,15 @@
             "count": 10
           },
           {
-            "className": "ACE_tourniquet",
-            "count": 4
-          },
-          {
             "className": "ACE_IR_Strobe_Item",
             "count": 2
           },
           {
             "className": "ACE_EntrenchingTool",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           }
         ]
@@ -1376,6 +1376,14 @@
           {
             "className": "ItemcTabHCam",
             "count": 1
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
           }
         ]
       },
@@ -1397,10 +1405,6 @@
           {
             "className": "ACE_CableTie",
             "count": 4
-          },
-          {
-            "className": "UK3CB_BAF_HMNVS",
-            "count": 1
           },
           {
             "className": "CBRN_gasmaskFilter",
@@ -1456,10 +1460,6 @@
             "count": 1
           },
           {
-            "className": "ACE_ATNAA_AntidoteInjector",
-            "count": 1
-          },
-          {
             "className": "ACE_elasticBandage",
             "count": 5
           },
@@ -1472,15 +1472,15 @@
             "count": 10
           },
           {
-            "className": "ACE_tourniquet",
-            "count": 4
-          },
-          {
             "className": "ACE_IR_Strobe_Item",
             "count": 2
           },
           {
             "className": "ACE_EntrenchingTool",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           }
         ]
@@ -1995,6 +1995,14 @@
           {
             "className": "ItemcTabHCam",
             "count": 1
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
           }
         ]
       },
@@ -2019,10 +2027,6 @@
           },
           {
             "className": "ACE_Clacker",
-            "count": 1
-          },
-          {
-            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           },
           {
@@ -2091,10 +2095,6 @@
             "count": 1
           },
           {
-            "className": "ACE_ATNAA_AntidoteInjector",
-            "count": 1
-          },
-          {
             "className": "ACE_elasticBandage",
             "count": 5
           },
@@ -2107,15 +2107,15 @@
             "count": 10
           },
           {
-            "className": "ACE_tourniquet",
-            "count": 4
-          },
-          {
             "className": "ACE_IR_Strobe_Item",
             "count": 2
           },
           {
             "className": "ACE_EntrenchingTool",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           }
         ]
@@ -2650,6 +2650,14 @@
           {
             "className": "ItemcTabHCam",
             "count": 1
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
           }
         ]
       },
@@ -2674,10 +2682,6 @@
           },
           {
             "className": "CBRN_gasmaskFilter",
-            "count": 1
-          },
-          {
-            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           },
           {
@@ -2726,10 +2730,6 @@
             "count": 1
           },
           {
-            "className": "ACE_ATNAA_AntidoteInjector",
-            "count": 1
-          },
-          {
             "className": "ACE_elasticBandage",
             "count": 5
           },
@@ -2740,10 +2740,6 @@
           {
             "className": "ACE_packingBandage",
             "count": 10
-          },
-          {
-            "className": "ACE_tourniquet",
-            "count": 4
           },
           {
             "className": "ACE_IR_Strobe_Item",
@@ -2767,6 +2763,10 @@
           },
           {
             "className": "ACE_SpraypaintRed",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           }
         ]
@@ -3251,6 +3251,14 @@
           {
             "className": "ItemcTabHCam",
             "count": 1
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
           }
         ]
       },
@@ -3279,10 +3287,6 @@
           },
           {
             "className": "CBRN_gasmaskFilter",
-            "count": 1
-          },
-          {
-            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           },
           {
@@ -3331,10 +3335,6 @@
             "count": 1
           },
           {
-            "className": "ACE_ATNAA_AntidoteInjector",
-            "count": 1
-          },
-          {
             "className": "ACE_elasticBandage",
             "count": 5
           },
@@ -3347,15 +3347,15 @@
             "count": 10
           },
           {
-            "className": "ACE_tourniquet",
-            "count": 4
-          },
-          {
             "className": "ACE_IR_Strobe_Item",
             "count": 2
           },
           {
             "className": "ACE_EntrenchingTool",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           }
         ]
@@ -3800,6 +3800,14 @@
           {
             "className": "ItemcTabHCam",
             "count": 1
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
           }
         ]
       },
@@ -3824,10 +3832,6 @@
           },
           {
             "className": "CBRN_gasmaskFilter",
-            "count": 1
-          },
-          {
-            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           },
           {
@@ -3872,10 +3876,6 @@
             "count": 1
           },
           {
-            "className": "ACE_ATNAA_AntidoteInjector",
-            "count": 1
-          },
-          {
             "className": "ACE_elasticBandage",
             "count": 5
           },
@@ -3888,15 +3888,15 @@
             "count": 10
           },
           {
-            "className": "ACE_tourniquet",
-            "count": 4
-          },
-          {
             "className": "ACE_IR_Strobe_Item",
             "count": 2
           },
           {
             "className": "ACE_EntrenchingTool",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           }
         ]
@@ -4275,7 +4275,7 @@
         "rail": "4IB_LLM_IR_Laser",
         "optic": "UK3CB_BAF_TA648_308",
         "magClass": "UK3CB_BAF_762_L42A1_20Rnd",
-        "altMagClass": "",
+        "altMagClass": "UK3CB_BAF_762_L42A1_20Rnd_T",
         "underbarrel": "UK3CB_underbarrel_acc_fgrip_bipod"
       },
       "launcher": {
@@ -4321,6 +4321,14 @@
           {
             "className": "ItemcTabHCam",
             "count": 1
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
           }
         ]
       },
@@ -4341,10 +4349,6 @@
           },
           {
             "className": "CBRN_gasmaskFilter",
-            "count": 1
-          },
-          {
-            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           },
           {
@@ -4389,10 +4393,6 @@
             "count": 1
           },
           {
-            "className": "ACE_ATNAA_AntidoteInjector",
-            "count": 1
-          },
-          {
             "className": "ACE_elasticBandage",
             "count": 5
           },
@@ -4405,15 +4405,15 @@
             "count": 10
           },
           {
-            "className": "ACE_tourniquet",
-            "count": 4
-          },
-          {
             "className": "ACE_IR_Strobe_Item",
             "count": 2
           },
           {
             "className": "ACE_EntrenchingTool",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           }
         ]
@@ -4848,6 +4848,14 @@
           {
             "className": "ItemcTabHCam",
             "count": 1
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
           }
         ]
       },
@@ -4876,10 +4884,6 @@
           },
           {
             "className": "CBRN_gasmaskFilter",
-            "count": 1
-          },
-          {
-            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           },
           {
@@ -4940,10 +4944,6 @@
             "count": 1
           },
           {
-            "className": "ACE_ATNAA_AntidoteInjector",
-            "count": 1
-          },
-          {
             "className": "ACE_elasticBandage",
             "count": 5
           },
@@ -4956,15 +4956,15 @@
             "count": 10
           },
           {
-            "className": "ACE_tourniquet",
-            "count": 4
-          },
-          {
             "className": "ACE_IR_Strobe_Item",
             "count": 2
           },
           {
             "className": "ACE_EntrenchingTool",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           }
         ]
@@ -5429,6 +5429,14 @@
           {
             "className": "ItemcTabHCam",
             "count": 1
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 4
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
           }
         ]
       },
@@ -5449,10 +5457,6 @@
           },
           {
             "className": "CBRN_gasmaskFilter",
-            "count": 1
-          },
-          {
-            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           },
           {
@@ -5493,10 +5497,6 @@
             "count": 1
           },
           {
-            "className": "ACE_ATNAA_AntidoteInjector",
-            "count": 1
-          },
-          {
             "className": "ACE_elasticBandage",
             "count": 5
           },
@@ -5509,15 +5509,15 @@
             "count": 10
           },
           {
-            "className": "ACE_tourniquet",
-            "count": 4
-          },
-          {
             "className": "ACE_IR_Strobe_Item",
             "count": 2
           },
           {
             "className": "ACE_EntrenchingTool",
+            "count": 1
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           }
         ]
@@ -5892,6 +5892,14 @@
           {
             "className": "ItemcTabHCam",
             "count": 1
+          },
+          {
+            "className": "ACE_tourniquet",
+            "count": 6
+          },
+          {
+            "className": "ACE_ATNAA_AntidoteInjector",
+            "count": 1
           }
         ]
       },
@@ -5920,10 +5928,6 @@
           },
           {
             "className": "CBRN_gasmaskFilter",
-            "count": 1
-          },
-          {
-            "className": "UK3CB_BAF_HMNVS",
             "count": 1
           },
           {
@@ -5972,10 +5976,6 @@
             "count": 1
           },
           {
-            "className": "ACE_ATNAA_AntidoteInjector",
-            "count": 1
-          },
-          {
             "className": "ACE_elasticBandage",
             "count": 15
           },
@@ -5986,10 +5986,6 @@
           {
             "className": "ACE_packingBandage",
             "count": 30
-          },
-          {
-            "className": "ACE_tourniquet",
-            "count": 6
           },
           {
             "className": "RW_CFAK_Item",
@@ -6022,6 +6018,10 @@
           {
             "className": "kat_Painkiller",
             "count": 3
+          },
+          {
+            "className": "UK3CB_BAF_HMNVS",
+            "count": 1
           }
         ]
       },
