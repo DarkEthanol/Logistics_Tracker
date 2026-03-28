@@ -13,13 +13,13 @@ import {
   serverTimestamp
 } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js";
 
-const FIREBASE_CONFIG = {
-  apiKey: "REPLACE_ME",
-  authDomain: "REPLACE_ME",
-  projectId: "REPLACE_ME",
-  storageBucket: "REPLACE_ME",
-  messagingSenderId: "REPLACE_ME",
-  appId: "REPLACE_ME"
+const firebaseConfig = {
+  apiKey: "AIzaSyC8xgBhl57PVPP-3YuetqS98VFZx-5hArI",
+  authDomain: "etgloadout.firebaseapp.com",
+  projectId: "etgloadout",
+  storageBucket: "etgloadout.firebasestorage.app",
+  messagingSenderId: "800810367169",
+  appId: "1:800810367169:web:e0f9a8b5520441bf3dfc40"
 };
 
 const STORAGE_KEYS = {
@@ -230,14 +230,14 @@ async function loadDataFiles() {
 }
 
 function maybeInitFirestore() {
-  if (Object.values(FIREBASE_CONFIG).some(v => String(v).includes("REPLACE_ME"))) {
+  if (Object.values(firebaseConfig).some(v => String(v).includes("REPLACE_ME"))) {
     elements.connectionPill.textContent = "Firestore: not configured";
     elements.connectionPill.classList.add("muted");
     return null;
   }
 
   try {
-    const app = initializeApp(FIREBASE_CONFIG);
+    const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
     elements.connectionPill.textContent = "Firestore: ready";
     elements.connectionPill.classList.remove("muted");

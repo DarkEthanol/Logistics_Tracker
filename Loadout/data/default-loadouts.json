@@ -37,7 +37,7 @@
         "weapon": "ACE_Vector"
       },
       "uniform": {
-        "className": "BZD_PCS_R1_RYorks",
+        "className": "U_CBRN_MTP",
         "items": [
           {
             "className": "ACRE_PRC152",
@@ -129,10 +129,6 @@
       "backpack": {
         "className": "BAF_BACK_1",
         "items": [
-          {
-            "className": "U_CBRN_MTP",
-            "count": 1
-          },
           {
             "className": "UK3CB_BAF_Kite",
             "count": 1
@@ -692,7 +688,7 @@
         "weapon": "ACE_Vector"
       },
       "uniform": {
-        "className": "BZD_PCS_R1_RYorks",
+        "className": "U_CBRN_MTP",
         "items": [
           {
             "className": "ACRE_PRC152",
@@ -780,10 +776,6 @@
       "backpack": {
         "className": "BAF_BACK_1",
         "items": [
-          {
-            "className": "U_CBRN_MTP",
-            "count": 1
-          },
           {
             "className": "UK3CB_BAF_Kite",
             "count": 1
@@ -1343,7 +1335,7 @@
         "weapon": "ACE_Vector"
       },
       "uniform": {
-        "className": "BZD_PCS_R1_RYorks",
+        "className": "U_CBRN_MTP",
         "items": [
           {
             "className": "ACRE_PRC152",
@@ -1431,10 +1423,6 @@
       "backpack": {
         "className": "BAF_BACK_1",
         "items": [
-          {
-            "className": "U_CBRN_MTP",
-            "count": 1
-          },
           {
             "className": "UK3CB_BAF_Kite",
             "count": 1
@@ -1966,7 +1954,7 @@
         "weapon": "ACE_Vector"
       },
       "uniform": {
-        "className": "BZD_PCS_R1_RYorks",
+        "className": "U_CBRN_MTP",
         "items": [
           {
             "className": "ACRE_PRC152",
@@ -2058,10 +2046,6 @@
       "backpack": {
         "className": "BAF_BACK_1",
         "items": [
-          {
-            "className": "U_CBRN_MTP",
-            "count": 1
-          },
           {
             "className": "UK3CB_BAF_Kite",
             "count": 1
@@ -2645,7 +2629,7 @@
         "weapon": ""
       },
       "uniform": {
-        "className": "BZD_PCS_R1_RYorks",
+        "className": "U_CBRN_MTP",
         "items": [
           {
             "className": "ACRE_PRC343",
@@ -2715,12 +2699,8 @@
         ]
       },
       "backpack": {
-        "className": "ACE_VMH3",
+        "className": "BAF_BACK_1",
         "items": [
-          {
-            "className": "U_CBRN_MTP",
-            "count": 1
-          },
           {
             "className": "UK3CB_BAF_Kite",
             "count": 1
@@ -3250,7 +3230,7 @@
         "weapon": ""
       },
       "uniform": {
-        "className": "BZD_PCS_R1_RYorks",
+        "className": "U_CBRN_MTP",
         "items": [
           {
             "className": "ACRE_PRC343",
@@ -3322,10 +3302,6 @@
       "backpack": {
         "className": "BAF_BACK_1",
         "items": [
-          {
-            "className": "U_CBRN_MTP",
-            "count": 1
-          },
           {
             "className": "UK3CB_BAF_Kite",
             "count": 1
@@ -3803,7 +3779,7 @@
         "weapon": ""
       },
       "uniform": {
-        "className": "BZD_PCS_R1_RYorks",
+        "className": "U_CBRN_MTP",
         "items": [
           {
             "className": "ACRE_PRC343",
@@ -3869,12 +3845,8 @@
         ]
       },
       "backpack": {
-        "className": "UK3CB_BAF_B_Kitbag_MTP",
+        "className": "BAF_BACK_1",
         "items": [
-          {
-            "className": "U_CBRN_MTP",
-            "count": 1
-          },
           {
             "className": "UK3CB_BAF_Kite",
             "count": 1
@@ -4328,7 +4300,7 @@
         "weapon": ""
       },
       "uniform": {
-        "className": "BZD_PCS_R1_RYorks",
+        "className": "U_CBRN_MTP",
         "items": [
           {
             "className": "ACRE_PRC343",
@@ -4392,10 +4364,6 @@
       "backpack": {
         "className": "BAF_BACK_1",
         "items": [
-          {
-            "className": "U_CBRN_MTP",
-            "count": 1
-          },
           {
             "className": "UK3CB_BAF_MaxiKite",
             "count": 1
@@ -4859,7 +4827,7 @@
         "weapon": ""
       },
       "uniform": {
-        "className": "BZD_PCS_R1_RYorks",
+        "className": "U_CBRN_MTP",
         "items": [
           {
             "className": "ACRE_PRC343",
@@ -4931,10 +4899,6 @@
       "backpack": {
         "className": "BAF_BACK_1",
         "items": [
-          {
-            "className": "U_CBRN_MTP",
-            "count": 1
-          },
           {
             "className": "UK3CB_BAF_Kite",
             "count": 1
@@ -5444,7 +5408,7 @@
         "weapon": ""
       },
       "uniform": {
-        "className": "BZD_PCS_R1_RYorks",
+        "className": "U_CBRN_MTP",
         "items": [
           {
             "className": "ACRE_PRC343",
@@ -5506,12 +5470,8 @@
         ]
       },
       "backpack": {
-        "className": "UK3CB_BAF_B_Kitbag_MTP",
+        "className": "BAF_BACK_1",
         "items": [
-          {
-            "className": "U_CBRN_MTP",
-            "count": 1
-          },
           {
             "className": "HandGrenade",
             "count": 2
@@ -5911,7 +5871,7 @@
         "weapon": ""
       },
       "uniform": {
-        "className": "BZD_PCS_R1_RYorks",
+        "className": "U_CBRN_MTP",
         "items": [
           {
             "className": "ACRE_PRC343",
@@ -5981,12 +5941,8 @@
         ]
       },
       "backpack": {
-        "className": "BAF_BACK_2",
+        "className": "BAF_BACK_1",
         "items": [
-          {
-            "className": "U_CBRN_MTP",
-            "count": 1
-          },
           {
             "className": "UK3CB_BAF_Kite",
             "count": 1

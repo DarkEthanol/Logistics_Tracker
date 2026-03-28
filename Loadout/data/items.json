@@ -3365,5 +3365,14 @@
         "mass":  25,
         "mod":  "@ace",
         "addons":  "ace_logistics_wirecutter"
+    },
+    {
+        "className":  "ChemicalDetector_01_watch_F",
+        "displayName":  "Chemical Detector",
+        "armaCategory":  "Item",
+        "armaType":  "Watch",
+        "mass":  2,
+        "mod":  "enoch",
+        "addons":  "A3_Weapons_F_Enoch_Items"
     }
 ]
