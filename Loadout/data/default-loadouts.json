@@ -4275,7 +4275,7 @@
         "rail": "4IB_LLM_IR_Laser",
         "optic": "UK3CB_BAF_TA648_308",
         "magClass": "UK3CB_BAF_762_L42A1_20Rnd",
-        "altMagClass": "UK3CB_BAF_762_L42A1_20Rnd_T",
+        "altMagClass": "",
         "underbarrel": "UK3CB_underbarrel_acc_fgrip_bipod"
       },
       "launcher": {
