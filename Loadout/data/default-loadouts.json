@@ -620,16 +620,6 @@
         "assignedTo": "vest.items"
       },
       {
-        "row": 46,
-        "raw": "1x Helmet Camera",
-        "item": "Helmet Camera",
-        "quantity": 1,
-        "className": "ItemcTabHCam",
-        "displayName": "Helmet Camera",
-        "matchReason": "exact-display",
-        "assignedTo": "uniform.items"
-      },
-      {
         "row": 48,
         "raw": "1x Gas Mask Filters",
         "item": "Gas Mask Filters",
@@ -1271,16 +1261,6 @@
         "assignedTo": "vest.items"
       },
       {
-        "row": 46,
-        "raw": "1x Helmet Camera",
-        "item": "Helmet Camera",
-        "quantity": 1,
-        "className": "ItemcTabHCam",
-        "displayName": "Helmet Camera",
-        "matchReason": "exact-display",
-        "assignedTo": "uniform.items"
-      },
-      {
         "row": 48,
         "raw": "1x Gas Mask Filters",
         "item": "Gas Mask Filters",
@@ -1892,16 +1872,6 @@
         "displayName": "Head-Mounted NV System [BAF]",
         "matchReason": "exact-display",
         "assignedTo": "vest.items"
-      },
-      {
-        "row": 44,
-        "raw": "1x Helmet Camera",
-        "item": "Helmet Camera",
-        "quantity": 1,
-        "className": "ItemcTabHCam",
-        "displayName": "Helmet Camera",
-        "matchReason": "exact-display",
-        "assignedTo": "uniform.items"
       },
       {
         "row": 46,
@@ -2573,16 +2543,6 @@
         "assignedTo": "vest.items"
       },
       {
-        "row": 48,
-        "raw": "1x Helmet Camera",
-        "item": "Helmet Camera",
-        "quantity": 1,
-        "className": "ItemcTabHCam",
-        "displayName": "Helmet Camera",
-        "matchReason": "exact-display",
-        "assignedTo": "uniform.items"
-      },
-      {
         "row": 50,
         "raw": "1x Gas Mask Filters",
         "item": "Gas Mask Filters",
@@ -3168,16 +3128,6 @@
         "assignedTo": "backpack.items"
       },
       {
-        "row": 41,
-        "raw": "1x Helmet Camera",
-        "item": "Helmet Camera",
-        "quantity": 1,
-        "className": "ItemcTabHCam",
-        "displayName": "Helmet Camera",
-        "matchReason": "exact-display",
-        "assignedTo": "uniform.items"
-      },
-      {
         "row": 43,
         "raw": "1x Gas Mask Filters",
         "item": "Gas Mask Filters",
@@ -3731,16 +3681,6 @@
         "assignedTo": "backpack.items"
       },
       {
-        "row": 38,
-        "raw": "1x Helmet Camera",
-        "item": "Helmet Camera",
-        "quantity": 1,
-        "className": "ItemcTabHCam",
-        "displayName": "Helmet Camera",
-        "matchReason": "exact-display",
-        "assignedTo": "uniform.items"
-      },
-      {
         "row": 40,
         "raw": "1x Gas Mask Filters",
         "item": "Gas Mask Filters",
@@ -4254,16 +4194,6 @@
         "displayName": "Entrenching Tool",
         "matchReason": "exact-display",
         "assignedTo": "backpack.items"
-      },
-      {
-        "row": 37,
-        "raw": "1x Helmet Camera",
-        "item": "Helmet Camera",
-        "quantity": 1,
-        "className": "ItemcTabHCam",
-        "displayName": "Helmet Camera",
-        "matchReason": "exact-display",
-        "assignedTo": "uniform.items"
       },
       {
         "row": 39,
@@ -4785,16 +4715,6 @@
         "displayName": "Entrenching Tool",
         "matchReason": "exact-display",
         "assignedTo": "backpack.items"
-      },
-      {
-        "row": 37,
-        "raw": "1x Helmet Camera",
-        "item": "Helmet Camera",
-        "quantity": 1,
-        "className": "ItemcTabHCam",
-        "displayName": "Helmet Camera",
-        "matchReason": "exact-display",
-        "assignedTo": "uniform.items"
       },
       {
         "row": 39,
@@ -5372,16 +5292,6 @@
         "assignedTo": "backpack.items"
       },
       {
-        "row": 40,
-        "raw": "1x Helmet Camera",
-        "item": "Helmet Camera",
-        "quantity": 1,
-        "className": "ItemcTabHCam",
-        "displayName": "Helmet Camera",
-        "matchReason": "exact-display",
-        "assignedTo": "uniform.items"
-      },
-      {
         "row": 42,
         "raw": "1x Gas Mask Filters",
         "item": "Gas Mask Filters",
@@ -5837,16 +5747,6 @@
         "displayName": "Entrenching Tool",
         "matchReason": "exact-display",
         "assignedTo": "backpack.items"
-      },
-      {
-        "row": 31,
-        "raw": "1x Helmet Camera",
-        "item": "Helmet Camera",
-        "quantity": 1,
-        "className": "ItemcTabHCam",
-        "displayName": "Helmet Camera",
-        "matchReason": "exact-display",
-        "assignedTo": "uniform.items"
       },
       {
         "row": 33,
@@ -6464,16 +6364,6 @@
         "displayName": "Entrenching Tool",
         "matchReason": "exact-display",
         "assignedTo": "backpack.items"
-      },
-      {
-        "row": 44,
-        "raw": "1x Helmet Camera",
-        "item": "Helmet Camera",
-        "quantity": 1,
-        "className": "ItemcTabHCam",
-        "displayName": "Helmet Camera",
-        "matchReason": "exact-display",
-        "assignedTo": "uniform.items"
       },
       {
         "row": 46,
