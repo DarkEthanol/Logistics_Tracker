@@ -1,104 +1,3378 @@
-window.COMMON_ITEMS = [
-    // ---------- Ammunition (Bandoliers only) ----------
-    "[Ammo] Bandolier (5.56)",
-    "[Ammo] Bandolier (7.62 Mag)",
-    "[Ammo] Bandolier (7.62 Link)",
-    "[Ammo] Bandolier (Hand Smoke)",
-    "[Ammo] Bandolier (M67 Fragmentation Grenade)",
-    "[Ammo] Bandolier (40mm HEDP)",
-
-    // ---------- Weapons ----------
-    "[Weapons] L85A3",
-    "[Weapons] L85A3 w/ L123A2 Ladder",
-    "[Weapons] L129A1",
-    "[Weapons] L7A2 GPMG",
-    "[Weapons] NLAW",
-    "[Weapons] L2A1 ASM - Anti-Structure",
-
-    // ---------- Attachments / Optics ----------
-    "[Attachments] LDS",
-    "[Attachments] VarioRay LLM Mk3 IR (Tan)",
-    "[Attachments] KITE",
-    "[Attachments] KITE (MAXIKITE)",
-    "[Attachments] Vector-21 Nite",
-    "[Attachments] HuntIR Monitor",
-    "[Attachments] Grip-pod (Tan)",
-    "[Attachments] Trijicon ACOG TA648 RMR-308",
-    "[Attachments] Folding-grip & Harris Bipod",
-
-    // ---------- Throwables ----------
-    "[Throwables] L70 Red Smoke Grenade",
-    "[Throwables] L71 Blue Smoke Grenade",
-    "[Throwables] L100 Yellow Smoke Grenade",
-    "[Throwables] CTS 9-Bang",
-    "[Throwables] Chemlight (Hi Blue)",
-    "[Throwables] Chemlight (Hi Yellow)",
-    "[Throwables] IR Strobe",
-
-    // ---------- Medical ----------
-    "[Medical] Bandage (Elastic)",
-    "[Medical] Bandage (QuikClot)",
-    "[Medical] Bandage (Packing)",
-    "[Medical] Tourniquet",
-    "[Medical] Individual First Aid Kit",
-    "[Medical] Chest Seal",
-    "[Medical] Guedel Tube",
-    "[Medical] NCD Kit",
-    "[Medical] Combat Pill Pack",
-    "[Medical] Splint",
-
-    // ---------- Sustainment ----------
-    "[Sustainment] Canteen",
-    "[Sustainment] MRE",
-
-    // ---------- Communications ----------
-    "[Comms] AN/PRC-152",
-    "[Comms] AN/PRC-343",
-
-    // ---------- Navigation ----------
-    "[Nav] GPS",
-    "[Nav] MicroDAGR GPS",
-    "[Nav] Compass",
-    "[Nav] Map",
-    "[Nav] Map Tools",
-    "[Nav] Fulton MX-991",
-    "[Nav] Slate Card: Aide Memoire",
-
-    // ---------- Engineering / Utility ----------
-    "[Utility] Stick Charge",
-    "[Utility] Shock Tube",
-    "[Utility] M57 Firing Device",
-    "[Utility] Entrenching Tool",
-    "[Utility] Cable Tie",
-    "[Utility] Wirecutter",
-    "[Utility] VMH3",
-    "[Utility] Spray Paint (Blue)",
-    "[Utility] Spray Paint (Green)",
-    "[Utility] Spray Paint (Red)",
-
-    // ---------- Personal Equipment ----------
-    "[Personal] Cam Cream Kit - Europe",
-    "[Personal] Revision Ballistic Glasses (Clear)",
-    "[Personal] Helmet Camera",
-    "[Personal] Head-Mounted NV System [BAF]",
-    "[Personal] S7 Android",
-    "[Personal] Earplugs",
-    "[Personal] Electronic Hearing Protection",
-    "[Personal] Katmin K500",
-
-    // ---------- Load Carriage & Clothing ----------
-    "[Clothing] 40L Virtus Daysack (Radio A/B)",
-    "[Clothing] 40L Virtus Daysack (UK Patch)",
-    "[Clothing] 40L Virtus Daysack (Vallon)",
-    "[Clothing] 40L Virtus Daysack (Medical)",
-    "[Clothing] Kitbag MTP",
-    "[Clothing] Revision Batlskin Helmet + Patch (with scrim)",
-    "[Clothing] Virtus Body Armour w/ Webbing",
-    "[Clothing] Virtus Body Armour E (Medical)",
-    "[Clothing] RYORKS Uniform",
-
-    // ---------- Keys & Identifiers ----------
-    "[Admin] Western Vehicle Key",
-    "[Admin] Vehicle Identifier",
-    "[Admin] 4IB VCP Stop Sign",
-];
+[
+    {
+        "className":  "4IB_ACE_NVG_Gen4_Black",
+        "displayName":  "[Pilot] Dual-tube NVG, Black",
+        "armaCategory":  "Item",
+        "armaType":  "NVGoggles",
+        "mass":  20,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "kat_IV_16",
+        "displayName":  "16g IV",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "rhsusf_mag_17Rnd_9x19_FMJ",
+        "displayName":  "17rnd Glock M882 FMJ",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  6,
+        "count":  17,
+        "mod":  "@RHSUSAF",
+        "addons":  "rhsusf_c_weapons"
+    },
+    {
+        "className":  "rhsusf_mag_17Rnd_9x19_JHP",
+        "displayName":  "17rnd Glock Mk243 JHP",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  6,
+        "count":  17,
+        "mod":  "@RHSUSAF",
+        "addons":  "rhsusf_c_weapons"
+    },
+    {
+        "className":  "UK3CB_BAF_1Rnd_SmokeBlue_Grenade_shell",
+        "displayName":  "40mm Blue Smoke (L123)",
+        "armaCategory":  "Magazine",
+        "armaType":  "Shell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell",
+        "displayName":  "40mm Green Smoke (L123)",
+        "armaCategory":  "Magazine",
+        "armaType":  "Shell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_1Rnd_HE_Grenade_Shell",
+        "displayName":  "40mm HE Grenade Round (L123)",
+        "armaCategory":  "Magazine",
+        "armaType":  "Shell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_1Rnd_HEDP_Grenade_Shell",
+        "displayName":  "40mm HEDP Grenade Round (L123)",
+        "armaCategory":  "Magazine",
+        "armaType":  "Shell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_UGL_FlareCIR_F",
+        "displayName":  "40mm IR Flare (L123)",
+        "armaCategory":  "Magazine",
+        "armaType":  "Flare",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_1Rnd_SmokeOrange_Grenade_shell",
+        "displayName":  "40mm Orange Smoke (L123)",
+        "armaCategory":  "Magazine",
+        "armaType":  "Shell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell",
+        "displayName":  "40mm Purple Smoke (L123)",
+        "armaCategory":  "Magazine",
+        "armaType":  "Shell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell",
+        "displayName":  "40mm Red Smoke (L123)",
+        "armaCategory":  "Magazine",
+        "armaType":  "Shell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_UGL_FlareWhite_F",
+        "displayName":  "40mm White Flare (L123)",
+        "armaCategory":  "Magazine",
+        "armaType":  "Flare",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_1Rnd_Smoke_Grenade_shell",
+        "displayName":  "40mm White Smoke (L123)",
+        "armaCategory":  "Magazine",
+        "armaType":  "Shell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell",
+        "displayName":  "40mm Yellow Smoke (L123)",
+        "armaCategory":  "Magazine",
+        "armaType":  "Shell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "4IB_Baucutt",
+        "displayName":  "4IB Baucutt",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Blizzard",
+        "displayName":  "4IB Blizzard",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Carlyle",
+        "displayName":  "4IB Carlyle",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Castillo",
+        "displayName":  "4IB Castillo",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Connor",
+        "displayName":  "4IB Connor",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Genchev",
+        "displayName":  "4IB Genchev",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Griff",
+        "displayName":  "4IB Griff",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_pilotHelmetHeli_B",
+        "displayName":  "4IB Heli Pilot Helmet",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Doctor",
+        "displayName":  "4IB RAF Doctor",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Smudge",
+        "displayName":  "4IB Smudge",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "UK3CB_BAF_556_30Rnd_Blank",
+        "displayName":  "5.56mm 30rnd Blank Mag",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  9.35,
+        "count":  30,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_556_30Rnd",
+        "displayName":  "5.56mm 30rnd Mag",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  9.35,
+        "count":  30,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_556_30Rnd_T",
+        "displayName":  "5.56mm 30rnd Tracer Mag",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  9.35,
+        "count":  30,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "LNX_M_RUAG_260gr_AP",
+        "displayName":  "5Rnd 0.338\" RUAG AP",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  9,
+        "count":  5,
+        "mod":  "@L115A3 Rework Project",
+        "addons":  "LNX_L115A3_Tweaks"
+    },
+    {
+        "className":  "LNX_M_RUAG_252gr_Ball",
+        "displayName":  "5Rnd 0.338\" RUAG Ball",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  9,
+        "count":  5,
+        "mod":  "@L115A3 Rework Project",
+        "addons":  "LNX_L115A3_Tweaks"
+    },
+    {
+        "className":  "FM_L115A3_Blank_Magazine",
+        "displayName":  "5Rnd Blank 338LM",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  9,
+        "count":  5,
+        "mod":  "@L115A3 Rework Project",
+        "addons":  "FM_Weapon_Data"
+    },
+    {
+        "className":  "UK3CB_BAF_762_100Rnd",
+        "displayName":  "7.62mm 100rnd Belt",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  32.34,
+        "count":  100,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  [
+                       "UK3CB_BAF_Vehicles_Weapons",
+                       "UK3CB_BAF_Weapons_Ammo"
+                   ]
+    },
+    {
+        "className":  "UK3CB_BAF_762_100Rnd_Blank",
+        "displayName":  "7.62mm 100rnd Blank Belt",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  32.34,
+        "count":  100,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  [
+                       "UK3CB_BAF_Vehicles_Weapons",
+                       "UK3CB_BAF_Weapons_Ammo"
+                   ]
+    },
+    {
+        "className":  "UK3CB_BAF_762_100Rnd_T",
+        "displayName":  "7.62mm 100rnd Tracer Belt",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  32.34,
+        "count":  100,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  [
+                       "UK3CB_BAF_Vehicles_Weapons",
+                       "UK3CB_BAF_Weapons_Ammo"
+                   ]
+    },
+    {
+        "className":  "UK3CB_BAF_762_L42A1_20Rnd",
+        "displayName":  "7.62mm 20rnd Mag",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  16.24,
+        "count":  20,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_762_L42A1_20Rnd_T",
+        "displayName":  "7.62mm 20rnd Tracer Mag",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  16.24,
+        "count":  20,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_9_17Rnd",
+        "displayName":  "9mm 17rnd Mag",
+        "armaCategory":  "Magazine",
+        "armaType":  "Bullet",
+        "mass":  6,
+        "count":  17,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "kat_aatKit",
+        "displayName":  "AAT Kit",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_breathing"
+    },
+    {
+        "className":  "kat_accuvac",
+        "displayName":  "ACCUVAC",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  7,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_airway"
+    },
+    {
+        "className":  "ACE_adenosine",
+        "displayName":  "Adenosine Autoinjector",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  1,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "kat_AFAK",
+        "displayName":  "Advanced First Aid Kit",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  25,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_misc"
+    },
+    {
+        "className":  "kat_X_AED",
+        "displayName":  "AED X-Series",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  40,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_circulation"
+    },
+    {
+        "className":  "kat_amiodarone",
+        "displayName":  "Amiodarone",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "kat_Carbonate",
+        "displayName":  "Ammonium Carbonate",
+        "armaCategory":  "Magazine",
+        "armaType":  "UnknownMagazine",
+        "mass":  1,
+        "count":  10,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "UK3CB_BAF_Soflam_Laserdesignator",
+        "displayName":  "AN/PEQ-1 SOFLAM",
+        "armaCategory":  "Item",
+        "armaType":  "LaserDesignator",
+        "mass":  55,
+        "mod":  "@3CB BAF Equipment",
+        "addons":  "UK3CB_BAF_Equipment_Soflam"
+    },
+    {
+        "className":  "ACRE_PRC117F",
+        "displayName":  "AN/PRC-117F",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  120,
+        "mod":  "@ACRE2",
+        "addons":  "acre_sys_prc117f"
+    },
+    {
+        "className":  "ACRE_PRC152",
+        "displayName":  "AN/PRC-152",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  8,
+        "mod":  "@ACRE2",
+        "addons":  "acre_sys_prc152"
+    },
+    {
+        "className":  "ACRE_PRC343",
+        "displayName":  "AN/PRC-343",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  8,
+        "mod":  "@ACRE2",
+        "addons":  "acre_sys_prc343"
+    },
+    {
+        "className":  "ACE_ATNAA_AntidoteInjector",
+        "displayName":  "ATNAA (Antidote injector)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  1,
+        "mod":  "@Chemical Warfare PLUS",
+        "addons":  "CBRN_Compat_ACE"
+    },
+    {
+        "className":  "ACE_ATragMX",
+        "displayName":  "ATragMX",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  2,
+        "mod":  "@ace",
+        "addons":  "ace_atragmx"
+    },
+    {
+        "className":  "kat_atropine",
+        "displayName":  "Atropine Autoinjector",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "MK502",
+        "displayName":  "AVON FM53 RPE Goggle",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  19.95,
+        "mod":  "@Chemical Warfare PLUS",
+        "addons":  [
+                       "MK50",
+                       "CBRN_Compat_Facewear_AVON_FM53_respiratorPack"
+                   ]
+    },
+    {
+        "className":  "bunwell_axe",
+        "displayName":  "Axe",
+        "armaCategory":  "Item",
+        "armaType":  "MineDetector",
+        "mass":  8,
+        "mod":  "@ClearTree",
+        "addons":  "ClearTree"
+    },
+    {
+        "className":  "UK3CB_B_Invisible",
+        "displayName":  "Backpack",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  60,
+        "maxLoad":  320,
+        "mod":  "@3CB Factions",
+        "addons":  "UK3CB_Factions_Equipment_Backpack"
+    },
+    {
+        "className":  "ACE_fieldDressing",
+        "displayName":  "Bandage (Basic)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.6,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "ACE_elasticBandage",
+        "displayName":  "Bandage (Elastic)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.6,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "ACE_packingBandage",
+        "displayName":  "Bandage (Packing)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.6,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "ACE_quikclot",
+        "displayName":  "Bandage (QuikClot)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.6,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "RW_UGL_Bandolier_Item",
+        "displayName":  "Bandolier (40mm HE)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  11.9048,
+        "mod":  "@Ratworks - Bandoliers",
+        "addons":  "rw_bandoliers"
+    },
+    {
+        "className":  "RW_Flash_Bandolier_Item",
+        "displayName":  "Bandolier (Flash Grenade)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  11.4639,
+        "mod":  "@Ratworks - Bandoliers",
+        "addons":  "rw_bandoliers"
+    },
+    {
+        "className":  "RW_Frag_Bandolier_Item",
+        "displayName":  "Bandolier (Frag Grenade)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  19.8414,
+        "mod":  "@Ratworks - Bandoliers",
+        "addons":  "rw_bandoliers"
+    },
+    {
+        "className":  "RW_Generic_Bandolier_Item",
+        "displayName":  "Bandolier (Generic)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  22.046,
+        "mod":  "@Ratworks - Bandoliers",
+        "addons":  "rw_bandoliers"
+    },
+    {
+        "className":  "RW_GPMG_Bandolier_Item",
+        "displayName":  "Bandolier (GPMG)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  59.9651,
+        "mod":  "@Ratworks - Bandoliers",
+        "addons":  "rw_bandoliers"
+    },
+    {
+        "className":  "RW_LMG_Bandolier_Item",
+        "displayName":  "Bandolier (LMG)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  50.0444,
+        "mod":  "@Ratworks - Bandoliers",
+        "addons":  "rw_bandoliers"
+    },
+    {
+        "className":  "RW_AR_Bandolier_Item",
+        "displayName":  "Bandolier (Rifle)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  24.2506,
+        "mod":  "@Ratworks - Bandoliers",
+        "addons":  "rw_bandoliers"
+    },
+    {
+        "className":  "RW_DMR_Bandolier_Item",
+        "displayName":  "Bandolier (Sharpshooter)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  35.7145,
+        "mod":  "@Ratworks - Bandoliers",
+        "addons":  "rw_bandoliers"
+    },
+    {
+        "className":  "RW_Smoke_Bandolier_Item",
+        "displayName":  "Bandolier (Smoke Grenade)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  11.4639,
+        "mod":  "@Ratworks - Bandoliers",
+        "addons":  "rw_bandoliers"
+    },
+    {
+        "className":  "4IB_Beret_12MI",
+        "displayName":  "Beret - 12MI",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  2.2046,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Beret_AAC",
+        "displayName":  "Beret - AAC",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  2.2046,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Beret_RAFenl",
+        "displayName":  "Beret - RAF Enlisted",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  2.2046,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Beret_RAFoff",
+        "displayName":  "Beret - RAF Officer",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  2.2046,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Beret_RAFwo",
+        "displayName":  "Beret - RAF Warrant Officer",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  2.2046,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Beret_RAMC",
+        "displayName":  "Beret - RAMC",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  2.2046,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Beret_RAMCoff",
+        "displayName":  "Beret - RAMC Officer",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  2.2046,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Beret_RDG",
+        "displayName":  "Beret - RDG",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  2.2046,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "4IB_Beret_YORKS",
+        "displayName":  "Beret - Royal Yorkshire Regt",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  2.2046,
+        "mod":  "@4thib",
+        "addons":  "4ib_equipment"
+    },
+    {
+        "className":  "Bergen_MTP",
+        "displayName":  "Bergen (MTP)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  50,
+        "maxLoad":  500,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "Bergen_MTP_Green",
+        "displayName":  "Bergen (MTP/Green)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  50,
+        "maxLoad":  500,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "Bergen_MTP_Panel",
+        "displayName":  "Bergen (MTP/Panel)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  50,
+        "maxLoad":  500,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "Bergen_MTP_SnowSplinter",
+        "displayName":  "Bergen (MTP/Snow Splinter)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  50,
+        "maxLoad":  500,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "Bergen_MTP_Tan",
+        "displayName":  "Bergen (MTP/Tan)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  50,
+        "maxLoad":  500,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "Bergen_MTP_White",
+        "displayName":  "Bergen (MTP/White)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  50,
+        "maxLoad":  500,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "Binocular",
+        "displayName":  "Binoculars",
+        "armaCategory":  "Item",
+        "armaType":  "Binocular",
+        "mass":  10,
+        "mod":  "@ace",
+        "addons":  [
+                       "A3_Weapons_F",
+                       "ace_optics"
+                   ]
+    },
+    {
+        "className":  "UK3CB_BAF_L16_Tripod",
+        "displayName":  "Bipod Mortar L16 [BAF]",
+        "armaCategory":  "Weapon",
+        "armaType":  "RocketLauncher",
+        "mass":  264,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Static"
+    },
+    {
+        "className":  "UK3CB_BAF_BFA_L129",
+        "displayName":  "Blank Fire Adaptor (L129)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryMuzzle",
+        "mass":  4,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "UK3CB_BAF_BFA_L7",
+        "displayName":  "Blank Fire Adaptor (L7)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryMuzzle",
+        "mass":  4,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "UK3CB_BAF_BFA_L85",
+        "displayName":  "Blank Fire Adaptor (L85)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryMuzzle",
+        "mass":  4,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "kat_crossPanel",
+        "displayName":  "Blood groups cheat sheet",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.1,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_circulation"
+    },
+    {
+        "className":  "kat_bloodIV_O_N",
+        "displayName":  "Blood IV (1000ml) BT: 0-",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_circulation"
+    },
+    {
+        "className":  "kat_bloodIV_O_N_250",
+        "displayName":  "Blood IV (250ml) BT: 0-",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  2.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_circulation"
+    },
+    {
+        "className":  "kat_bloodIV_O_N_500",
+        "displayName":  "Blood IV (500ml) BT: 0-",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_circulation"
+    },
+    {
+        "className":  "ACE_bodyBag",
+        "displayName":  "Body Bag (Black)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  7,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "kat_plate",
+        "displayName":  "Bone Plate",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.3,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_surgery"
+    },
+    {
+        "className":  "BZD_Bushhat",
+        "displayName":  "Bushhat (MTP)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  2.2,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Helmets"
+    },
+    {
+        "className":  "kat_BVM",
+        "displayName":  "BVM",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  8,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_breathing"
+    },
+    {
+        "className":  "ACE_CableTie",
+        "displayName":  "Cable Tie",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.3,
+        "mod":  "@ace",
+        "addons":  "ace_captives"
+    },
+    {
+        "className":  "FISH_Cream_Kit_Europe",
+        "displayName":  "Cam Cream Kit - Europe",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  2.5,
+        "mod":  "@Fish Camo Cream",
+        "addons":  "fish_camo_cream_europe"
+    },
+    {
+        "className":  "ACE_Canteen",
+        "displayName":  "Canteen",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_field_rations"
+    },
+    {
+        "className":  "slr_slingload_CargoSling",
+        "displayName":  "Cargo Sling",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@4thib",
+        "addons":  "slr_slingload"
+    },
+    {
+        "className":  "U_CBRN_DPM",
+        "displayName":  "CBRN Suit (DPM)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  40,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "CBRN_Contact"
+    },
+    {
+        "className":  "U_CBRN_Green",
+        "displayName":  "CBRN Suit (Green)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  40,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "CBRN_Contact"
+    },
+    {
+        "className":  "U_CBRN_MTP",
+        "displayName":  "CBRN Suit (MTP)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  40,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "CBRN_Contact"
+    },
+    {
+        "className":  "ACE_Chemlight_HiBlue",
+        "displayName":  "Chemlight (Hi Blue)",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  2,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  "ace_chemlights"
+    },
+    {
+        "className":  "ACE_Chemlight_HiGreen",
+        "displayName":  "Chemlight (Hi Green)",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  2,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  "ace_chemlights"
+    },
+    {
+        "className":  "ACE_Chemlight_HiRed",
+        "displayName":  "Chemlight (Hi Red)",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  2,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  "ace_chemlights"
+    },
+    {
+        "className":  "ACE_Chemlight_HiWhite",
+        "displayName":  "Chemlight (Hi White)",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  2,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  "ace_chemlights"
+    },
+    {
+        "className":  "ACE_Chemlight_HiYellow",
+        "displayName":  "Chemlight (Hi Yellow)",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  2,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  "ace_chemlights"
+    },
+    {
+        "className":  "ACE_Chemlight_IR",
+        "displayName":  "Chemlight (IR)",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  2,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  "ace_chemlights"
+    },
+    {
+        "className":  "ACE_Chemlight_UltraHiOrange",
+        "displayName":  "Chemlight (Ultra-Hi Orange)",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  2,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  "ace_chemlights"
+    },
+    {
+        "className":  "kat_chestSeal",
+        "displayName":  "Chest Seal",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  1,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_breathing"
+    },
+    {
+        "className":  "kat_clamp",
+        "displayName":  "Clamp",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_surgery"
+    },
+    {
+        "className":  "kat_Painkiller",
+        "displayName":  "Combat Pill Pack",
+        "armaCategory":  "Magazine",
+        "armaType":  "UnknownMagazine",
+        "mass":  0.5,
+        "count":  4,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "RW_CFAK_Item",
+        "displayName":  "Compact First Aid Kit (CFAK)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  11.9048,
+        "mod":  "@Ratworks - Bandoliers",
+        "addons":  "rw_bandoliers"
+    },
+    {
+        "className":  "ItemCompass",
+        "displayName":  "Compass",
+        "armaCategory":  "Item",
+        "armaType":  "Compass",
+        "mass":  2,
+        "addons":  "A3_Weapons_F"
+    },
+    {
+        "className":  "tsp_flashbang_cts",
+        "displayName":  "CTS 9-Bang",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  2,
+        "count":  1,
+        "mod":  "@Breach",
+        "addons":  "tsp_flashbang"
+    },
+    {
+        "className":  "BAF_BACK_1",
+        "displayName":  "Day Sack",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  35,
+        "maxLoad":  400,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "ACE_DefusalKit",
+        "displayName":  "Defusal Kit",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_explosives"
+    },
+    {
+        "className":  "Laserbatteries",
+        "displayName":  "Designator Batteries",
+        "armaCategory":  "Magazine",
+        "armaType":  "UnknownMagazine",
+        "mass":  6,
+        "count":  1,
+        "addons":  "A3_Weapons_F"
+    },
+    {
+        "className":  "ItemMavic3N",
+        "displayName":  "DJI Mavic 3N",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  20,
+        "mod":  "@Mavic 3",
+        "addons":  "Mavic_Core"
+    },
+    {
+        "className":  "kat_vacuum",
+        "displayName":  "Dressing Vacuum (NPWT)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_surgery"
+    },
+    {
+        "className":  "ACE_EarPlugs",
+        "displayName":  "Earplugs",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.1,
+        "mod":  "@ace",
+        "addons":  "ace_hearing"
+    },
+    {
+        "className":  "ACE_EHP",
+        "displayName":  "Electronic Hearing Protection",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  8.4,
+        "mod":  "@ace",
+        "addons":  "ace_hearing"
+    },
+    {
+        "className":  "ACE_EntrenchingTool",
+        "displayName":  "Entrenching Tool",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@ace",
+        "addons":  "ace_trenches"
+    },
+    {
+        "className":  "ACE_epinephrine",
+        "displayName":  "Epinephrine Autoinjector",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  1,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "kat_etomidate",
+        "displayName":  "Etomidate",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.2,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "kat_IO_FAST",
+        "displayName":  "FAST IO",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "kat_fentanyl",
+        "displayName":  "Fentanyl",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "KAT_Empty_bloodIV_250",
+        "displayName":  "Field Blood Transfusion Kit (250ml)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  1,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_circulation"
+    },
+    {
+        "className":  "KAT_Empty_bloodIV_500",
+        "displayName":  "Field Blood Transfusion Kit (500ml)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  2,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_circulation"
+    },
+    {
+        "className":  "UK3CB_BAF_Flashlight_L131A1",
+        "displayName":  "Flashlight (L131A1)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryPointer",
+        "mass":  4,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "RAF_HeloGunner",
+        "displayName":  "Flight Helo Gunner Vest",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  30,
+        "maxLoad":  180,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Flight_Gear"
+    },
+    {
+        "className":  "RAF_HeloPilot",
+        "displayName":  "Flight Helo Vest",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  30,
+        "maxLoad":  180,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Flight_Gear"
+    },
+    {
+        "className":  "Flight_Suit_RAF1_uniform",
+        "displayName":  "Flight Overall Uniform",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  5,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Flight_Gear"
+    },
+    {
+        "className":  "kat_flumazenil",
+        "displayName":  "Flumazenil",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.2,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "UK3CB_underbarrel_acc_fgrip_bipod",
+        "displayName":  "Folding-grip and Harris Bipod",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "ACE_Flashlight_MX991",
+        "displayName":  "Fulton MX-991",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  4,
+        "mod":  "@ace",
+        "addons":  "ace_flashlights"
+    },
+    {
+        "className":  "CBRN_gasmaskFilter",
+        "displayName":  "Gas mask Filter",
+        "armaCategory":  "Item",
+        "armaType":  "Toolkit",
+        "mass":  1,
+        "mod":  "@Chemical Warfare PLUS",
+        "addons":  "CBRN_gear"
+    },
+    {
+        "className":  "STBX_ghillie_arid",
+        "displayName":  "Ghillie Suit (Arid)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  80,
+        "mod":  "@Snipers Toolbox",
+        "addons":  "STBX_ghillie"
+    },
+    {
+        "className":  "STBX_ghillie_jungle",
+        "displayName":  "Ghillie Suit (Jungle)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  80,
+        "mod":  "@Snipers Toolbox",
+        "addons":  "STBX_ghillie"
+    },
+    {
+        "className":  "STBX_ghillie_lush",
+        "displayName":  "Ghillie Suit (Lush)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  80,
+        "mod":  "@Snipers Toolbox",
+        "addons":  "STBX_ghillie"
+    },
+    {
+        "className":  "STBX_ghillie_semiarid",
+        "displayName":  "Ghillie Suit (Semi-Arid)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  80,
+        "mod":  "@Snipers Toolbox",
+        "addons":  "STBX_ghillie"
+    },
+    {
+        "className":  "rhsusf_weap_glock17g4",
+        "displayName":  "Glock 17",
+        "armaCategory":  "Weapon",
+        "armaType":  "Handgun",
+        "mass":  13.75,
+        "mod":  "@ace",
+        "addons":  [
+                       "rhsusf_c_weapons",
+                       "jsrs2025_compat_rhs_usf",
+                       "UK3CB_BAF_Weapons_Ammo_RHS",
+                       "ace_compat_rhs_usf3"
+                   ]
+    },
+    {
+        "className":  "ItemGPS",
+        "displayName":  "GPS",
+        "armaCategory":  "Item",
+        "armaType":  "GPS",
+        "mass":  8,
+        "addons":  "A3_Weapons_F"
+    },
+    {
+        "className":  "UK3CB_underbarrel_acc_grippod_d",
+        "displayName":  "Grip-pod (Desert)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  4,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "UK3CB_underbarrel_acc_grippod_g",
+        "displayName":  "Grip-pod (Green)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  4,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "UK3CB_underbarrel_acc_grippod_t",
+        "displayName":  "Grip-pod (Tan)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  4,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "kat_guedel",
+        "displayName":  "Guedel Tube",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_airway"
+    },
+    {
+        "className":  "kat_ultrasound",
+        "displayName":  "Handheld Ultrasound",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_surgery"
+    },
+    {
+        "className":  "kio_H_Bipod",
+        "displayName":  "Harris Bipod",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@L115A3 Rework Project",
+        "addons":  "Kio_Scopes"
+    },
+    {
+        "className":  "UK3CB_underbarrel_acc_bipod",
+        "displayName":  "Harris Bipod",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  6,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "UK3CB_BAF_HMNVS",
+        "displayName":  "Head-Mounted NV System [BAF]",
+        "armaCategory":  "Item",
+        "armaType":  "NVGoggles",
+        "mass":  4,
+        "mod":  "@3CB BAF Equipment",
+        "addons":  "UK3CB_BAF_Equipment_NVG"
+    },
+    {
+        "className":  "ItemcTabHCam",
+        "displayName":  "Helmet Camera",
+        "armaCategory":  "Weapon",
+        "armaType":  "UnknownWeapon",
+        "mass":  4,
+        "mod":  "@4thib",
+        "addons":  "cTab"
+    },
+    {
+        "className":  "ACE_Humanitarian_Ration",
+        "displayName":  "Humanitarian Ration",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_field_rations"
+    },
+    {
+        "className":  "ACE_HuntIR_monitor",
+        "displayName":  "HuntIR Monitor",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  20,
+        "mod":  "@ace",
+        "addons":  "ace_huntir"
+    },
+    {
+        "className":  "ACE_HuntIR_M203",
+        "displayName":  "HuntIR Round",
+        "armaCategory":  "Magazine",
+        "armaType":  "Flare",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  "ace_huntir"
+    },
+    {
+        "className":  "UK3CB_BAF_AT4_CS_AP_Launcher",
+        "displayName":  "ILAW HEDP Launcher",
+        "armaCategory":  "Weapon",
+        "armaType":  "Launcher",
+        "mass":  67,
+        "mod":  "@4thib",
+        "addons":  [
+                       "UK3CB_BAF_Weapons_Launchers",
+                       "4ib_weapons"
+                   ]
+    },
+    {
+        "className":  "kat_IFAK",
+        "displayName":  "Individual First Aid Kit",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  15,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_misc"
+    },
+    {
+        "className":  "B_IR_Grenade",
+        "displayName":  "IR Grenade [NATO]",
+        "armaCategory":  "Magazine",
+        "armaType":  "UnknownMagazine",
+        "mass":  8,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  [
+                       "A3_Weapons_F",
+                       "ace_attach"
+                   ]
+    },
+    {
+        "className":  "ACE_IR_Strobe_Item",
+        "displayName":  "IR Strobe",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  1,
+        "mod":  "@ace",
+        "addons":  "ace_attach"
+    },
+    {
+        "className":  "kat_epinephrineIV",
+        "displayName":  "IV Epinephrine",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.2,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "UK3CB_BAF_Javelin_CLU",
+        "displayName":  "Javelin CLU",
+        "armaCategory":  "Item",
+        "armaType":  "Binocular",
+        "mass":  44.092,
+        "mod":  "@4thib",
+        "addons":  [
+                       "UK3CB_BAF_Vehicles_LandRover",
+                       "UK3CB_BAF_Weapons_Launchers",
+                       "4ib_weapons"
+                   ]
+    },
+    {
+        "className":  "UK3CB_BAF_Javelin_Slung_Tube",
+        "displayName":  "Javelin Tube",
+        "armaCategory":  "Weapon",
+        "armaType":  "RocketLauncher",
+        "mass":  330.69,
+        "mod":  "@4thib",
+        "addons":  [
+                       "UK3CB_BAF_Vehicles_LandRover",
+                       "UK3CB_BAF_Weapons_Launchers",
+                       "4ib_weapons"
+                   ]
+    },
+    {
+        "className":  "RW_JTL_Green",
+        "displayName":  "Joint Target Locator (Green)",
+        "armaCategory":  "Item",
+        "armaType":  "Binocular",
+        "mass":  38.5805,
+        "mod":  "@4thib",
+        "addons":  "rw_jtl"
+    },
+    {
+        "className":  "RW_JTL_Sand",
+        "displayName":  "Joint Target Locator (Sand)",
+        "armaCategory":  "Item",
+        "armaType":  "Binocular",
+        "mass":  38.5805,
+        "mod":  "@4thib",
+        "addons":  "rw_jtl"
+    },
+    {
+        "className":  "rw_jtl_batteries",
+        "displayName":  "JTL Batteries",
+        "armaCategory":  "Magazine",
+        "armaType":  "UnknownMagazine",
+        "mass":  5.5115,
+        "count":  1,
+        "mod":  "@4thib",
+        "addons":  "rw_jtl"
+    },
+    {
+        "className":  "KAT_STS",
+        "displayName":  "Katmin Jump Standard",
+        "armaCategory":  "Item",
+        "armaType":  "Watch",
+        "mass":  2,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_watch"
+    },
+    {
+        "className":  "KAT_Katmin",
+        "displayName":  "Katmin K500",
+        "armaCategory":  "Item",
+        "armaType":  "Watch",
+        "mass":  2,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_watch"
+    },
+    {
+        "className":  "ACE_Kestrel4500",
+        "displayName":  "Kestrel 4500NV",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  2,
+        "mod":  "@ace",
+        "addons":  "ace_kestrel4500"
+    },
+    {
+        "className":  "kat_ketamine",
+        "displayName":  "Ketamine",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "kat_larynx",
+        "displayName":  "King LT",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_airway"
+    },
+    {
+        "className":  "UK3CB_BAF_B_Kitbag_MTP",
+        "displayName":  "Kitbag MTP [BAF]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  50,
+        "maxLoad":  280,
+        "mod":  "@3CB BAF Equipment",
+        "addons":  "UK3CB_BAF_Equipment_Backpacks"
+    },
+    {
+        "className":  "UK3CB_BAF_Kite",
+        "displayName":  "KITE",
+        "armaCategory":  "Item",
+        "armaType":  "AccessorySights",
+        "mass":  12,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "UK3CB_BAF_MaxiKite",
+        "displayName":  "KITE (MAXIKITE)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessorySights",
+        "mass":  18,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "UK3CB_BAF_SmokeShellYellow",
+        "displayName":  "L100 Yellow Smoke Grenade",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_SmokeShellPurple",
+        "displayName":  "L101 Purple Smoke Grenade",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_L111A1",
+        "displayName":  "L111A1 HMG Static Weapon [BAF]",
+        "armaCategory":  "Weapon",
+        "armaType":  "RocketLauncher",
+        "mass":  500,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Static"
+    },
+    {
+        "className":  "UK3CB_BAF_HandGrenade_Blank",
+        "displayName":  "L111A1 Practice Grenade",
+        "armaCategory":  "Magazine",
+        "armaType":  "Grenade",
+        "mass":  10,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "L115A3_BFA",
+        "displayName":  "L115A3 BFA",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryMuzzle",
+        "mass":  5,
+        "mod":  "@L115A3 Rework Project",
+        "addons":  "FM_Bfa"
+    },
+    {
+        "className":  "FM_L115A3_Desert",
+        "displayName":  "L115A3 Desert Spray",
+        "armaCategory":  "Weapon",
+        "armaType":  "AssaultRifle",
+        "mass":  150,
+        "mod":  "@L115A3 Rework Project",
+        "addons":  "FM_Weapons_L115A3"
+    },
+    {
+        "className":  "FM_L115A3_NoSpray",
+        "displayName":  "L115A3 No Spray",
+        "armaCategory":  "Weapon",
+        "armaType":  "AssaultRifle",
+        "mass":  150,
+        "mod":  "@L115A3 Rework Project",
+        "addons":  "FM_Weapons_L115A3"
+    },
+    {
+        "className":  "FM_L115A3_Snow",
+        "displayName":  "L115A3 Snow Spray",
+        "armaCategory":  "Weapon",
+        "armaType":  "AssaultRifle",
+        "mass":  150,
+        "mod":  "@L115A3 Rework Project",
+        "addons":  "FM_Weapons_L115A3"
+    },
+    {
+        "className":  "L115A3_Suppressor",
+        "displayName":  "L115A3 Suppressor",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryMuzzle",
+        "mass":  5,
+        "mod":  "@L115A3 Rework Project",
+        "addons":  "FM_Weapons_L115A3"
+    },
+    {
+        "className":  "FM_L115A3_Woodland",
+        "displayName":  "L115A3 Woodland Spray",
+        "armaCategory":  "Weapon",
+        "armaType":  "AssaultRifle",
+        "mass":  150,
+        "mod":  "@L115A3 Rework Project",
+        "addons":  "FM_Weapons_L115A3"
+    },
+    {
+        "className":  "UK3CB_BAF_L129A1",
+        "displayName":  "L129A1",
+        "armaCategory":  "Weapon",
+        "armaType":  "SniperRifle",
+        "mass":  99.207,
+        "mod":  "@JSRS SOUNDMOD 2025",
+        "addons":  [
+                       "UK3CB_BAF_Weapons_L129",
+                       "4ib_weapons",
+                       "jsrs2025_compat_3cb_BAF_weapons"
+                   ]
+    },
+    {
+        "className":  "UK3CB_BAF_L131A1",
+        "displayName":  "L131A1",
+        "armaCategory":  "Weapon",
+        "armaType":  "Handgun",
+        "mass":  14,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_L131A1"
+    },
+    {
+        "className":  "UK3CB_BAF_L134A1",
+        "displayName":  "L134A1 GMG Static Weapon [BAF]",
+        "armaCategory":  "Weapon",
+        "armaType":  "RocketLauncher",
+        "mass":  400,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Static"
+    },
+    {
+        "className":  "UK3CB_BAF_L16",
+        "displayName":  "L16 Mortar Static Weapon [BAF]",
+        "armaCategory":  "Weapon",
+        "armaType":  "RocketLauncher",
+        "mass":  400,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Static"
+    },
+    {
+        "className":  "UK3CB_BAF_L16_RangeTable",
+        "displayName":  "L16 Rangetable [BAF]",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.1,
+        "mod":  "@4thib",
+        "addons":  "UK3CB_BAF_Weapons_ACE"
+    },
+    {
+        "className":  "UK3CB_BAF_L22A2",
+        "displayName":  "L22A2",
+        "armaCategory":  "Weapon",
+        "armaType":  "AssaultRifle",
+        "mass":  77.161,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_SmallArms"
+    },
+    {
+        "className":  "RW_L2A1_ASM_Loaded",
+        "displayName":  "L2A1 ASM (AS)",
+        "armaCategory":  "Weapon",
+        "armaType":  "RocketLauncher",
+        "mass":  228.176,
+        "mod":  "@Ratworks - L2A1 Anti-Structure Launcher",
+        "addons":  "rw_asm"
+    },
+    {
+        "className":  "RW_L2A1_HESH_Loaded",
+        "displayName":  "L2A1 ASM (HESH)",
+        "armaCategory":  "Weapon",
+        "armaType":  "RocketLauncher",
+        "mass":  228.176,
+        "mod":  "@Ratworks - L2A1 Anti-Structure Launcher",
+        "addons":  "rw_asm"
+    },
+    {
+        "className":  "UK3CB_BAF_SmokeShell",
+        "displayName":  "L50A1 White Smoke Grenade",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_SmokeShellGreen",
+        "displayName":  "L68 Green Smoke Grenade",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_SmokeShellOrange",
+        "displayName":  "L69 Orange Smoke Grenade",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_SmokeShellRed",
+        "displayName":  "L70 Red Smoke Grenade",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_SmokeShellBlue",
+        "displayName":  "L71 Blue Smoke Grenade",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Ammo"
+    },
+    {
+        "className":  "UK3CB_BAF_L7A2",
+        "displayName":  "L7A2 GPMG",
+        "armaCategory":  "Weapon",
+        "armaType":  "MachineGun",
+        "mass":  240,
+        "mod":  "@JSRS SOUNDMOD 2025",
+        "addons":  [
+                       "UK3CB_BAF_Weapons_L7",
+                       "jsrs2025_compat_3cb_BAF_weapons"
+                   ]
+    },
+    {
+        "className":  "UK3CB_BAF_L85A2",
+        "displayName":  "L85A2",
+        "armaCategory":  "Weapon",
+        "armaType":  "AssaultRifle",
+        "mass":  84,
+        "mod":  "@JSRS SOUNDMOD 2025",
+        "addons":  [
+                       "UK3CB_BAF_Weapons_SmallArms",
+                       "jsrs2025_compat_3cb_BAF_weapons"
+                   ]
+    },
+    {
+        "className":  "UK3CB_BAF_L85A2_RIS",
+        "displayName":  "L85A2 RIS",
+        "armaCategory":  "Weapon",
+        "armaType":  "AssaultRifle",
+        "mass":  84,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_SmallArms"
+    },
+    {
+        "className":  "UK3CB_BAF_L85A2_UGL",
+        "displayName":  "L85A2 with L123A2 Ladder",
+        "armaCategory":  "Weapon",
+        "armaType":  "AssaultRifle",
+        "mass":  117,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_SmallArms"
+    },
+    {
+        "className":  "UK3CB_BAF_L85A3",
+        "displayName":  "L85A3",
+        "armaCategory":  "Weapon",
+        "armaType":  "AssaultRifle",
+        "mass":  82,
+        "mod":  "@JSRS SOUNDMOD 2025",
+        "addons":  [
+                       "UK3CB_BAF_Weapons_L85A3",
+                       "4ib_weapons",
+                       "jsrs2025_compat_3cb_BAF_weapons"
+                   ]
+    },
+    {
+        "className":  "UK3CB_BAF_L85A3_UGL",
+        "displayName":  "L85A3 with L123A2 Ladder",
+        "armaCategory":  "Weapon",
+        "armaType":  "AssaultRifle",
+        "mass":  115,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_L85A3"
+    },
+    {
+        "className":  "RKSL_optic_LDS",
+        "displayName":  "LDS",
+        "armaCategory":  "Item",
+        "armaType":  "AccessorySights",
+        "mass":  8,
+        "mod":  "@RKSL Studios - Attachments v3.02",
+        "addons":  "RKSL_LDS"
+    },
+    {
+        "className":  "kat_lidocaine",
+        "displayName":  "Lidocaine",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "cigs_lighter",
+        "displayName":  "Lighter",
+        "armaCategory":  "Magazine",
+        "armaType":  "UnknownMagazine",
+        "mass":  2,
+        "count":  100,
+        "mod":  "@Immersion Cigs - Rewrite",
+        "addons":  "cigs_core"
+    },
+    {
+        "className":  "kat_lorazepam",
+        "displayName":  "Lorazepam",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.2,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "DemoCharge_Remote_Mag",
+        "displayName":  "M112 Demolition Block",
+        "armaCategory":  "Mine",
+        "armaType":  "Mine",
+        "mass":  20,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  [
+                       "A3_Weapons_F_Explosives",
+                       "ace_realisticnames",
+                       "ace_explosives"
+                   ]
+    },
+    {
+        "className":  "ACE_HandFlare_Yellow",
+        "displayName":  "M127A1 Hand Held Signal (Yellow)",
+        "armaCategory":  "Magazine",
+        "armaType":  "SmokeShell",
+        "mass":  4,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  "ace_grenades"
+    },
+    {
+        "className":  "SatchelCharge_Remote_Mag",
+        "displayName":  "M183 Demolition Charge Assembly",
+        "armaCategory":  "Mine",
+        "armaType":  "Mine",
+        "mass":  80,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  [
+                       "A3_Weapons_F_Explosives",
+                       "ace_realisticnames",
+                       "ace_explosives"
+                   ]
+    },
+    {
+        "className":  "ClaymoreDirectionalMine_Remote_Mag",
+        "displayName":  "M18A1 Claymore",
+        "armaCategory":  "Mine",
+        "armaType":  "MineDirectional",
+        "mass":  20,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  [
+                       "A3_Weapons_F_Explosives",
+                       "ace_realisticnames",
+                       "ace_explosives"
+                   ]
+    },
+    {
+        "className":  "G_CBRN_M50_Hood",
+        "displayName":  "M50 Promask w/ Hood",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@Chemical Warfare PLUS",
+        "addons":  "CBRN_gear"
+    },
+    {
+        "className":  "ACE_Clacker",
+        "displayName":  "M57 Firing Device",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  3,
+        "mod":  "@ace",
+        "addons":  "ace_explosives"
+    },
+    {
+        "className":  "HandGrenade",
+        "displayName":  "M67 Fragmentation Grenade",
+        "armaCategory":  "Magazine",
+        "armaType":  "Grenade",
+        "mass":  10,
+        "count":  1,
+        "mod":  "@ace",
+        "addons":  [
+                       "A3_Weapons_F",
+                       "ace_realisticnames"
+                   ]
+    },
+    {
+        "className":  "ACE_Flashlight_XL50",
+        "displayName":  "Maglite XL50",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  3,
+        "mod":  "@ace",
+        "addons":  "ace_flashlights"
+    },
+    {
+        "className":  "ItemMap",
+        "displayName":  "Map",
+        "armaCategory":  "Item",
+        "armaType":  "Map",
+        "mass":  2,
+        "addons":  "A3_Weapons_F"
+    },
+    {
+        "className":  "ACE_MapTools",
+        "displayName":  "Map Tools",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.2,
+        "mod":  "@ace",
+        "addons":  "ace_maptools"
+    },
+    {
+        "className":  "BAF_BACK_2",
+        "displayName":  "Med Pack",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  45,
+        "maxLoad":  400,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "ACE_microDAGR",
+        "displayName":  "MicroDAGR GPS",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  2,
+        "mod":  "@ace",
+        "addons":  "ace_microdagr"
+    },
+    {
+        "className":  "cigs_morley_cigpack",
+        "displayName":  "Morley Cigarette Pack",
+        "armaCategory":  "Magazine",
+        "armaType":  "UnknownMagazine",
+        "mass":  2,
+        "count":  20,
+        "mod":  "@Immersion Cigs - Rewrite",
+        "addons":  "cigs_morley"
+    },
+    {
+        "className":  "ACE_morphine",
+        "displayName":  "Morphine Autoinjector",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  1,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "ACE_MRE_BeefStew",
+        "displayName":  "MRE Beef Stew",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_field_rations"
+    },
+    {
+        "className":  "ACE_MRE_ChickenTikkaMasala",
+        "displayName":  "MRE Chicken Tikka Masala",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_field_rations"
+    },
+    {
+        "className":  "ACE_MRE_ChickenHerbDumplings",
+        "displayName":  "MRE Chicken with Herb Dumplings",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_field_rations"
+    },
+    {
+        "className":  "ACE_MRE_CreamChickenSoup",
+        "displayName":  "MRE Cream Chicken Soup",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_field_rations"
+    },
+    {
+        "className":  "ACE_MRE_LambCurry",
+        "displayName":  "MRE Lamb Curry",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_field_rations"
+    },
+    {
+        "className":  "ACE_MRE_MeatballsPasta",
+        "displayName":  "MRE Meatballs and Pasta",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_field_rations"
+    },
+    {
+        "className":  "ACE_MRE_SteakVegetables",
+        "displayName":  "MRE Steak Vegetables",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_field_rations"
+    },
+    {
+        "className":  "kat_MFAK",
+        "displayName":  "Multiple First Aid Kit",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  50,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_misc"
+    },
+    {
+        "className":  "kat_naloxone",
+        "displayName":  "Naloxone",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "kat_ncdKit",
+        "displayName":  "NCD Kit",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  2,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_breathing"
+    },
+    {
+        "className":  "UK3CB_G_Neck_Shemag_Oli",
+        "displayName":  "Neck Shemag (Olive)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  6,
+        "mod":  "@3CB Factions",
+        "addons":  "UK3CB_Factions_Facegear"
+    },
+    {
+        "className":  "UK3CB_G_Neck_Shemag_Tan",
+        "displayName":  "Neck Shemag (Tan)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  6,
+        "mod":  "@3CB Factions",
+        "addons":  "UK3CB_Factions_Facegear"
+    },
+    {
+        "className":  "UK3CB_BAF_NLAW_Launcher",
+        "displayName":  "NLAW",
+        "armaCategory":  "Weapon",
+        "armaType":  "RocketLauncher",
+        "mass":  275.575,
+        "mod":  "@4thib",
+        "addons":  [
+                       "UK3CB_BAF_Weapons_Launchers",
+                       "4ib_weapons"
+                   ]
+    },
+    {
+        "className":  "kat_norepinephrine",
+        "displayName":  "Norepinephrine",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "STBX_observationlog_item",
+        "displayName":  "Observation Logbook",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.44092,
+        "mod":  "@Snipers Toolbox",
+        "addons":  "STBX_observationlog"
+    },
+    {
+        "className":  "kat_Penthrox",
+        "displayName":  "Penthrox Inhaler",
+        "armaCategory":  "Magazine",
+        "armaType":  "UnknownMagazine",
+        "mass":  1,
+        "count":  10,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "ACE_personalAidKit",
+        "displayName":  "Personal Aid Kit",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "acc_flashlight_pistol",
+        "displayName":  "Pistol Flashlight",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryPointer",
+        "mass":  3,
+        "addons":  "A3_Weapons_F_Acc"
+    },
+    {
+        "className":  "ACE_plasmaIV",
+        "displayName":  "Plasma IV (1000ml)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "ACE_plasmaIV_250",
+        "displayName":  "Plasma IV (250ml)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  2.5,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "ACE_plasmaIV_500",
+        "displayName":  "Plasma IV (500ml)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "AMOP_PLRF15C",
+        "displayName":  "PLRF15C",
+        "armaCategory":  "Item",
+        "armaType":  "Binocular",
+        "mass":  11.023,
+        "mod":  "@AMO - All-in-One",
+        "addons":  "AMOP_plrf15c"
+    },
+    {
+        "className":  "AMOP_PLRF25C",
+        "displayName":  "PLRF25C",
+        "armaCategory":  "Item",
+        "armaType":  "Binocular",
+        "mass":  11.023,
+        "mod":  "@AMO - All-in-One",
+        "addons":  "AMOP_plrf25c"
+    },
+    {
+        "className":  "kat_pocketBVM",
+        "displayName":  "Pocket BVM",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  3,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_breathing"
+    },
+    {
+        "className":  "kat_Pulseoximeter",
+        "displayName":  "Pulse Oximeter",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  1,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_breathing"
+    },
+    {
+        "className":  "ACE_RangeCard",
+        "displayName":  "Range Card",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.1,
+        "mod":  "@ace",
+        "addons":  "ace_rangecard"
+    },
+    {
+        "className":  "kat_retractor",
+        "displayName":  "Retractor",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_surgery"
+    },
+    {
+        "className":  "Revision_Base",
+        "displayName":  "Revision Batlskin",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Helmets"
+    },
+    {
+        "className":  "Revision_Crew",
+        "displayName":  "Revision Batlskin Crew",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Helmets"
+    },
+    {
+        "className":  "Revision_Crew_Scrim",
+        "displayName":  "Revision Batlskin Crew With Scrim",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Helmets"
+    },
+    {
+        "className":  "Revision_UK_Patch",
+        "displayName":  "Revision Batlskin Plan",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Helmets"
+    },
+    {
+        "className":  "Revision_IRLess",
+        "displayName":  "Revision Batlskin UK Patch",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Helmets"
+    },
+    {
+        "className":  "Revision_Comms",
+        "displayName":  "Revision Batlskin With Comms",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Helmets"
+    },
+    {
+        "className":  "Revision_Comms_Scrim",
+        "displayName":  "Revision Batlskin With Comms + Scrim",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Helmets"
+    },
+    {
+        "className":  "Revision_Scrim",
+        "displayName":  "Revision Batlskin With Scrim",
+        "armaCategory":  "Equipment",
+        "armaType":  "Headgear",
+        "mass":  30,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Helmets"
+    },
+    {
+        "className":  "ItemcTab",
+        "displayName":  "Rugged Tablet",
+        "armaCategory":  "Item",
+        "armaType":  "GPS",
+        "mass":  25,
+        "mod":  "@4thib",
+        "addons":  "cTab"
+    },
+    {
+        "className":  "ItemcTabMisc",
+        "displayName":  "Rugged Tablet",
+        "armaCategory":  "Weapon",
+        "armaType":  "UnknownWeapon",
+        "mass":  25,
+        "mod":  "@4thib",
+        "addons":  "cTab"
+    },
+    {
+        "className":  "RKSL_optic_PMII_312_sunshade",
+        "displayName":  "S+B 3-12x50 PM II (sunshade)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessorySights",
+        "mass":  15,
+        "mod":  "@RKSL Studios - Attachments v3.02",
+        "addons":  "RKSL_PMII"
+    },
+    {
+        "className":  "RKSL_optic_PMII_525",
+        "displayName":  "S+B 5-25x56 PM II",
+        "armaCategory":  "Item",
+        "armaType":  "AccessorySights",
+        "mass":  19,
+        "mod":  "@4thib",
+        "addons":  [
+                       "RKSL_PMII_525",
+                       "ace_compat_rksl_pm_ii",
+                       "UK3CB_BAF_Weapons_ACE"
+                   ]
+    },
+    {
+        "className":  "RKSL_optic_PMII_525_des",
+        "displayName":  "S+B 5-25x56 PM II (D)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessorySights",
+        "mass":  19,
+        "mod":  "@RKSL Studios - Attachments v3.02",
+        "addons":  "RKSL_PMII_525"
+    },
+    {
+        "className":  "RKSL_optic_PMII_525_wdl",
+        "displayName":  "S+B 5-25x56 PM II (W)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessorySights",
+        "mass":  19,
+        "mod":  "@RKSL Studios - Attachments v3.02",
+        "addons":  "RKSL_PMII_525"
+    },
+    {
+        "className":  "ItemAndroid",
+        "displayName":  "S7 Android",
+        "armaCategory":  "Item",
+        "armaType":  "GPS",
+        "mass":  5,
+        "mod":  "@4thib",
+        "addons":  "cTab"
+    },
+    {
+        "className":  "ItemAndroidMisc",
+        "displayName":  "S7 Android",
+        "armaCategory":  "Weapon",
+        "armaType":  "UnknownWeapon",
+        "mass":  5,
+        "mod":  "@4thib",
+        "addons":  "cTab"
+    },
+    {
+        "className":  "ACE_salineIV",
+        "displayName":  "Saline IV (1000ml)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "ACE_salineIV_250",
+        "displayName":  "Saline IV (250ml)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  2.5,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "ACE_salineIV_500",
+        "displayName":  "Saline IV (500ml)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "kat_scalpel",
+        "displayName":  "Scalpel",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.2,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_surgery"
+    },
+    {
+        "className":  "rhsusf_shemagh_grn",
+        "displayName":  "Shemagh (Green)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@RHSUSAF",
+        "addons":  "rhsusf_c_troops"
+    },
+    {
+        "className":  "rhsusf_shemagh2_grn",
+        "displayName":  "Shemagh (Green/alt)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@RHSUSAF",
+        "addons":  "rhsusf_c_troops"
+    },
+    {
+        "className":  "rhsusf_shemagh_od",
+        "displayName":  "Shemagh (OD)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@RHSUSAF",
+        "addons":  "rhsusf_c_troops"
+    },
+    {
+        "className":  "rhsusf_shemagh2_od",
+        "displayName":  "Shemagh (OD/alt)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@RHSUSAF",
+        "addons":  "rhsusf_c_troops"
+    },
+    {
+        "className":  "rhsusf_shemagh_tan",
+        "displayName":  "Shemagh (Tan)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@RHSUSAF",
+        "addons":  "rhsusf_c_troops"
+    },
+    {
+        "className":  "rhsusf_shemagh2_tan",
+        "displayName":  "Shemagh (Tan/alt)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@RHSUSAF",
+        "addons":  "rhsusf_c_troops"
+    },
+    {
+        "className":  "tsp_breach_shock",
+        "displayName":  "Shock Tube",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  3,
+        "mod":  "@Breach",
+        "addons":  "tsp_breach_shock"
+    },
+    {
+        "className":  "tsp_breach_silhouette_mag",
+        "displayName":  "Silhouette Charge",
+        "armaCategory":  "Mine",
+        "armaType":  "MineDirectional",
+        "mass":  80,
+        "count":  1,
+        "mod":  "@Breach",
+        "addons":  "tsp_breach_silhouette"
+    },
+    {
+        "className":  "Simrad_KN202",
+        "displayName":  "Simrad KN202",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryPointer",
+        "mass":  4,
+        "mod":  "@L115A3 Rework Project",
+        "addons":  "FM_Simrad"
+    },
+    {
+        "className":  "UK4IB_SlateCards",
+        "displayName":  "Slate Cards (Aide Memoire)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.22046,
+        "mod":  "@4thib",
+        "addons":  "4ib_slatecards"
+    },
+    {
+        "className":  "SmokeLauncherMag",
+        "displayName":  "Smoke Screen",
+        "armaCategory":  "Magazine",
+        "armaType":  "CounterMeasures",
+        "mass":  8,
+        "count":  2,
+        "mod":  "@ace",
+        "addons":  [
+                       "A3_Weapons_F",
+                       "ace_rearm"
+                   ]
+    },
+    {
+        "className":  "STBX_ghillie_vest_khaki",
+        "displayName":  "Sniper Vest (Khaki)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  20,
+        "mod":  "@Snipers Toolbox",
+        "addons":  "STBX_ghillie"
+    },
+    {
+        "className":  "STBX_ghillie_vest_olive",
+        "displayName":  "Sniper Vest (Olive)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  20,
+        "mod":  "@Snipers Toolbox",
+        "addons":  "STBX_ghillie"
+    },
+    {
+        "className":  "STBX_ghillie_vest_rgr",
+        "displayName":  "Sniper Vest (Ranger Green)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  20,
+        "mod":  "@Snipers Toolbox",
+        "addons":  "STBX_ghillie"
+    },
+    {
+        "className":  "ACE_SpareBarrel_Item",
+        "displayName":  "Spare barrel",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  25,
+        "mod":  "@ace",
+        "addons":  "ace_overheating"
+    },
+    {
+        "className":  "ACE_splint",
+        "displayName":  "Splint",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  2,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "ACE_SpottingScope",
+        "displayName":  "Spotting Scope",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  40,
+        "mod":  "@ace",
+        "addons":  "ace_spottingscope"
+    },
+    {
+        "className":  "ACE_SpraypaintBlue",
+        "displayName":  "Spray Paint (Blue)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@ace",
+        "addons":  "ace_tagging"
+    },
+    {
+        "className":  "ACE_SpraypaintGreen",
+        "displayName":  "Spray Paint (Green)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@ace",
+        "addons":  "ace_tagging"
+    },
+    {
+        "className":  "ACE_SpraypaintRed",
+        "displayName":  "Spray Paint (Red)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@ace",
+        "addons":  "ace_tagging"
+    },
+    {
+        "className":  "ACE_SpraypaintWhite",
+        "displayName":  "Spray Paint (White)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  10,
+        "mod":  "@ace",
+        "addons":  "ace_tagging"
+    },
+    {
+        "className":  "ACE_Tripod",
+        "displayName":  "SSWT Kit",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  40,
+        "mod":  "@ace",
+        "addons":  "ace_tripod"
+    },
+    {
+        "className":  "Starstreak_missile",
+        "displayName":  "Starstreak HVM Launch Tube",
+        "armaCategory":  "Magazine",
+        "armaType":  "Missile",
+        "mass":  55.115,
+        "count":  1,
+        "mod":  "@4thib",
+        "addons":  "4ib_starstreak"
+    },
+    {
+        "className":  "Starstreak",
+        "displayName":  "Starstreak HVM Launcher",
+        "armaCategory":  "Weapon",
+        "armaType":  "MissileLauncher",
+        "mass":  264.552,
+        "mod":  "@4thib",
+        "addons":  "4ib_starstreak"
+    },
+    {
+        "className":  "Starstreak2_missile",
+        "displayName":  "Starstreak II HVM Launch Tube",
+        "armaCategory":  "Magazine",
+        "armaType":  "Missile",
+        "mass":  55.115,
+        "count":  1,
+        "mod":  "@4thib",
+        "addons":  "4ib_starstreak"
+    },
+    {
+        "className":  "Starstreak2_LML_LaunchUnit",
+        "displayName":  "Starstreak II LML",
+        "armaCategory":  "Weapon",
+        "armaType":  "RocketLauncher",
+        "mass":  308.644,
+        "mod":  "@4thib",
+        "addons":  "4ib_starstreak"
+    },
+    {
+        "className":  "Starstreak_LML_LaunchUnit",
+        "displayName":  "Starstreak LML",
+        "armaCategory":  "Weapon",
+        "armaType":  "RocketLauncher",
+        "mass":  308.644,
+        "mod":  "@4thib",
+        "addons":  "4ib_starstreak"
+    },
+    {
+        "className":  "tsp_breach_stick_mag",
+        "displayName":  "Stick Charge",
+        "armaCategory":  "Mine",
+        "armaType":  "MineDirectional",
+        "mass":  10,
+        "count":  1,
+        "mod":  "@Breach",
+        "addons":  "tsp_breach_stick"
+    },
+    {
+        "className":  "UK3CB_BAF_Silencer_L115A3",
+        "displayName":  "Suppressor (L115 / L129)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryMuzzle",
+        "mass":  12,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "ACE_surgicalKit",
+        "displayName":  "Surgical Kit",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  15,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "UK3CB_BAF_SUSAT",
+        "displayName":  "SUSAT L9A1",
+        "armaCategory":  "Item",
+        "armaType":  "AccessorySights",
+        "mass":  4,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "UK3CB_BAF_G_Tactical_Black",
+        "displayName":  "Tactical Glasses (Black) [BAF]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@3CB BAF Equipment",
+        "addons":  "UK3CB_BAF_Equipment_Glasses"
+    },
+    {
+        "className":  "UK3CB_BAF_G_Tactical_Clear",
+        "displayName":  "Tactical Glasses (Clear) [BAF]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@3CB BAF Equipment",
+        "addons":  "UK3CB_BAF_Equipment_Glasses"
+    },
+    {
+        "className":  "UK3CB_BAF_G_Tactical_Grey",
+        "displayName":  "Tactical Glasses (Grey) [BAF]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@3CB BAF Equipment",
+        "addons":  "UK3CB_BAF_Equipment_Glasses"
+    },
+    {
+        "className":  "UK3CB_BAF_G_Tactical_Orange",
+        "displayName":  "Tactical Glasses (Orange) [BAF]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@3CB BAF Equipment",
+        "addons":  "UK3CB_BAF_Equipment_Glasses"
+    },
+    {
+        "className":  "UK3CB_BAF_G_Tactical_Yellow",
+        "displayName":  "Tactical Glasses (Yellow) [BAF]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Glasses",
+        "mass":  4,
+        "mod":  "@3CB BAF Equipment",
+        "addons":  "UK3CB_BAF_Equipment_Glasses"
+    },
+    {
+        "className":  "ACE_TacticalLadder_Pack",
+        "displayName":  "Telescopic Ladder",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  50,
+        "maxLoad":  0,
+        "mod":  "@ace",
+        "addons":  "ace_tacticalladder"
+    },
+    {
+        "className":  "ToolKit",
+        "displayName":  "Toolkit",
+        "armaCategory":  "Item",
+        "armaType":  "Toolkit",
+        "mass":  80,
+        "mod":  "@ace",
+        "addons":  [
+                       "A3_Weapons_F_Items",
+                       "ace_arsenal"
+                   ]
+    },
+    {
+        "className":  "ACE_tourniquet",
+        "displayName":  "Tourniquet (CAT)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  1,
+        "mod":  "@ace",
+        "addons":  "ace_medical_treatment"
+    },
+    {
+        "className":  "UK3CB_BAF_TA648_308",
+        "displayName":  "Trijicon ACOG TA648RMR-308",
+        "armaCategory":  "Item",
+        "armaType":  "AccessorySights",
+        "mass":  8,
+        "mod":  "@3CB BAF Weapons",
+        "addons":  "UK3CB_BAF_Weapons_Accessories"
+    },
+    {
+        "className":  "UK3CB_BAF_Tripod",
+        "displayName":  "Tripod Static Weapon [BAF]",
+        "armaCategory":  "Weapon",
+        "armaType":  "RocketLauncher",
+        "mass":  209.437,
+        "mod":  "@4thib",
+        "addons":  [
+                       "UK3CB_BAF_Weapons_Static",
+                       "4ib_weapons"
+                   ]
+    },
+    {
+        "className":  "kat_TXA",
+        "displayName":  "TXA",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.5,
+        "mod":  "@KAT - Advanced Medical",
+        "addons":  "kat_pharma"
+    },
+    {
+        "className":  "B_UAV_01_backpack_F",
+        "displayName":  "UAV Bag (AR-2) [NATO]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Backpack",
+        "mass":  300,
+        "maxLoad":  0,
+        "mod":  "orange",
+        "addons":  [
+                       "A3_Drones_F_Weapons_F_Gamma_Ammoboxes",
+                       "A3_Supplies_F_Orange_Bags"
+                   ]
+    },
+    {
+        "className":  "ACE_UAVBattery",
+        "displayName":  "UAV Battery",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  20,
+        "mod":  "@ace",
+        "addons":  "ace_logistics_uavbattery"
+    },
+    {
+        "className":  "B_UavTerminal",
+        "displayName":  "UAV Terminal [NATO]",
+        "armaCategory":  "Item",
+        "armaType":  "UAVTerminal",
+        "mass":  20,
+        "addons":  "A3_Drones_F_Weapons_F_Gamma_Items"
+    },
+    {
+        "className":  "BZD_PCS_R1_12MI",
+        "displayName":  "UBAC [12 MI]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_AAC",
+        "displayName":  "UBAC [AAC]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1",
+        "displayName":  "UBAC [Blank]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_LD",
+        "displayName":  "UBAC [Light Dragoons]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_RAF",
+        "displayName":  "UBAC [RAF]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_RAFR",
+        "displayName":  "UBAC [RAFR]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_RAMS",
+        "displayName":  "UBAC [RAMS]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_RDG",
+        "displayName":  "UBAC [RDG]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_RLC",
+        "displayName":  "UBAC [RLC]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_RMP",
+        "displayName":  "UBAC [RMP]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_RYorks",
+        "displayName":  "UBAC [RYorks]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_SDG",
+        "displayName":  "UBAC [SCOTS DG]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_SOI",
+        "displayName":  "UBAC [SOI]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "BZD_PCS_R1_LG",
+        "displayName":  "UBAC [The Life Guards]",
+        "armaCategory":  "Equipment",
+        "armaType":  "Uniform",
+        "mass":  20,
+        "maxLoad":  50,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment"
+    },
+    {
+        "className":  "4IB_LLM_IR_Laser",
+        "displayName":  "VarioRay LLM Mk3 IR (Tan)",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryPointer",
+        "mass":  5.29104,
+        "mod":  "@4thib",
+        "addons":  "4ib_weapons"
+    },
+    {
+        "className":  "ACE_Vector",
+        "displayName":  "Vector 21 Nite",
+        "armaCategory":  "Item",
+        "armaType":  "Binocular",
+        "mass":  10,
+        "mod":  "@ace",
+        "addons":  "ace_vector"
+    },
+    {
+        "className":  "ACE_key_west",
+        "displayName":  "Vehicle Key: West",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  0.1,
+        "mod":  "@ace",
+        "addons":  "ace_vehiclelock"
+    },
+    {
+        "className":  "BZD_Virtus_Crew",
+        "displayName":  "Virtus Crewman",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Gunbelt",
+        "displayName":  "Virtus Gunbelt",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_A1",
+        "displayName":  "Virtus Rifleman A/1",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_A1_NB",
+        "displayName":  "Virtus Rifleman A/1 (No PPW)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_A2",
+        "displayName":  "Virtus Rifleman A/2",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_A2_NB",
+        "displayName":  "Virtus Rifleman A/2 (No PPW)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_A3",
+        "displayName":  "Virtus Rifleman A/3",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_A3_NB",
+        "displayName":  "Virtus Rifleman A/3 (No PPW)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_A4",
+        "displayName":  "Virtus Rifleman A/4",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_A4_NB",
+        "displayName":  "Virtus Rifleman A/4 (No PPW)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_B1",
+        "displayName":  "Virtus Rifleman B/1",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_B1_NB",
+        "displayName":  "Virtus Rifleman B/1 (No PPW)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_B2",
+        "displayName":  "Virtus Rifleman B/2",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_B2_NB",
+        "displayName":  "Virtus Rifleman B/2 (No PPW)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_B3_NB",
+        "displayName":  "Virtus Rifleman B/3 (No PPW)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_B4_NB",
+        "displayName":  "Virtus Rifleman B/4 (No PPW)",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_Webbing_A1",
+        "displayName":  "Virtus Webbing A/1",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_Webbing_A2",
+        "displayName":  "Virtus Webbing A/2",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_Webbing_A3",
+        "displayName":  "Virtus Webbing A/3",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "BZD_Virtus_Rifleman_Webbing_A4",
+        "displayName":  "Virtus Webbing A/4",
+        "armaCategory":  "Equipment",
+        "armaType":  "Vest",
+        "mass":  60,
+        "maxLoad":  160,
+        "mod":  "@BZD_Equipment",
+        "addons":  "BZD_Equipment_virtus"
+    },
+    {
+        "className":  "ACE_VMH3",
+        "displayName":  "VMH3",
+        "armaCategory":  "Weapon",
+        "armaType":  "Handgun",
+        "mass":  55,
+        "mod":  "@ace",
+        "addons":  [
+                       "UK3CB_BAF_Equipment_ACE",
+                       "ace_minedetector"
+                   ]
+    },
+    {
+        "className":  "ItemWatch",
+        "displayName":  "Watch",
+        "armaCategory":  "Item",
+        "armaType":  "Watch",
+        "mass":  2,
+        "addons":  "A3_Weapons_F"
+    },
+    {
+        "className":  "ACE_WaterBottle",
+        "displayName":  "Water Bottle",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  5,
+        "mod":  "@ace",
+        "addons":  "ace_field_rations"
+    },
+    {
+        "className":  "ACE_wirecutter",
+        "displayName":  "Wirecutter",
+        "armaCategory":  "Item",
+        "armaType":  "AccessoryBipod",
+        "mass":  25,
+        "mod":  "@ace",
+        "addons":  "ace_logistics_wirecutter"
+    },
+    {
+        "className":  "ChemicalDetector_01_watch_F",
+        "displayName":  "Chemical Detector",
+        "armaCategory":  "Item",
+        "armaType":  "Watch",
+        "mass":  2,
+        "mod":  "enoch",
+        "addons":  "A3_Weapons_F_Enoch_Items"
+    }
+]

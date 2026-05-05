@@ -1,65 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Logistics Tracker</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="manifest" href="./manifest.json">
-    <meta name="theme-color" content="#0f1115">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-  </head>
-  <body>
-    <header>
-      <div class="wrap">
-        <div class="toprow">
-          <div>
-            <h1>4IB Sgt Logistics Tracker</h1>
-          </div>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Logistics Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-          <div class="row">
-            <button class="btn" id="exportAllBtn" title="Export casualties + people + logistics">Export All</button>
-            <button class="btn" id="exportLogBtn" title="Export logistics only (HQ list)">Export Logistics</button>
-            <button class="btn" id="exportCasBtn" title="Export casualties + people report only">Export Cas/Pers</button>
-            <button class="btn danger" id="resetBtn" title="Clear all saved data">
-              Reset
-            </button>
-            <button class="btn danger" id="resetAllBtn" title="Clear all locally saved data and item history">
-              Reset All
-            </button>
-          </div>
-        </div>
+<div class="topbar">
+  <div class="logo"><em>&#9632;</em> Logistics Tracker</div>
+  <div id="overallStatus" class="overall-status"></div>
+  <div class="top-btns">
+    <button class="btn accent" id="btnExportAll">Export All</button>
+    <button class="btn" id="btnExportLog">Export Logistics</button>
+    <button class="btn" id="btnExportCas">Export Cas/Pers</button>
+    <button class="btn danger" id="btnReset">Reset</button>
+    <button class="btn danger" id="btnResetAll">Reset All</button>
+    <button class="btn" id="btnEditMode">Edit Mode</button>
+  </div>
+</div>
 
-        <div class="row" style="margin-top: 12px">
-          <input
-            class="input grow"
-            id="newSectionName"
-            placeholder="New section name (e.g., 1 Section / 2 Section)"
-          />
-          <button class="btn accent" id="addSectionBtn">Add section</button>
-        </div>
-      </div>
-    </header>
+<div id="addBar" class="add-bar" style="display:none">
+  <input id="newSecInp" placeholder="New section name (e.g., 1 Section / 2 Section)" autocomplete="off">
+  <button class="btn accent" id="btnAddSec">Add section</button>
+</div>
 
-    <main>
-      <div class="wrap">
-        <div class="layout">
-          <div id="hqCol"></div>
-          <div class="stack" id="sectionsCol"></div>
-        </div>
+<div class="layout">
+  <div class="col-hq" id="colHQ"></div>
+  <div class="col-secs" id="colSecs">
+    <div class="no-secs" id="noSecMsg">No sections yet — add one above.</div>
+  </div>
+</div>
 
-        <div class="foot">
-          <div>
-            Site created by <span class="kbd">C. Langdale</span> for the use within 4IB only.
-          </div>
-        </div>
-      </div>
-    </main>
+<div class="footer">Logistics Tracker &bull; Auto-saved to browser &bull; Exports copy to clipboard</div>
 
-    <datalist id="commonItems"></datalist>
+<div class="overlay" id="renameOverlay">
+  <div class="modal">
+    <button class="modal-close" id="btnCloseRename">&#215;</button>
+    <div class="modal-title">Rename Section</div>
+    <label class="flbl">Section name</label>
+    <input class="finp" id="renameInp" autocomplete="off">
+    <div class="modal-foot">
+      <button class="btn" id="btnCancelRename">Cancel</button>
+      <button class="btn accent" id="btnDoRename">Save</button>
+    </div>
+  </div>
+</div>
 
-    <script src="items.js"></script>
-    <script src="app.js"></script>
-  </body>
+<div class="toast" id="toast"></div>
+
+<script src="app.js"></script>
+</body>
 </html>
